@@ -519,6 +519,21 @@
                     </ul>
                 </div>
             </div>
+            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
+                <div class="person text-center bg-white p-4">
+                    <img src="images/steve.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
+                    <h3>Steven Maina</h3>
+                    <p class="position text-muted">Backend Developer</p>
+                    <p class="mb-4">Steven Maina is a skilled Backend Developer at VisionNexus, specializing in building robust and scalable server-side solutions to enhance application performance and reliability.</p>
+                    <ul class="ul-social-circle">
+                        <li><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li><a href="#"><span class="icon-twitter"></span></a></li>
+                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+
           </div>
         </div>
       </div>
