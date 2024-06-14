@@ -10,7 +10,12 @@
   <meta name="keywords" content="" />
 
   <link href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+
+
   <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/jquery-ui.css">
@@ -314,15 +319,15 @@
         </div>
         <div class="slide-one-item home-slider owl-carousel">
             <div>
-            <div class="testimonial">
-                <blockquote class="mb-5">
-                <p>&ldquo;VisionNexus transformed our outdated website into a modern, user-friendly platform that our customers love. Their expertise in web development and design is evident in every detail. The project was completed ahead of schedule, and the team was incredibly responsive to our needs. We’ve seen a significant increase in traffic and engagement since the launch.&rdquo;</p>
-                </blockquote>
-                <figure class="mb-4 d-block align-items-center justify-content-center">
-                <div><img src="images/sara.png" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Sarah Thompson, CEO, GreenTech Innovations</p>
-                </figure>
-            </div>
+                <div class="testimonial">
+                    <blockquote class="mb-5">
+                    <p>&ldquo;VisionNexus transformed our outdated website into a modern, user-friendly platform that our customers love. Their expertise in web development and design is evident in every detail. The project was completed ahead of schedule, and the team was incredibly responsive to our needs. We’ve seen a significant increase in traffic and engagement since the launch.&rdquo;</p>
+                    </blockquote>
+                    <figure class="mb-4 d-block align-items-center justify-content-center">
+                    <div><img src="images/sara.png" alt="Image" class="w-50 img-fluid mb-3"></div>
+                    <p>Sarah Thompson, CEO, GreenTech Innovations</p>
+                    </figure>
+                </div>
             </div>
 
             <div>
@@ -504,18 +509,19 @@
               <h2 class="site-section-heading">Our Team</h2>
             </div>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
+          <div class="row justify-content-center mb-4">
+
+            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" style="" data-aos="fade" data-aos-delay="100">
                 <div class="person text-center bg-white p-4">
                     <img src="images/br.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
                     <h3>Brian Opiyo</h3>
                     <p class="position text-muted">Founder, President</p>
                     <p class="mb-4">Brian Opiyo leads VisionNexus with a passion for innovation, driving the company's mission to deliver exceptional digital solutions. He is proficient in Laravel, PHP, Python, database design and management, and system design.</p>
                     <ul class="ul-social-circle">
-                        <li><a href="#"><span class="icon-facebook"></span></a></li>
-                        <li><a href="#"><span class="icon-twitter"></span></a></li>
-                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                        <li><a href="#"><span class="icon-database"></span></a></li>
+                        <li><a href="#"><span class="fab fa-php"></span></a></li>
+                        <li><a href="#"><span class="fab fa-laravel"></span></a></li>
+                        <li><a href="#"><span class="bi bi-gear"></span></a></li>
                     </ul>
                 </div>
             </div>
@@ -527,10 +533,10 @@
                     <p class="position text-muted">Software Engineer</p>
                     <p class="mb-4">Steven Maina is a proficient Software Engineer with expertise in Java and PHP programming languages. His tech stack is primarily focused on Backend Development, utilizing frameworks such as Spring and Laravel. Steven has significant experience in developing sales automation systems, sales force tracking systems, and visitor management systems.</p>
                     <ul class="ul-social-circle">
-                        <li><a href="#"><span class="icon-facebook"></span></a></li>
-                        <li><a href="#"><span class="icon-twitter"></span></a></li>
-                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                        <li><a href="#"><span class="fab fa-java"></span></a></li>
+                        <li><a href="#"><span class="fab fa-php"></span></a></li>
+                        <li><a href="#"><span class="bi bi-code-slash"></span></a></li>
+                        <li><a href="#"><span class="fab fa-laravel"></span></a></li>
                     </ul>
                 </div>
             </div>
@@ -542,14 +548,30 @@
                     <p class="position text-muted">Software Developer</p>
                     <p class="mb-4">George Odhiambo is a versatile Software Developer skilled in frontend and backend technologies. He has hands-on experience with React, React Native, Golang, Express.js, and Node.js. George is adept at using various UI frameworks including Tailwind CSS, Material-Tailwind, Daisy UI, and ShadcnUI to create seamless and responsive user interfaces.</p>
                     <ul class="ul-social-circle">
-                        <li><a href="#"><span class="icon-facebook"></span></a></li>
-                        <li><a href="#"><span class="icon-twitter"></span></a></li>
-                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                        <li><a href="#"><span class="fab fa-react"></span></a></li>
+                        <li><a href="#"><span class="fab fa-golang"></span></a></li>
+                        <li><a href="#"><span class="fab fa-node-js"></span></a></li>
+                        <li><a href="#"><span class="bi bi-palette"></span></a></li>
                     </ul>
                 </div>
             </div>
 
+          </div>
+          <div class="row justify-content-center">
+
+            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
+                <div class="person text-center bg-white p-4">
+                    <img src="images/dan.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
+                    <h3>Daniel Wambui</h3>
+                    <p class="position text-muted">Software Developer</p>
+                    <p class="mb-4">Daniel Wambui is a versatile software developer with expertise in PHP, Laravel, and React. He excels in creating dynamic and robust web applications, leveraging his skills to deliver seamless user experiences and efficient backend solutions. Daniel's passion for coding and his innovative approach make him a valuable asset to any development team.</p>
+                    <ul class="ul-social-circle">
+                        <li><a href="#"><span class="fab fa-react"></span></a></li>
+                        <li><a href="#"><span class="fab fa-php"></span></a></li>
+                        <li><a href="#"><span class="fab fa-laravel"></span></a></li>
+                    </ul>
+                </div>
+            </div>
 
           </div>
         </div>
