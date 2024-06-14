@@ -667,9 +667,9 @@
       <footer class="site-footer">
         <div class="container">
           <div class="row">
-            <div class="col-md-9">
+            <div class="col">
               <div class="row">
-                <div class="col-md-5">
+                <div class="col-md-6">
                   <h2 class="footer-heading mb-4">About Us</h2>
                   <p>VisionNexus transforms your digital landscape with innovative, user-centric solutions in web development, system integrations, mobile apps, and database design. Our mission is to create seamless, high-quality digital experiences that drive business success and enhance user satisfaction.</p>
                 </div>
@@ -692,22 +692,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
-              <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
-              <form action="#" method="post" class="subcription-form">
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
-                  <div class="input-group-append">
-                    <button class="btn btn-primary text-white" type="button" id="button-addon2">Send</button>
-                  </div>
-                </div>
-              </form>
-            </div>
           </div>
           <div class="row pt-5 mt-5 text-center">
             <div class="col-md-12">
               <div class="border-top pt-5">
-                <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> <!-- License information: https://untree.co/license/ -->
+                <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>.
                 </p>
               </div>
             </div>
