@@ -566,28 +566,28 @@
           <div class="row">
             <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
               <div class="h-entry">
-                <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-                <h2 class="font-size-regular"><a href="#">Create Beautiful Website In Less Than An Hour</a></h2>
-                <div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                <img src="images/2d.jpg" alt="Image" class="img-fluid">
+                <h2 class="font-size-regular"><a href="#">Create Beautiful Website In Less Than 2 Days</a></h2>
+                <div class="meta mb-4">Promise</div>
+                <p>Rapidly build stunning websites using user-friendly tools like WordPress or Wix, ensuring professional design and functionality in minimal time.</p>
                 <p><a href="#">Continue Reading...</a></p>
               </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
               <div class="h-entry">
                 <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-                <h2 class="font-size-regular"><a href="#">Create Beautiful Website In Less Than An Hour</a></h2>
-                <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                <h2 class="font-size-regular"><a href="#">Build High-Quality Websites with Focus on Performance</a></h2>
+                <div class="meta mb-4">Quality</div>
+                <p>Optimize loading times, leverage caching, and ensure mobile responsiveness for superior user experience and engagement.</p>
                 <p><a href="#">Continue Reading...</a></p>
               </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
               <div class="h-entry">
-                <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-                <h2 class="font-size-regular"><a href="#">Create Beautiful Website In Less Than An Hour</a></h2>
-                <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                <img src="images/professional.jpg" alt="Image" class="img-fluid">
+                <h2 class="font-size-regular"><a href="#">Professionalism in Web Development</a></h2>
+                <div class="meta mb-4">Professionalism</div>
+                <p>Cultivating teamwork through clear communication, adherence to standards, continuous learning, and accountability for superior project outcomes.</p>
                 <p><a href="#">Continue Reading...</a></p>
               </div>
             </div>
