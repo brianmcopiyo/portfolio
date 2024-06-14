@@ -519,12 +519,13 @@
                     </ul>
                 </div>
             </div>
+
             <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
                 <div class="person text-center bg-white p-4">
                     <img src="images/steve.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
                     <h3>Steven Maina</h3>
-                    <p class="position text-muted">Backend Developer</p>
-                    <p class="mb-4">Steven Maina is a skilled Backend Developer at VisionNexus, specializing in building robust and scalable server-side solutions to enhance application performance and reliability.</p>
+                    <p class="position text-muted">Software Engineer</p>
+                    <p class="mb-4">Steven Maina is a proficient Software Engineer with expertise in Java and PHP programming languages. His tech stack is primarily focused on Backend Development, utilizing frameworks such as Spring and Laravel. Steven has significant experience in developing sales automation systems, sales force tracking systems, and visitor management systems.</p>
                     <ul class="ul-social-circle">
                         <li><a href="#"><span class="icon-facebook"></span></a></li>
                         <li><a href="#"><span class="icon-twitter"></span></a></li>
@@ -533,6 +534,22 @@
                     </ul>
                 </div>
             </div>
+
+            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
+                <div class="person text-center bg-white p-4">
+                    <img src="images/george.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
+                    <h3>George Odhiambo</h3>
+                    <p class="position text-muted">Software Developer</p>
+                    <p class="mb-4">George Odhiambo is a versatile Software Developer skilled in frontend and backend technologies. He has hands-on experience with React, React Native, Golang, Express.js, and Node.js. George is adept at using various UI frameworks including Tailwind CSS, Material-Tailwind, Daisy UI, and ShadcnUI to create seamless and responsive user interfaces.</p>
+                    <ul class="ul-social-circle">
+                        <li><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li><a href="#"><span class="icon-twitter"></span></a></li>
+                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+
 
           </div>
         </div>
