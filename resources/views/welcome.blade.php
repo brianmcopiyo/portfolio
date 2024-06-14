@@ -55,7 +55,7 @@
           </div>
           <div class="col-md-6 text-center text-lg-left order-lg-1">
             <p class="mb-0 d-inline-flex">
-              <span class="mr-3"><a href="tel://#" class="d-flex align-items-center"><span class="icon-phone mr-2"></span><span>+254746029805</span></a></span>
+              <span class="mr-3"><a href="tel://#" class="d-flex align-items-center"><span class="icon-phone mr-2"></span><span>+254781128010</span></a></span>
               <span><a href="tel://#" class="d-flex align-items-center"><span class="icon-envelope mr-2"></span><span>visionnexus10@gmail.com</span></a></span>
             </p>
           </div>
@@ -77,7 +77,7 @@
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li><a href="#work-section" class="nav-link">Work</a></li>
+                <!--<li><a href="#work-section" class="nav-link">Work</a></li>-->
                 <li>
                   <a href="#services-section" class="nav-link">Services</a>
                 </li>
@@ -211,13 +211,13 @@
             </div>
 
             <div class="col-lg-6" data-jarallax-element="50">
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
+              <img src="images/web-design.jpg" alt="Image" class="img-fluid">
             </div>
           </div>
         </div>
       </section>
 
-      <section class="site-section" id="work-section">
+      <!--<section class="site-section" id="work-section">
         <div class="container">
           <div class="row mb-5 justify-content-center">
             <div class="col-md-8 text-center">
@@ -255,93 +255,6 @@
                 </div>
               </a>
             </div>
-
-            <div class="col-md-6 col-lg-4">
-              <a href="images/img_4.jpg" class="media-1" data-fancybox="gallery">
-                <img src="images/img_4.jpg" alt="Image" class="img-fluid">
-                <div class="media-1-content">
-                  <h2>Tall Chair</h2>
-                  <span class="category">Web Application</span>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <a href="images/img_5.jpg" class="media-1" data-fancybox="gallery">
-                <img src="images/img_5.jpg" alt="Image" class="img-fluid">
-                <div class="media-1-content">
-                  <h2>Drone</h2>
-                  <span class="category">Branding</span>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <a href="images/img_6.jpg" class="media-1" data-fancybox="gallery">
-                <img src="images/img_6.jpg" alt="Image" class="img-fluid">
-                <div class="media-1-content">
-                  <h2>Architect</h2>
-                  <span class="category">Website</span>
-                </div>
-              </a>
-            </div>
-
-
-
-            <div class="col-md-6 col-lg-4">
-              <a href="images/img_7.jpg" class="media-1" data-fancybox="gallery">
-                <img src="images/img_7.jpg" alt="Image" class="img-fluid">
-                <div class="media-1-content">
-                  <h2>Flower</h2>
-                  <span class="category">Web Application</span>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <a href="images/img_8.jpg" class="media-1" data-fancybox="gallery">
-                <img src="images/img_8.jpg" alt="Image" class="img-fluid">
-                <div class="media-1-content">
-                  <h2>Headset</h2>
-                  <span class="category">Branding</span>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <a href="images/img_9.jpg" class="media-1" data-fancybox="gallery">
-                <img src="images/img_9.jpg" alt="Image" class="img-fluid">
-                <div class="media-1-content">
-                  <h2>Amazon Speaker</h2>
-                  <span class="category">Website</span>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-md-6 col-lg-4">
-              <a href="images/img_10.jpg" class="media-1" data-fancybox="gallery">
-                <img src="images/img_10.jpg" alt="Image" class="img-fluid">
-                <div class="media-1-content">
-                  <h2>Battle Creek</h2>
-                  <span class="category">Web Application</span>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <a href="images/img_11.jpg" class="media-1" data-fancybox="gallery">
-                <img src="images/img_11.jpg" alt="Image" class="img-fluid">
-                <div class="media-1-content">
-                  <h2>Nouri</h2>
-                  <span class="category">Branding</span>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <a href="images/img_12.jpg" class="media-1" data-fancybox="gallery">
-                <img src="images/img_12.jpg" alt="Image" class="img-fluid">
-                <div class="media-1-content">
-                  <h2>Fiber Cloth</h2>
-                  <span class="category">Website</span>
-                </div>
-              </a>
-            </div>
-
 
           </div>
         </div>
@@ -388,10 +301,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
 
 
-      <section class="site-section testimonial-wrap">
+      <section class="site-section testimonial-wrap" id="testimonial-section">
         <div class="container mb-5">
           <div class="row justify-content-center">
             <div class="col-md-8 text-center">
@@ -400,62 +313,65 @@
           </div>
         </div>
         <div class="slide-one-item home-slider owl-carousel">
-          <div>
+            <div>
             <div class="testimonial">
-
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-
-              <figure class="mb-4 d-block align-items-center justify-content-center">
-                <div><img src="images/person_3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>John Smith</p>
-              </figure>
+                <blockquote class="mb-5">
+                <p>&ldquo;VisionNexus transformed our outdated website into a modern, user-friendly platform that our customers love. Their expertise in web development and design is evident in every detail. The project was completed ahead of schedule, and the team was incredibly responsive to our needs. We’ve seen a significant increase in traffic and engagement since the launch.&rdquo;</p>
+                </blockquote>
+                <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/sara.png" alt="Image" class="w-50 img-fluid mb-3"></div>
+                <p>Sarah Thompson, CEO, GreenTech Innovations</p>
+                </figure>
             </div>
-          </div>
-          <div>
+            </div>
+
+            <div>
             <div class="testimonial">
-
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <figure class="mb-4 d-block align-items-center justify-content-center">
-                <div><img src="images/person_2.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Christine Aguilar</p>
-              </figure>
-
+                <blockquote class="mb-5">
+                <p>&ldquo;Our collaboration with VisionNexus has been nothing short of exceptional. They redesigned our database system, making it more efficient and scalable. The impact on our operations has been profound, saving us time and reducing errors. VisionNexus is a partner we can trust for all our technical needs.&rdquo;</p>
+                </blockquote>
+                <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/david.png" alt="Image" class="w-50 img-fluid mb-3"></div>
+                <p>David Kim, Operations Manager, Urban Logistics</p>
+                </figure>
             </div>
-          </div>
+            </div>
 
-          <div>
+            <div>
             <div class="testimonial">
-
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <figure class="mb-4 d-block align-items-center justify-content-center">
-                <div><img src="images/person_4.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Robert Spears</p>
-              </figure>
-
-
+                <blockquote class="mb-5">
+                <p>&ldquo;VisionNexus's expertise in mobile platform development was exactly what we needed. They helped us create a robust and intuitive app that has received rave reviews from our users. The team's creativity, coupled with their technical proficiency, made the entire process smooth and enjoyable. We are thrilled with the outcome.&rdquo;</p>
+                </blockquote>
+                <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/lisa.png" alt="Image" class="w-50 img-fluid mb-3"></div>
+                <p>Lisa Martinez, Product Lead, HealthConnect</p>
+                </figure>
             </div>
-          </div>
+            </div>
 
-          <div>
+            <div>
             <div class="testimonial">
-
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <figure class="mb-4 d-block align-items-center justify-content-center">
-                <div><img src="images/person_5.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Bruce Rogers</p>
-              </figure>
-
+                <blockquote class="mb-5">
+                <p>&ldquo;We approached VisionNexus with a complex systems integration project, and they delivered beyond our expectations. Their ability to understand our requirements and provide innovative solutions was impressive. The new system has streamlined our processes and improved our efficiency remarkably. VisionNexus is a valuable partner for any business looking to optimize their digital infrastructure.&rdquo;</p>
+                </blockquote>
+                <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/mark.png" alt="Image" class="w-50 img-fluid mb-3"></div>
+                <p>Mark Evans, IT Director, Alpha Enterprises</p>
+                </figure>
             </div>
-          </div>
+            </div>
 
+            <div>
+            <div class="testimonial">
+                <blockquote class="mb-5">
+                <p>&ldquo;VisionNexus provided outstanding service in revamping our web and mobile platforms. Their attention to detail and commitment to delivering a top-notch product were evident throughout the project. We’ve received positive feedback from our clients, and our online engagement has soared. We highly recommend VisionNexus for any digital transformation needs.&rdquo;</p>
+                </blockquote>
+                <figure class="mb-4 d-block align-items-center justify-content-center">
+                <div><img src="images/jennifer.png" alt="Image" class="w-50 img-fluid mb-3"></div>
+                <p>Jennifer Lee, Marketing Manager, EcoFriendly Solutions</p>
+                </figure>
+            </div>
+            </div>
         </div>
       </section>
 
@@ -472,7 +388,7 @@
                 <div class="unit-4-icon mr-4"><span class="text-primary icon-laptop2"></span></div>
                 <div>
                   <h3>Web Design</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                  <p>Creating responsive, visually appealing websites that offer seamless user experiences and align with your brand's identity.</p>
                   <p><a href="#">Learn More</a></p>
                 </div>
               </div>
@@ -482,7 +398,7 @@
                 <div class="unit-4-icon mr-4"><span class="text-primary icon-shopping_cart"></span></div>
                 <div>
                   <h3>eCommerce</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                  <p>Developing robust, user-friendly online stores with secure payment gateways, inventory management, and customized shopping experiences.</p>
                   <p><a href="#">Learn More</a></p>
                 </div>
               </div>
@@ -492,7 +408,7 @@
                 <div class="unit-4-icon mr-4"><span class="text-primary icon-question_answer"></span></div>
                 <div>
                   <h3>Web Applications</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                  <p>Building dynamic web applications that deliver interactive, scalable, and efficient solutions tailored to your business needs.</p>
                   <p><a href="#">Learn More</a></p>
                 </div>
               </div>
@@ -501,20 +417,20 @@
 
             <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="300">
               <div class="unit-4 d-flex">
-                <div class="unit-4-icon mr-4"><span class="text-primary icon-format_paint"></span></div>
+                <div class="unit-4-icon mr-4"><span class="text-primary icon-phonelink"></span></div>
                 <div>
-                  <h3>Branding</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                  <h3>CRM</h3>
+                  <p>Implementing tailored CRM (Customer Relationship Management) solutions to streamline customer interactions, enhance relationships, and drive business growth through efficient data management.</p>
                   <p><a href="#">Learn More</a></p>
                 </div>
               </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="400">
               <div class="unit-4 d-flex">
-                <div class="unit-4-icon mr-4"><span class="text-primary icon-extension"></span></div>
+                <div class="unit-4-icon mr-4"><span class="text-primary icon-database"></span></div>
                 <div>
-                  <h3>Copy Writing</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                  <h3>Database Design</h3>
+                  <p>Crafting structured, secure, and optimized databases to ensure efficient data storage, retrieval, and management for your business operations.</p>
                   <p><a href="#">Learn More</a></p>
                 </div>
               </div>
@@ -524,7 +440,7 @@
                 <div class="unit-4-icon mr-4"><span class="text-primary icon-phonelink"></span></div>
                 <div>
                   <h3>Mobile Applications</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                  <p>Designing and developing custom mobile applications for iOS and Android, providing high performance and intuitive user experiences..</p>
                   <p><a href="#">Learn More</a></p>
                 </div>
               </div>
@@ -536,11 +452,11 @@
 
       <div class="site-section" id="about-section">
         <div class="container">
-          <div class="row mb-5">
+          <div class="row justify-content-center mb-5">
 
-            <div class="col-md-5 ml-auto mb-5 order-md-2"  data-jarallax-element="50">
+            <!--<div class="col-md-5 ml-auto mb-5 order-md-2"  data-jarallax-element="50">
               <img src="images/img_13.jpg" alt="Image" class="img-fluid rounded">
-            </div>
+            </div>-->
             <div class="col-md-6 order-md-1"  data-jarallax-element="-50">
 
               <div class="row">
@@ -551,14 +467,14 @@
                   </div>
                 </div>
                 <div class="col-12 mb-4">
-                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet incidunt magnam corrupti, odit eos harum quaerat nostrum voluptatibus aspernatur eligendi accusantium cum, impedit blanditiis voluptate commodi doloribus, nemo dignissimos recusandae.</p>
+                  <p class="lead">VisionNexus transforms your digital landscape with innovative, user-centric solutions in web development, system integrations, mobile apps, and database design. Our mission is to create seamless, high-quality digital experiences that drive business success and enhance user satisfaction.</p>
                 </div>
                 <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
                   <div class="unit-4">
                     <div class="unit-4-icon mr-4 mb-3"><span class="text-primary icon-phonelink"></span></div>
                     <div>
                       <h3>Web &amp; Mobile Specialties</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis consect.</p>
+                      <p>VisionNexus excels in crafting seamless web and mobile experiences, offering responsive websites, intuitive mobile apps, eCommerce solutions, dynamic web applications, and robust database designs to enhance your digital presence.</p>
                       <p class="mb-0"><a href="#">Learn More</a></p>
                     </div>
                   </div>
@@ -568,7 +484,7 @@
                     <div class="unit-4-icon mr-4 mb-3"><span class="text-primary icon-extension"></span></div>
                     <div>
                       <h3>Intuitive Thinkers</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis.</p>
+                      <p>VisionNexus excels in intuitive thinking, solving complex digital challenges with creativity and user-focused solutions. Trust us to innovate and deliver impactful results tailored to your needs.</p>
                       <p class="mb-0"><a href="#">Learn More</a></p>
                     </div>
                   </div>
@@ -588,48 +504,20 @@
               <h2 class="site-section-heading">Our Team</h2>
             </div>
           </div>
-          <div class="row">
+          <div class="row justify-content-center">
             <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
-              <div class="person text-center bg-white p-4">
-                <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
-                <h3>John Rooster</h3>
-                <p class="position text-muted">Co-Founder, President</p>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
-                <ul class="ul-social-circle">
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                  <li><a href="#"><span class="icon-instagram"></span></a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
-              <div class="person text-center bg-white p-4">
-                <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
-                <h3>Tom Sharp</h3>
-                <p class="position text-muted">Co-Founder, COO</p>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
-                <ul class="ul-social-circle">
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                  <li><a href="#"><span class="icon-instagram"></span></a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
-              <div class="person text-center bg-white p-4">
-                <img src="images/person_4.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
-                <h3>Winston Hodson</h3>
-                <p class="position text-muted">Marketing</p>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
-                <ul class="ul-social-circle">
-                  <li><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                  <li><a href="#"><span class="icon-instagram"></span></a></li>
-                </ul>
-              </div>
+                <div class="person text-center bg-white p-4">
+                    <img src="images/brian.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
+                    <h3>Brian Opiyo</h3>
+                    <p class="position text-muted">Founder, President</p>
+                    <p class="mb-4">Brian Opiyo leads VisionNexus with a passion for innovation, driving the company's mission to deliver exceptional digital solutions.</p>
+                    <ul class="ul-social-circle">
+                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                    <li><a href="#"><span class="icon-twitter"></span></a></li>
+                    <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                    <li><a href="#"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
             </div>
           </div>
         </div>
@@ -751,15 +639,16 @@
               <div class="row">
                 <div class="col-md-5">
                   <h2 class="footer-heading mb-4">About Us</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                  <p>VisionNexus transforms your digital landscape with innovative, user-centric solutions in web development, system integrations, mobile apps, and database design. Our mission is to create seamless, high-quality digital experiences that drive business success and enhance user satisfaction.</p>
                 </div>
                 <div class="col-md-3 ml-auto">
                   <h2 class="footer-heading mb-4">Features</h2>
                   <ul class="list-unstyled">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#home-section">Home</a></li>
+                    <li><a href="#about-section">About Us</a></li>
+                    <li><a href="#services-section">Services</a></li>
+                    <li><a href="#testimonial-section">Testimonials</a></li>
+                    <li><a href="#contact-section">Contact Us</a></li>
                   </ul>
                 </div>
                 <div class="col-md-3">
@@ -816,7 +705,7 @@
     <script src="js/three.min.js"></script>
     <script src="js/TweenMax.min.js"></script>
     <script src="js/OBJLoader.js"></script>
-    <!--<script src="js/ParticleHead.js"></script>-->
+    <script src="js/ParticleHead.js"></script>
 
     <script src="js/jquery.sticky.js"></script>
 

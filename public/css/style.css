@@ -1761,8 +1761,14 @@ h1, h2, h3, h4, h5,
   color: #000 !important; }
 
 .subcription-form button {
-  border-radius: 0px 4px 4px 0px !important; }
+  border-radius: 0px 4px 4px 0px !important;
+}
 
   .img-fluid.small{
     width: 70px;
   }
+
+.testimonial .img-fluid{
+background-color: #E5E5E5;
+padding: 20px;
+}
