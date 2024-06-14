@@ -507,7 +507,7 @@
           <div class="row justify-content-center">
             <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
                 <div class="person text-center bg-white p-4">
-                    <img src="images/brian.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
+                    <img src="images/br.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
                     <h3>Brian Opiyo</h3>
                     <p class="position text-muted">Founder, President</p>
                     <p class="mb-4">Brian Opiyo leads VisionNexus with a passion for innovation, driving the company's mission to deliver exceptional digital solutions.</p>
