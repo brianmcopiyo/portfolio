@@ -510,12 +510,12 @@
                     <img src="images/br.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
                     <h3>Brian Opiyo</h3>
                     <p class="position text-muted">Founder, President</p>
-                    <p class="mb-4">Brian Opiyo leads VisionNexus with a passion for innovation, driving the company's mission to deliver exceptional digital solutions.</p>
+                    <p class="mb-4">Brian Opiyo leads VisionNexus with a passion for innovation, driving the company's mission to deliver exceptional digital solutions. He is proficient in Laravel, PHP, Python, database design and management, and system design.</p>
                     <ul class="ul-social-circle">
-                    <li><a href="#"><span class="icon-facebook"></span></a></li>
-                    <li><a href="#"><span class="icon-twitter"></span></a></li>
-                    <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                    <li><a href="#"><span class="icon-instagram"></span></a></li>
+                        <li><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li><a href="#"><span class="icon-twitter"></span></a></li>
+                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                        <li><a href="#"><span class="icon-instagram"></span></a></li>
                     </ul>
                 </div>
             </div>
