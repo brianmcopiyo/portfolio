@@ -562,9 +562,9 @@
             <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
                 <div class="person text-center bg-white p-4">
                     <img src="images/dan.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
-                    <h3>Daniel Wambui</h3>
+                    <h3>Daniel Mugi</h3>
                     <p class="position text-muted">Software Developer</p>
-                    <p class="mb-4">Daniel Wambui is a versatile software developer with expertise in PHP, Laravel, and React. He excels in creating dynamic and robust web applications, leveraging his skills to deliver seamless user experiences and efficient backend solutions. Daniel's passion for coding and his innovative approach make him a valuable asset to any development team.</p>
+                    <p class="mb-4">Daniel Mugi is a versatile software developer with expertise in PHP, Laravel, and React. He excels in creating dynamic and robust web applications, leveraging his skills to deliver seamless user experiences and efficient backend solutions. Daniel's passion for coding and his innovative approach make him a valuable asset to any development team.</p>
                     <ul class="ul-social-circle">
                         <li><a href="#"><span class="fab fa-react"></span></a></li>
                         <li><a href="#"><span class="fab fa-php"></span></a></li>
