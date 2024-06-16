@@ -33,6 +33,15 @@
 
   <link rel="stylesheet" href="css/style.css">
   <title>Vision Nexus</title>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LW56HBKV5Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-LW56HBKV5Q');
+  </script>
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
