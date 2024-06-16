@@ -29,7 +29,7 @@ class JobMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Job Request',
+            subject: 'Thank You...',
         );
     }
 

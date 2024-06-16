@@ -6,8 +6,19 @@
   <meta name="author" content="Vision Nexus">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+  <meta name="description" content="VisionNexus: Crafting seamless digital experiences across web, systems, mobile platforms, and database design.">
+  <meta name="keywords" content="VisionNexus, Vision Nexus, digital experiences, web development, systems integration, mobile platforms, database design, seamless technology, UI/UX design, responsive design, e-commerce solutions, cloud computing, software engineering, mobile app development, backend development, frontend development, full-stack development, API integration, data analytics, cybersecurity, user-centered design, project management, agile development, software testing, performance optimization, code quality, scalable solutions, web applications, mobile applications, interactive design, digital transformation, innovation, technology consulting, technical expertise, client-focused, portfolio, custom solutions, IT services, system architecture, IT consultancy, user experience, technical support, creative solutions, modern design, tech solutions, app deployment, digital solutions, enterprise solutions, SaaS development, tech consulting, professional services">
+
+  <meta property="og:title" content="VisionNexus">
+  <meta property="og:description" content="Crafting seamless digital experiences across web, systems, mobile platforms, and database design.">
+  <meta property="og:image" content="images/banner.jpg">
+  <meta property="og:url" content="https://visionnexus.co.ke/">
+
+  <meta name="twitter:card" content="images/banner.jpg">
+  <meta name="twitter:title" content="Vision Nexus">
+  <meta name="twitter:description" content="Crafting seamless digital experiences across web, systems, mobile platforms, and database design.">
+  <meta name="twitter:image" content="images/banner.jpg">
+
 
   <link href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,900" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
