@@ -644,7 +644,7 @@
 
               <form method="POST" action="{{ route('create') }}" class="p-5 bg-white">
 
-                <h2 class="h4 mb-5">Contact Form</h2>
+                <h2 class="h4 mb-5">Unlock Your Digital Potential with Vision Nexus</h2>
                 @csrf
                 @if ($errors->any())
                     <div class="alert alert-danger">
