@@ -87,6 +87,7 @@ body {
     background-color: #060608;
     color: var(--nav-text);
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
 }
 
 [data-theme="light"] body {
@@ -100,7 +101,7 @@ body {
 .navbar {
     position: relative;
     min-height: 72vh;
-    padding: 1.25rem clamp(1rem, 4vw, 2.5rem) 2rem;
+    padding: clamp(0.9rem, 2.4vw, 1.25rem) clamp(0.9rem, 4vw, 2.5rem) clamp(1.5rem, 3vw, 2rem);
     background:
         radial-gradient(100% 90% at 50% -10%, rgba(124, 58, 237, 0.22) 0%, transparent 55%),
         radial-gradient(80% 60% at 100% 0%, rgba(244, 114, 182, 0.12) 0%, transparent 45%),
@@ -121,7 +122,7 @@ body {
 
 .site-header {
     position: sticky;
-    top: 1.25rem;
+    top: clamp(0.5rem, 1.5vw, 1.25rem);
     z-index: 50;
     max-width: 1120px;
     margin-inline: auto;
@@ -133,8 +134,8 @@ body {
     grid-template-columns: auto minmax(0, 1fr) auto;
     grid-template-rows: auto;
     align-items: center;
-    gap: clamp(0.75rem, 3vw, 2rem);
-    padding: 0.55rem 0.55rem 0.55rem 1rem;
+    gap: clamp(0.6rem, 2.5vw, 1.8rem);
+    padding: 0.55rem clamp(0.45rem, 1.4vw, 0.55rem) 0.55rem clamp(0.72rem, 2vw, 1rem);
     border-radius: var(--nav-radius);
     background: var(--nav-surface);
     border: 1px solid var(--nav-border);
@@ -210,14 +211,14 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 0.15rem 0.25rem;
+    gap: 0.2rem 0.3rem;
 }
 
 .site-nav__link {
     position: relative;
     display: inline-flex;
     align-items: center;
-    padding: 0.5rem 0.95rem;
+    padding: 0.5rem clamp(0.72rem, 1.6vw, 0.95rem);
     font-size: 0.875rem;
     font-weight: 500;
     letter-spacing: -0.01em;
@@ -402,11 +403,12 @@ body {
     max-width: 1120px;
     margin: clamp(1.75rem, 4vw, 3rem) auto 0;
     padding-bottom: clamp(0.5rem, 2vw, 1.5rem);
+    width: min(100%, 1120px);
 }
 
 .hero-shell {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(320px, 0.95fr);
+    grid-template-columns: minmax(0, 1fr) minmax(300px, 0.9fr);
     gap: clamp(1.75rem, 5vw, 3.5rem);
     align-items: center;
 }
@@ -428,7 +430,7 @@ body {
     box-shadow: none;
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
-    max-width: min(36rem, 100%);
+    max-width: min(37rem, 100%);
     font-feature-settings: "kern" 1, "liga" 1;
 }
 
@@ -458,9 +460,9 @@ body {
 }
 
 .hero-title {
-    max-width: 16ch;
-    font-size: clamp(2.35rem, 5.5vw, 4.25rem);
-    line-height: 1.04;
+    max-width: 15ch;
+    font-size: clamp(2rem, 5.2vw, 4.1rem);
+    line-height: 1.03;
     letter-spacing: -0.035em;
     font-weight: 700;
     color: var(--nav-text);
@@ -469,9 +471,9 @@ body {
 }
 
 .hero-description {
-    max-width: 38ch;
-    font-size: clamp(1.02rem, 1.55vw, 1.2rem);
-    line-height: 1.62;
+    max-width: 39ch;
+    font-size: clamp(1rem, 1.5vw, 1.16rem);
+    line-height: 1.6;
     letter-spacing: -0.012em;
     color: var(--nav-muted);
     text-wrap: pretty;
@@ -565,7 +567,7 @@ body {
 
 .hero-portrait-frame {
     width: 100%;
-    max-width: min(30rem, 100%);
+    max-width: min(28.5rem, 100%);
     margin-inline: auto 0;
     aspect-ratio: 1 / 1;
     border-radius: 1rem;
@@ -647,11 +649,16 @@ body {
 }
 
 @media (max-width: 768px) {
+    .site-header {
+        top: 0.5rem;
+    }
+
     .site-header__bar {
         grid-template-columns: 1fr auto;
         grid-template-rows: auto auto;
-        row-gap: 0;
-        padding: 0.5rem 0.5rem 0.5rem 0.85rem;
+        row-gap: 0.1rem;
+        column-gap: 0.55rem;
+        padding: 0.45rem 0.5rem 0.5rem 0.72rem;
         border-radius: 1.25rem;
     }
 
@@ -670,26 +677,39 @@ body {
         display: none;
     }
 
+    .navbar {
+        min-height: auto;
+        padding-bottom: clamp(1rem, 5vw, 2rem);
+    }
+
+    .hero-section {
+        margin-top: clamp(0.75rem, 3vw, 1.15rem);
+    }
+
     .hero-shell {
         grid-template-columns: 1fr;
-        gap: clamp(1.5rem, 5vw, 2.25rem);
+        gap: clamp(1rem, 4vw, 1.5rem);
     }
 
     .hero-copy {
         max-width: 100%;
+        padding-inline: 0.1rem;
     }
 
     .hero-title {
         max-width: 100%;
+        margin-bottom: 0.9rem;
     }
 
     .hero-portrait-frame {
         margin-inline: auto;
-        max-width: min(22rem, 84vw);
+        max-width: min(23rem, 92vw);
     }
 
-    .hero-metrics {
-        grid-template-columns: 1fr;
+    .hero-showcase {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .site-nav {
@@ -722,7 +742,8 @@ body {
 
     .site-nav__link {
         justify-content: center;
-        padding: 0.65rem 1rem;
+        padding: 0.75rem 1rem;
+        font-size: 0.92rem;
     }
 
     .nav-burger {
@@ -736,6 +757,94 @@ body {
 
     .site-header__bar:has(.nav-menu-toggle:checked) .nav-burger__line:last-child {
         transform: translateY(-3.5px) rotate(-45deg);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .site-header__cta {
+        padding-inline: 0.95rem;
+    }
+
+    .hero-shell {
+        grid-template-columns: minmax(0, 1fr) minmax(260px, 0.78fr);
+        gap: clamp(1.25rem, 4vw, 2.2rem);
+    }
+
+    .hero-title {
+        font-size: clamp(1.95rem, 5vw, 3.35rem);
+    }
+}
+
+@media (max-width: 560px) {
+    .site-header {
+        top: 0.4rem;
+    }
+
+    .site-header__bar {
+        padding-inline: 0.5rem;
+    }
+
+    .theme-toggle,
+    .nav-burger {
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+
+    .hero-kicker {
+        font-size: 0.77rem;
+        letter-spacing: 0.035em;
+        margin-bottom: 0.6rem;
+    }
+
+    .hero-title {
+        font-size: clamp(1.75rem, 8vw, 2.4rem);
+        margin-bottom: 0.7rem;
+    }
+
+    .hero-description {
+        max-width: 34ch;
+        font-size: 0.98rem;
+        line-height: 1.52;
+    }
+
+    .hero-portrait-frame {
+        max-width: min(21.5rem, 92vw);
+    }
+}
+
+@media (max-width: 420px) {
+    .navbar {
+        padding-inline: 0.72rem;
+    }
+
+    .site-logo {
+        gap: 0.48rem;
+    }
+
+    .site-logo__mark {
+        width: 2.1rem;
+        height: 2.1rem;
+    }
+
+    .site-nav__link {
+        font-size: 0.89rem;
+    }
+
+    .hero-copy {
+        padding-top: 0.15rem;
+    }
+
+    .hero-title {
+        font-size: clamp(1.6rem, 9.2vw, 2.05rem);
+        line-height: 1.04;
+    }
+
+    .hero-description {
+        font-size: 0.95rem;
+    }
+
+    .hero-portrait-frame {
+        max-width: min(19rem, 91vw);
     }
 }
 
