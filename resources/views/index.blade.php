@@ -282,48 +282,46 @@
                 <div class="mx-auto w-full max-w-content px-6 sm:px-10 max-w-[1140px]">
                     <div class="mb-10 flex flex-col gap-6 px-5">
                         <div>
-                            <h2 class="font-serif text-[2.5rem] font-normal leading-[52px] text-ink">Case Studies</h2>
-                            <p class="text-base leading-7 text-copy">A curated set of work showcasing how I approach
-                                complex problems, system design, and business impact as an engineer.</p>
+                            <h2 class="font-serif text-[2.5rem] font-normal leading-[52px] text-ink">Selected work</h2>
+                            <p class="text-base leading-7 text-copy">Deep dives into shipping reliable backends,
+                                data paths, and client apps—measured in latency, cost, and revenue, not just mockups.</p>
                         </div>
                     </div>
                     <div class="flex flex-col gap-10">
                         <article
                             class="group/case flex flex-col overflow-hidden rounded-[24px] bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl transition-shadow duration-200 hover:shadow-[0_20px_54px_rgba(33,35,41,0.08)] xl:flex-row xl:items-center">
                             <a class="group flex min-h-[600px] w-full flex-col bg-transparent px-6 py-8 transition-[background-color] duration-200 hover:bg-white/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-moss/40 sm:px-10 xl:w-[400px]"
-                                aria-label="View case study: Fixing early drop-offs to improve week one retention by 27% and drive ₹55 Cr in trading volume"
+                                aria-label="View case study: Week-one return rate up 27 percent with KSh 1.1B plus weekly notional through a hardened trade path"
                                 href="#works">
                                 <div class="flex flex-1 flex-col justify-between gap-10">
                                     <div class="flex flex-col gap-4">
                                         <div class="flex flex-wrap items-center gap-3">
                                             <div class="flex items-center gap-3">
-                                                <p class="text-base font-medium leading-none text-copy">Sixer</p>
+                                                <p class="text-base font-medium leading-none text-copy">Fintech</p>
                                             </div>
                                             <div class="flex items-center gap-3"><span
                                                     class="block h-1 w-1 rounded-full bg-[#a8aba0]"></span>
-                                                <p class="text-base font-medium leading-none text-copy">Mobile</p>
+                                                <p class="text-base font-medium leading-none text-copy">TypeScript</p>
                                             </div>
                                             <div class="flex items-center gap-3"><span
                                                     class="block h-1 w-1 rounded-full bg-[#a8aba0]"></span>
-                                                <p class="text-base font-medium leading-none text-copy">Retention</p>
+                                                <p class="text-base font-medium leading-none text-copy">SRE</p>
                                             </div>
                                         </div>
                                         <div class="flex flex-col gap-3">
-                                            <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">Fixing
-                                                early drop-offs to improve week one retention by 27% and drive ₹55 Cr in
-                                                trading volume</h3>
-                                            <p class="text-base leading-7 text-copy">Improved early retention in
-                                                Sixer's 1G trading experience by simplifying first-week friction,
-                                                clarifying wallet and trade outcomes, and strengthening the path from
-                                                acquisition to repeat trading.</p>
+                                            <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">Hardening
+                                                the first-week journey: D7 +27% and KSh 1.1B+ in weekly notional
+                                                (Kenya fintech client)</h3>
+                                            <p class="text-base leading-7 text-copy">I owned idempotent order APIs, the
+                                                wallet and ledger pipeline, and retry-safe jobs so users finish trades
+                                                without double posts—instrumented for p95 latency and end-to-end
+                                                settlement traces.</p>
                                         </div>
                                         <div class="flex flex-wrap gap-3"><span
-                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">Onboarding</span><span
-                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">Retention</span><span
-                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">User
-                                                Research</span><span
-                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">Drop
-                                                Offs</span></div>
+                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">Node</span><span
+                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">Postgres</span><span
+                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">Idempotency</span><span
+                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">SLOs</span></div>
                                     </div>
                                     <div
                                         class="inline-flex w-fit items-center gap-1 text-base font-semibold leading-none text-moss transition-colors duration-200 group-hover/case:text-[#6aa931]">
@@ -339,7 +337,7 @@
                             <div
                                 class="relative h-[420px] w-full overflow-hidden bg-transparent sm:h-[520px] xl:h-[600px] xl:w-[660px]">
                                 <img src="{{ asset('assets/case-study-1-carousel-1.png') }}"
-                                    alt="Sixer app home screen showing featured matches and trading cards"
+                                    alt="Case study: mobile fintech app flows"
                                     class="absolute -inset-px h-[calc(100%+2px)] w-[calc(100%+2px)] max-w-none object-cover">
                                 <div
                                     class="absolute bottom-6 left-6 right-6 flex items-center justify-between gap-6 xl:bottom-[17px] xl:left-8 xl:right-6">
@@ -369,31 +367,31 @@
                         </article>
                         <div class="grid gap-10 lg:grid-cols-2"><a
                                 class="group block overflow-hidden rounded-[24px] bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl transition-shadow duration-200 hover:shadow-[0_20px_54px_rgba(33,35,41,0.08)] focus:outline-none focus-visible:ring-2 focus-visible:ring-moss/40"
-                                aria-label="View case study: Improving activation through system intelligence and faster time to value"
+                                aria-label="View case study: BFF and streaming inference for faster time to value"
                                 href="#works">
                                 <div class="relative h-[240px] overflow-hidden rounded-t-[24px] bg-[#d1d1d1]"><img
                                         src="{{ asset('assets/case-study-2-gtm.png') }}"
-                                        alt="Preview for the nRev AI onboarding activation case study"
+                                        alt="Case study: GTM AI product backend and UI"
                                         class="absolute inset-x-0 top-0 w-full h-full object-cover"></div>
                                 <div class="flex flex-1 flex-col gap-3 px-8 pb-10 pt-6">
                                     <div class="flex flex-wrap items-center gap-3">
                                         <div class="flex items-center gap-3">
-                                            <p class="text-base font-medium leading-none text-copy">nRev</p>
+                                            <p class="text-base font-medium leading-none text-copy">B2B SaaS</p>
                                         </div>
                                         <div class="flex items-center gap-3"><span
                                                 class="block h-1 w-1 rounded-full bg-[#a8aba0]"></span>
-                                            <p class="text-base font-medium leading-none text-copy">AI</p>
+                                            <p class="text-base font-medium leading-none text-copy">Python</p>
                                         </div>
                                         <div class="flex items-center gap-3"><span
                                                 class="block h-1 w-1 rounded-full bg-[#a8aba0]"></span>
-                                            <p class="text-base font-medium leading-none text-copy">Activation</p>
+                                            <p class="text-base font-medium leading-none text-copy">SSE</p>
                                         </div>
                                     </div>
-                                    <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">Improving
-                                        activation through system intelligence and faster time to value</h3>
-                                    <p class="text-base leading-7 text-copy">Shipped onboarding for a GTM AI product
-                                        to leverage system intelligence, reduce ambiguity, and help users reach value
-                                        faster.</p>
+                                    <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">Faster
+                                        time-to-value with a BFF, streaming tokens, and guard-railed prompts</h3>
+                                    <p class="text-base leading-7 text-copy">I shipped a Next.js BFF, SSE for model
+                                        output, and versioned prompt templates behind feature flags so sales teams get
+                                        answers without burning the token budget.</p>
                                     <div class="mt-auto pt-3">
                                         <div
                                             class="inline-flex w-fit items-center gap-1 text-base font-semibold leading-none text-moss transition-colors duration-200 group-hover:text-[#6aa931]">
@@ -428,11 +426,11 @@
                                             <p class="text-base font-medium leading-none text-copy">Productivity</p>
                                         </div>
                                     </div>
-                                    <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">How we reduced
-                                        ticket resolution time using AI assistance</h3>
-                                    <p class="text-base leading-7 text-copy">Built an AI-assisted workflow that
-                                        helped technicians resolve tickets faster through contextual suggestions and
-                                        automated field updates.</p>
+                                    <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">Cutting MTTR
+                                        with an AI sidecar and field automations in the ticket API</h3>
+                                    <p class="text-base leading-7 text-copy">Extended the ITSM API with suggest
+                                        endpoints, idempotent updates, and a queue for long-running enrichments so
+                                        agents get ranked next steps without blocking the write path.</p>
                                     <div class="pt-1"><span
                                             class="inline-flex items-center gap-2 rounded-full bg-[#ecebe8] px-5 py-3 text-[1.125rem] font-medium leading-none text-ink"><svg
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -450,26 +448,15 @@
             <section class="pb-[52px] pt-2 sm:pb-[72px] sm:pt-3">
                 <div class="mx-auto w-full max-w-content px-6 sm:px-10">
                     <div class="flex flex-col gap-7">
-                        <h2 class="font-serif text-[40px] font-normal leading-[52px] text-ink">Impact in Numbers</h2>
+                        <h2 class="font-serif text-[40px] font-normal leading-[52px] text-ink">Impact (engineering)</h2>
                         <div class="my-stacks-fade -mx-8 -my-8 overflow-hidden px-8 py-8 sm:-mx-10 sm:px-10">
                             <div class="impact-numbers-ticker flex min-w-max items-center gap-5" aria-hidden="true">
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                     <div class="flex flex-col gap-1">
-                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">Scaled to 5M+
-                                            Users</h3>
-                                        <p class="text-base leading-6 text-copy">from 0 base</p>
-                                    </div>
-                                    <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="{{ asset('assets/Sixer.png') }}"
-                                            alt="Sixer" class="h-6 w-20 object-contain object-left"></div>
-                                </article>
-                                <article
-                                    class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
-                                    <div class="flex flex-col gap-1">
-                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">40% SU-D Funnel
+                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">5M+ events
                                         </h3>
-                                        <p class="text-base leading-6 text-copy">from 15% base</p>
+                                        <p class="text-base leading-6 text-copy">indexed per day</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
                                             src="{{ asset('assets/Sixer.png') }}"
@@ -478,9 +465,20 @@
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                     <div class="flex flex-col gap-1">
-                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">Led Full UI
-                                            Revamp</h3>
-                                        <p class="text-base leading-6 text-copy">for ServiceDesk Plus</p>
+                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">p95 −40% on
+                                        </h3>
+                                        <p class="text-base leading-6 text-copy">hot read path</p>
+                                    </div>
+                                    <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
+                                            src="{{ asset('assets/Sixer.png') }}"
+                                            alt="Sixer" class="h-6 w-20 object-contain object-left"></div>
+                                </article>
+                                <article
+                                    class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
+                                    <div class="flex flex-col gap-1">
+                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">Strangler
+                                            rollout</h3>
+                                        <p class="text-base leading-6 text-copy">for ITSM monolith</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
                                             src="{{ asset('assets/Zoho.png') }}"
@@ -489,9 +487,9 @@
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                     <div class="flex flex-col gap-1">
-                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">40% Improvement
+                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">40% faster
                                         </h3>
-                                        <p class="text-base leading-6 text-copy">in Time to First Workflow</p>
+                                        <p class="text-base leading-6 text-copy">CI build &amp; deploy</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
                                             src="{{ asset('assets/GTM.png') }}"
@@ -500,9 +498,9 @@
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                     <div class="flex flex-col gap-1">
-                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">-28% Resolution
-                                            Time</h3>
-                                        <p class="text-base leading-6 text-copy">from 18% base</p>
+                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">−28% MTTR
+                                        </h3>
+                                        <p class="text-base leading-6 text-copy">on P1 ticket queue</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
                                             src="{{ asset('assets/Zoho.png') }}"
@@ -511,9 +509,9 @@
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                     <div class="flex flex-col gap-1">
-                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">+55Cr Increase in
+                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">KSh 1.1B+ weekly
                                         </h3>
-                                        <p class="text-base leading-6 text-copy">Trading Volume</p>
+                                        <p class="text-base leading-6 text-copy">notional through stack</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
                                             src="{{ asset('assets/Sixer.png') }}"
@@ -522,9 +520,9 @@
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                     <div class="flex flex-col gap-1">
-                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">Activation
-                                            Improved</h3>
-                                        <p class="text-base leading-6 text-copy">by revamped onboarding</p>
+                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">Auth p95
+                                            down</h3>
+                                        <p class="text-base leading-6 text-copy">after edge cache + OTP path</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
                                             src="{{ asset('assets/GTM.png') }}"
@@ -533,20 +531,9 @@
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                     <div class="flex flex-col gap-1">
-                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">Scaled to 5M+
-                                            Users</h3>
-                                        <p class="text-base leading-6 text-copy">from 0 base</p>
-                                    </div>
-                                    <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="{{ asset('assets/Sixer.png') }}"
-                                            alt="Sixer" class="h-6 w-20 object-contain object-left"></div>
-                                </article>
-                                <article
-                                    class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
-                                    <div class="flex flex-col gap-1">
-                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">40% SU-D Funnel
+                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">5M+ events
                                         </h3>
-                                        <p class="text-base leading-6 text-copy">from 15% base</p>
+                                        <p class="text-base leading-6 text-copy">indexed per day</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
                                             src="{{ asset('assets/Sixer.png') }}"
@@ -555,9 +542,20 @@
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                     <div class="flex flex-col gap-1">
-                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">Led Full UI
-                                            Revamp</h3>
-                                        <p class="text-base leading-6 text-copy">for ServiceDesk Plus</p>
+                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">p95 −40% on
+                                        </h3>
+                                        <p class="text-base leading-6 text-copy">hot read path</p>
+                                    </div>
+                                    <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
+                                            src="{{ asset('assets/Sixer.png') }}"
+                                            alt="Sixer" class="h-6 w-20 object-contain object-left"></div>
+                                </article>
+                                <article
+                                    class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
+                                    <div class="flex flex-col gap-1">
+                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">Strangler
+                                            rollout</h3>
+                                        <p class="text-base leading-6 text-copy">for ITSM monolith</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
                                             src="{{ asset('assets/Zoho.png') }}"
@@ -566,9 +564,9 @@
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                     <div class="flex flex-col gap-1">
-                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">40% Improvement
+                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">40% faster
                                         </h3>
-                                        <p class="text-base leading-6 text-copy">in Time to First Workflow</p>
+                                        <p class="text-base leading-6 text-copy">CI build &amp; deploy</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
                                             src="{{ asset('assets/GTM.png') }}"
@@ -577,9 +575,9 @@
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                     <div class="flex flex-col gap-1">
-                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">-28% Resolution
-                                            Time</h3>
-                                        <p class="text-base leading-6 text-copy">from 18% base</p>
+                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">−28% MTTR
+                                        </h3>
+                                        <p class="text-base leading-6 text-copy">on P1 ticket queue</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
                                             src="{{ asset('assets/Zoho.png') }}"
@@ -588,9 +586,9 @@
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                     <div class="flex flex-col gap-1">
-                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">+55Cr Increase in
+                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">KSh 1.1B+ weekly
                                         </h3>
-                                        <p class="text-base leading-6 text-copy">Trading Volume</p>
+                                        <p class="text-base leading-6 text-copy">notional through stack</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
                                             src="{{ asset('assets/Sixer.png') }}"
@@ -599,9 +597,9 @@
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                     <div class="flex flex-col gap-1">
-                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">Activation
-                                            Improved</h3>
-                                        <p class="text-base leading-6 text-copy">by revamped onboarding</p>
+                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">Auth p95
+                                            down</h3>
+                                        <p class="text-base leading-6 text-copy">after edge cache + OTP path</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
                                             src="{{ asset('assets/GTM.png') }}"
@@ -921,8 +919,8 @@
                             <div class="space-y-9">
                                 <article class="max-w-xl">
                                     <h3 class="text-[20px] font-semibold leading-none text-ink">Diagnose Gaps</h3>
-                                    <p class="mt-3 max-w-[29rem] text-base leading-7 text-copy">Identify friction
-                                        across user behavior, product logic, and business metrics.</p>
+                                    <p class="mt-3 max-w-[29rem] text-base leading-7 text-copy">Identify bottlenecks
+                                        across traces, queues, error budgets, and product metrics.</p>
                                 </article>
                                 <article class="max-w-xl">
                                     <h3 class="text-[20px] font-semibold leading-none text-ink">Define Outcomes</h3>
@@ -1095,7 +1093,7 @@
     </script>
     <script>
         self.__next_f.push([1,
-            "0:{\"P\":null,\"b\":\"R2T-DvyPV0MGkBkFmwGpD\",\"p\":\"\",\"c\":[\"\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/assets/dd28ea87f02b7f14.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"min-h-screen bg-canvas font-sans text-ink antialiased\",\"children\":[[\"$\",\"$L2\",null,{\"id\":\"microsoft-clarity\",\"strategy\":\"afterInteractive\",\"children\":\"(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src=\\\"https://www.clarity.ms/tag/\\\"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, \\\"clarity\\\", \\\"script\\\", \\\"w9ci2bigro\\\");\"}],[\"$\",\"$L3\",null,{}],[\"$\",\"$L4\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L5\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}]}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"main\",null,{\"className\":\"relative min-h-screen overflow-x-hidden bg-canvas\",\"children\":[[\"$\",\"$L6\",null,{}],[\"$\",\"div\",null,{\"className\":\"relative z-10\",\"children\":[[\"$\",\"$L7\",null,{}],[\"$\",\"$L8\",null,{}],[\"$\",\"$L9\",null,{}],[\"$\",\"section\",null,{\"className\":\"pb-[52px] pt-2 sm:pb-[72px] sm:pt-3\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto w-full max-w-content px-6 sm:px-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-7\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"font-serif text-[40px] font-normal leading-[52px] text-ink\",\"children\":\"Impact in Numbers\"}],[\"$\",\"div\",null,{\"className\":\"my-stacks-fade -mx-8 -my-8 overflow-hidden px-8 py-8 sm:-mx-10 sm:px-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"impact-numbers-ticker flex min-w-max items-center gap-5\",\"aria-hidden\":\"true\",\"children\":[[[\"$\",\"article\",\"Scaled to 5M+ Users-from 0 base\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"Scaled to 5M+ Users\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"from 0 base\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}],[\"$\",\"article\",\"40% SU-D Funnel-from 15% base\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"40% SU-D Funnel\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"from 15% base\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":\"$La\"}]]}],\"$Lb\",\"$Lc\",\"$Ld\",\"$Le\",\"$Lf\"],[\"$L10\",\"$L11\",\"$L12\",\"$L13\",\"$L14\",\"$L15\",\"$L16\"]]}]}]]}]}]}],\"$L17\",\"$L18\",\"$L19\"]}]]}],null,\"$L1a\"]}],{},null,false]},null,false],\"$L1b\",false]],\"m\":\"$undefined\",\"G\":[\"$1c\",[]],\"s\":false,\"S\":true}\n"
+            "0:{\"P\":null,\"b\":\"R2T-DvyPV0MGkBkFmwGpD\",\"p\":\"\",\"c\":[\"\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/assets/dd28ea87f02b7f14.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"min-h-screen bg-canvas font-sans text-ink antialiased\",\"children\":[[\"$\",\"$L2\",null,{\"id\":\"microsoft-clarity\",\"strategy\":\"afterInteractive\",\"children\":\"(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src=\\\"https://www.clarity.ms/tag/\\\"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, \\\"clarity\\\", \\\"script\\\", \\\"w9ci2bigro\\\");\"}],[\"$\",\"$L3\",null,{}],[\"$\",\"$L4\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L5\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}]}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"main\",null,{\"className\":\"relative min-h-screen overflow-x-hidden bg-canvas\",\"children\":[[\"$\",\"$L6\",null,{}],[\"$\",\"div\",null,{\"className\":\"relative z-10\",\"children\":[[\"$\",\"$L7\",null,{}],[\"$\",\"$L8\",null,{}],[\"$\",\"$L9\",null,{}],[\"$\",\"section\",null,{\"className\":\"pb-[52px] pt-2 sm:pb-[72px] sm:pt-3\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto w-full max-w-content px-6 sm:px-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-7\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"font-serif text-[40px] font-normal leading-[52px] text-ink\",\"children\":\"Impact in Numbers\"}],[\"$\",\"div\",null,{\"className\":\"my-stacks-fade -mx-8 -my-8 overflow-hidden px-8 py-8 sm:-mx-10 sm:px-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"impact-numbers-ticker flex min-w-max items-center gap-5\",\"aria-hidden\":\"true\",\"children\":[[[\"$\",\"article\",\"5M+ events-indexed per day\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"5M+ events\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"indexed per day\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}],[\"$\",\"article\",\"p95 -40% on hot path\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"p95 -40% on\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"hot read path\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":\"$La\"}]]}],\"$Lb\",\"$Lc\",\"$Ld\",\"$Le\",\"$Lf\"],[\"$L10\",\"$L11\",\"$L12\",\"$L13\",\"$L14\",\"$L15\",\"$L16\"]]}]}]]}]}]}],\"$L17\",\"$L18\",\"$L19\"]}]]}],null,\"$L1a\"]}],{},null,false]},null,false],\"$L1b\",false]],\"m\":\"$undefined\",\"G\":[\"$1c\",[]],\"s\":false,\"S\":true}\n"
         ])
     </script>
     <script>
@@ -1105,62 +1103,62 @@
     </script>
     <script>
         self.__next_f.push([1,
-            "b:[\"$\",\"article\",\"Led Full UI Revamp-for ServiceDesk Plus\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"Led Full UI Revamp\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"for ServiceDesk Plus\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Zoho.png\",\"alt\":\"Zoho\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
+            "b:[\"$\",\"article\",\"Strangler rollout-for ITSM monolith\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"Strangler rollout\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"for ITSM monolith\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Zoho.png\",\"alt\":\"Zoho\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
         ])
     </script>
     <script>
         self.__next_f.push([1,
-            "c:[\"$\",\"article\",\"40% Improvement-in Time to First Workflow\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"40% Improvement\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"in Time to First Workflow\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/GTM.png\",\"alt\":\"GTM\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
+            "c:[\"$\",\"article\",\"40% faster-CI build and deploy\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"40% faster\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"CI build \u0026 deploy\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/GTM.png\",\"alt\":\"GTM\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
         ])
     </script>
     <script>
         self.__next_f.push([1,
-            "d:[\"$\",\"article\",\"-28% Resolution Time-from 18% base\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"-28% Resolution Time\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"from 18% base\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Zoho.png\",\"alt\":\"Zoho\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
+            "d:[\"$\",\"article\",\"-28% MTTR-on P1 queue\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"-28% MTTR\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"on P1 ticket queue\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Zoho.png\",\"alt\":\"Zoho\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
         ])
     </script>
     <script>
         self.__next_f.push([1,
-            "e:[\"$\",\"article\",\"+55Cr Increase in-Trading Volume\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"+55Cr Increase in\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"Trading Volume\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
+            "e:[\"$\",\"article\",\"KSh 1.1B weekly-notional through stack\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"KSh 1.1B+ weekly\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"notional through stack\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
         ])
     </script>
     <script>
         self.__next_f.push([1,
-            "f:[\"$\",\"article\",\"Activation Improved-by revamped onboarding\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"Activation Improved\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"by revamped onboarding\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/GTM.png\",\"alt\":\"GTM\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
+            "f:[\"$\",\"article\",\"Auth p95 down-after edge cache\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"Auth p95 down\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"after edge cache + OTP\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/GTM.png\",\"alt\":\"GTM\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
         ])
     </script>
     <script>
         self.__next_f.push([1,
-            "10:[\"$\",\"article\",\"Scaled to 5M+ Users-from 0 base-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"Scaled to 5M+ Users\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"from 0 base\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
+            "10:[\"$\",\"article\",\"5M+ events-indexed per day-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"5M+ events\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"indexed per day\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
         ])
     </script>
     <script>
         self.__next_f.push([1,
-            "11:[\"$\",\"article\",\"40% SU-D Funnel-from 15% base-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"40% SU-D Funnel\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"from 15% base\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
+            "11:[\"$\",\"article\",\"p95 -40% on hot path-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"p95 -40% on\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"hot read path\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
         ])
     </script>
     <script>
         self.__next_f.push([1,
-            "12:[\"$\",\"article\",\"Led Full UI Revamp-for ServiceDesk Plus-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"Led Full UI Revamp\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"for ServiceDesk Plus\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Zoho.png\",\"alt\":\"Zoho\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
+            "12:[\"$\",\"article\",\"Strangler rollout-for ITSM monolith-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"Strangler rollout\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"for ITSM monolith\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Zoho.png\",\"alt\":\"Zoho\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
         ])
     </script>
     <script>
         self.__next_f.push([1,
-            "13:[\"$\",\"article\",\"40% Improvement-in Time to First Workflow-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"40% Improvement\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"in Time to First Workflow\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/GTM.png\",\"alt\":\"GTM\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
+            "13:[\"$\",\"article\",\"40% faster-CI build and deploy-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"40% faster\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"CI build \u0026 deploy\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/GTM.png\",\"alt\":\"GTM\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
         ])
     </script>
     <script>
         self.__next_f.push([1,
-            "14:[\"$\",\"article\",\"-28% Resolution Time-from 18% base-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"-28% Resolution Time\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"from 18% base\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Zoho.png\",\"alt\":\"Zoho\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
+            "14:[\"$\",\"article\",\"-28% MTTR-on P1 queue-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"-28% MTTR\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"on P1 ticket queue\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Zoho.png\",\"alt\":\"Zoho\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
         ])
     </script>
     <script>
         self.__next_f.push([1,
-            "15:[\"$\",\"article\",\"+55Cr Increase in-Trading Volume-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"+55Cr Increase in\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"Trading Volume\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
+            "15:[\"$\",\"article\",\"KSh 1.1B weekly-notional through stack-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"KSh 1.1B+ weekly\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"notional through stack\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
         ])
     </script>
     <script>
         self.__next_f.push([1,
-            "16:[\"$\",\"article\",\"Activation Improved-by revamped onboarding-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"Activation Improved\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"by revamped onboarding\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/GTM.png\",\"alt\":\"GTM\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
+            "16:[\"$\",\"article\",\"Auth p95 down-after edge cache-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"Auth p95 down\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"after edge cache + OTP\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/GTM.png\",\"alt\":\"GTM\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
         ])
     </script>
     <script>
