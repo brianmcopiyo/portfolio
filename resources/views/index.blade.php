@@ -5,112 +5,112 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preload" as="image" href="./Karthik M _ Product Designer _ Scalable Digital Products_files/logo.svg">
+    <link rel="preload" as="image" href="{{ asset('assets/logo.svg') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/dream11-logo.svg">
+        href="{{ asset('assets/dream11-logo.svg') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/zoho-logo.svg">
+        href="{{ asset('assets/zoho-logo.svg') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/hero-image.png">
+        href="{{ asset('assets/hero-image.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/badge-base-rotate.svg">
+        href="{{ asset('assets/badge-base-rotate.svg') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/badge-14.svg">
+        href="{{ asset('assets/badge-14.svg') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/adobe-award.svg">
+        href="{{ asset('assets/adobe-award.svg') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/own-build-ship.svg">
+        href="{{ asset('assets/own-build-ship.svg') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/b2b-b2cc.svg">
+        href="{{ asset('assets/b2b-b2cc.svg') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/big-lean.svg">
-    <link rel="stylesheet" href="./Karthik M _ Product Designer _ Scalable Digital Products_files/dd28ea87f02b7f14.css"
+        href="{{ asset('assets/big-lean.svg') }}">
+    <link rel="stylesheet" href="{{ asset('assets/dd28ea87f02b7f14.css') }}"
         data-precedence="next">
     <link rel="preload" as="script" fetchpriority="low"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/webpack-74c939c87fa0092a.js.download">
-    <script async="" src="./Karthik M _ Product Designer _ Scalable Digital Products_files/clarity.js.download"></script>
-    <script async="" src="./Karthik M _ Product Designer _ Scalable Digital Products_files/w9ci2bigro"></script>
-    <script src="./Karthik M _ Product Designer _ Scalable Digital Products_files/4bd1b696-c023c6e3521b1417.js.download"
+        href="{{ asset('assets/webpack-74c939c87fa0092a.js.download') }}">
+    <script async="" src="{{ asset('assets/clarity.js.download') }}"></script>
+    <script async="" src="{{ asset('assets/w9ci2bigro') }}"></script>
+    <script src="{{ asset('assets/4bd1b696-c023c6e3521b1417.js.download') }}"
         async=""></script>
-    <script src="./Karthik M _ Product Designer _ Scalable Digital Products_files/255-cb395327542b56ef.js.download"
+    <script src="{{ asset('assets/255-cb395327542b56ef.js.download') }}"
         async=""></script>
-    <script src="./Karthik M _ Product Designer _ Scalable Digital Products_files/main-app-f9b5d20365cb8be2.js.download"
+    <script src="{{ asset('assets/main-app-f9b5d20365cb8be2.js.download') }}"
         async=""></script>
-    <script src="./Karthik M _ Product Designer _ Scalable Digital Products_files/layout-d44c66b8bd666529.js.download"
+    <script src="{{ asset('assets/layout-d44c66b8bd666529.js.download') }}"
         async=""></script>
-    <script src="./Karthik M _ Product Designer _ Scalable Digital Products_files/619-ba102abea3e3d0e4.js.download"
+    <script src="{{ asset('assets/619-ba102abea3e3d0e4.js.download') }}"
         async=""></script>
-    <script src="./Karthik M _ Product Designer _ Scalable Digital Products_files/57-e4c7b01e333aa1c6.js.download" async="">
+    <script src="{{ asset('assets/57-e4c7b01e333aa1c6.js.download') }}" async="">
     </script>
-    <script src="./Karthik M _ Product Designer _ Scalable Digital Products_files/page-ac3001c9993794df.js.download"
+    <script src="{{ asset('assets/page-ac3001c9993794df.js.download') }}"
         async=""></script>
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/case-study-1-carousel-1.png">
+        href="{{ asset('assets/case-study-1-carousel-1.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/case-study-2-gtm.png">
+        href="{{ asset('assets/case-study-2-gtm.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/case-study-1-zoho.png">
+        href="{{ asset('assets/case-study-1-zoho.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/Sixer.png">
+        href="{{ asset('assets/Sixer.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/Zoho.png">
-    <link rel="preload" as="image" href="./Karthik M _ Product Designer _ Scalable Digital Products_files/GTM.png">
+        href="{{ asset('assets/Zoho.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/GTM.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/about-me.png">
+        href="{{ asset('assets/about-me.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/connect.svg">
+        href="{{ asset('assets/connect.svg') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/whatsapp.svg">
+        href="{{ asset('assets/whatsapp.svg') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/figma-stamp.png">
+        href="{{ asset('assets/figma-stamp.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/codex-stamp.png">
+        href="{{ asset('assets/codex-stamp.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/design-for-love.svg">
+        href="{{ asset('assets/design-for-love.svg') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/figma.png">
+        href="{{ asset('assets/figma.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/illustrator.png">
+        href="{{ asset('assets/illustrator.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/lottie-files.png">
+        href="{{ asset('assets/lottie-files.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/webflow.png">
+        href="{{ asset('assets/webflow.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/posthog.png">
+        href="{{ asset('assets/posthog.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/mixpanel.png">
+        href="{{ asset('assets/mixpanel.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/supabase.png">
+        href="{{ asset('assets/supabase.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/notion.png">
+        href="{{ asset('assets/notion.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/github.png">
+        href="{{ asset('assets/github.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/vercel.png">
+        href="{{ asset('assets/vercel.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/replit.png">
+        href="{{ asset('assets/replit.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/lovable.png">
+        href="{{ asset('assets/lovable.png') }}">
     <link rel="preload" as="image"
-        href="./Karthik M _ Product Designer _ Scalable Digital Products_files/codex.png">
+        href="{{ asset('assets/codex.png') }}">
     <title>Karthik M | Product Designer | Scalable Digital Products</title>
     <meta name="description"
         content="I’m a Product Designer focused on building and scaling digital products. I work on complex systems and collaborate with teams to deliver meaningful outcomes.">
     <meta property="og:title" content="Karthik M | Product Designer | Scalable Digital Products">
     <meta property="og:description"
         content="I’m a Product Designer focused on building and scaling digital products.">
-    <meta property="og:url" content="https://www.dizkarthik.com">
+    <meta property="og:url" content="{{ url('/') }}">
     <meta property="og:site_name" content="Karthik Portfolio">
-    <meta property="og:image" content="https://www.dizkarthik.com/og-image.png">
+    <meta property="og:image" content="{{ asset('assets/hero-image.png') }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Karthik M | Product Designer">
     <meta name="twitter:description" content="Product Designer building scalable digital products.">
-    <meta name="twitter:image" content="https://www.dizkarthik.com/og-image.png">
-    <link rel="icon" href="https://www.dizkarthik.com/favicon.png">
-    <script src="./Karthik M _ Product Designer _ Scalable Digital Products_files/polyfills-42372ed130431b0a.js.download"
+    <meta name="twitter:image" content="{{ asset('assets/hero-image.png') }}">
+    <link rel="icon" href="{{ asset('assets/logo.svg') }}">
+    <script src="{{ asset('assets/polyfills-42372ed130431b0a.js.download') }}"
         nomodule=""></script>
 </head>
 
@@ -136,21 +136,21 @@
                     <div
                         class="flex flex-col gap-5 transition-[background-color,border-color,box-shadow,backdrop-filter,padding] duration-300 ease-out md:flex-row md:items-center md:justify-between">
                         <div class="flex items-center justify-between gap-4 md:justify-start md:gap-8"><a
-                                href="https://www.dizkarthik.com/" aria-label="Go to homepage">
+                                href="{{ url('/') }}" aria-label="Go to homepage">
                                 <div class="flex h-[30px] w-[30px] items-center justify-center"><img
-                                        src="./Karthik M _ Product Designer _ Scalable Digital Products_files/logo.svg"
+                                        src="{{ asset('assets/logo.svg') }}"
                                         alt="" class="h-[30px] w-[30px] object-contain"><span
                                         class="sr-only">Karthik home</span></div>
                             </a>
                             <nav aria-label="Primary navigation" class="hidden overflow-x-auto md:block">
                                 <ul class="flex min-w-max items-center gap-10 text-base text-ink">
-                                    <li><a href="https://www.dizkarthik.com/#home"
+                                    <li><a href="#home"
                                             class="transition-colors duration-200 hover:text-moss">Home</a></li>
-                                    <li><a href="https://www.dizkarthik.com/#works"
+                                    <li><a href="#works"
                                             class="transition-colors duration-200 hover:text-moss">Work</a></li>
-                                    <li><a href="https://www.dizkarthik.com/#about"
+                                    <li><a href="#about"
                                             class="transition-colors duration-200 hover:text-moss">About</a></li>
-                                    <li><a href="https://www.dizkarthik.com/#contact"
+                                    <li><a href="#contact"
                                             class="transition-colors duration-200 hover:text-moss">Contact</a></li>
                                 </ul>
                             </nav>
@@ -165,13 +165,13 @@
                         </div>
                         <nav aria-label="Primary mobile navigation" class="overflow-x-auto md:hidden">
                             <ul class="flex min-w-max items-center gap-6 text-base text-ink sm:gap-10">
-                                <li><a href="https://www.dizkarthik.com/#home"
+                                <li><a href="#home"
                                         class="transition-colors duration-200 hover:text-moss">Home</a></li>
-                                <li><a href="https://www.dizkarthik.com/#works"
+                                <li><a href="#works"
                                         class="transition-colors duration-200 hover:text-moss">Work</a></li>
-                                <li><a href="https://www.dizkarthik.com/#about"
+                                <li><a href="#about"
                                         class="transition-colors duration-200 hover:text-moss">About</a></li>
-                                <li><a href="https://www.dizkarthik.com/#contact"
+                                <li><a href="#contact"
                                         class="transition-colors duration-200 hover:text-moss">Contact</a></li>
                             </ul>
                         </nav>
@@ -216,32 +216,32 @@
                                 <p class="max-w-[503px] text-[1.125rem] leading-[30px] text-copy">I design end-to-end
                                     AI, B2B, and B2C products, built and scaled in high-growth environments.</p>
                                 <div class="flex flex-wrap items-center gap-x-20 gap-y-6"><img
-                                        src="./Karthik M _ Product Designer _ Scalable Digital Products_files/dream11-logo.svg"
+                                        src="{{ asset('assets/dream11-logo.svg') }}"
                                         alt="Dream11 logo" width="175.78" height="48"
                                         class="h-12 shrink-0 object-contain" style="width:175.78px"><img
-                                        src="./Karthik M _ Product Designer _ Scalable Digital Products_files/zoho-logo.svg"
+                                        src="{{ asset('assets/zoho-logo.svg') }}"
                                         alt="Zoho logo" width="112.73" height="48"
                                         class="h-12 shrink-0 object-contain" style="width:112.73px"></div>
                             </div>
                         </div>
                         <div class="relative mx-auto h-[393px] w-full max-w-[320px] shrink-0 lg:mx-0">
                             <div class="absolute right-0 top-0 h-[310px] w-[260px]"><img
-                                    src="./Karthik M _ Product Designer _ Scalable Digital Products_files/hero-image.png"
+                                    src="{{ asset('assets/hero-image.png') }}"
                                     alt="Portrait stamp illustration of Karthik" width="260" height="310"
                                     class="h-full w-full object-contain"></div>
                             <div class="absolute -bottom-3 -left-2.5 h-40 w-40 -rotate-[7deg] sm:-bottom-5">
                                 <div class="relative h-full w-full"
                                     aria-label="14 plus years building and scaling products"><img
-                                        src="./Karthik M _ Product Designer _ Scalable Digital Products_files/badge-base-rotate.svg"
+                                        src="{{ asset('assets/badge-base-rotate.svg') }}"
                                         alt="" width="160" height="160"
                                         class="badge-spin-clockwise absolute inset-0 h-full w-full object-contain"
                                         aria-hidden="true"><img
-                                        src="./Karthik M _ Product Designer _ Scalable Digital Products_files/badge-14.svg"
+                                        src="{{ asset('assets/badge-14.svg') }}"
                                         alt="" width="62" height="31"
                                         class="absolute left-1/2 top-1/2 h-auto w-[62px] -translate-x-1/2 -translate-y-1/2 object-contain"
                                         aria-hidden="true"></div>
                             </div><img
-                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/adobe-award.svg"
+                                src="{{ asset('assets/adobe-award.svg') }}"
                                 alt="Adobe Award Winner" width="125" height="36"
                                 class="absolute bottom-[26px] right-[13px] h-auto w-[125px] object-contain">
                         </div>
@@ -250,7 +250,7 @@
                         class="mt-[7.5rem] rounded-[20px] bg-[#fffcf6] px-7 py-10 shadow-[0_18px_50px_rgba(33,35,41,0.04)] sm:px-16 sm:py-12">
                         <div class="flex flex-wrap items-center gap-x-10 gap-y-[6.0625rem]">
                             <article class="w-[272px] shrink-0"><img
-                                    src="./Karthik M _ Product Designer _ Scalable Digital Products_files/own-build-ship.svg"
+                                    src="{{ asset('assets/own-build-ship.svg') }}"
                                     alt="" width="48" height="48"
                                     class="mb-3 h-12 w-12 object-contain" aria-hidden="true">
                                 <h2 class="font-serif text-[24px] font-normal leading-none text-ink">Own, Build &amp;
@@ -259,7 +259,7 @@
                                     with end-to-end ownership</p>
                             </article>
                             <article class="w-[272px] shrink-0"><img
-                                    src="./Karthik M _ Product Designer _ Scalable Digital Products_files/b2b-b2cc.svg"
+                                    src="{{ asset('assets/b2b-b2cc.svg') }}"
                                     alt="" width="48" height="48"
                                     class="mb-3 h-12 w-12 object-contain" aria-hidden="true">
                                 <h2 class="font-serif text-[24px] font-normal leading-none text-ink">Systems That Scale
@@ -268,7 +268,7 @@
                                     clarity and usability.</p>
                             </article>
                             <article class="w-[272px] shrink-0"><img
-                                    src="./Karthik M _ Product Designer _ Scalable Digital Products_files/big-lean.svg"
+                                    src="{{ asset('assets/big-lean.svg') }}"
                                     alt="" width="48" height="48"
                                     class="mb-3 h-12 w-12 object-contain" aria-hidden="true">
                                 <h2 class="font-serif text-[24px] font-normal leading-none text-ink">Big Teams to Lean
@@ -340,7 +340,7 @@
                             </a>
                             <div
                                 class="relative h-[420px] w-full overflow-hidden bg-transparent sm:h-[520px] xl:h-[600px] xl:w-[660px]">
-                                <img src="./Karthik M _ Product Designer _ Scalable Digital Products_files/case-study-1-carousel-1.png"
+                                <img src="{{ asset('assets/case-study-1-carousel-1.png') }}"
                                     alt="Sixer app home screen showing featured matches and trading cards"
                                     class="absolute -inset-px h-[calc(100%+2px)] w-[calc(100%+2px)] max-w-none object-cover">
                                 <div
@@ -374,7 +374,7 @@
                                 aria-label="View case study: Improving activation through system intelligence and faster time to value"
                                 href="https://www.dizkarthik.com/case-studies/ai-onboarding-activation">
                                 <div class="relative h-[240px] overflow-hidden rounded-t-[24px] bg-[#d1d1d1]"><img
-                                        src="./Karthik M _ Product Designer _ Scalable Digital Products_files/case-study-2-gtm.png"
+                                        src="{{ asset('assets/case-study-2-gtm.png') }}"
                                         alt="Preview for the nRev AI onboarding activation case study"
                                         class="absolute inset-x-0 top-0 w-full h-full object-cover"></div>
                                 <div class="flex flex-1 flex-col gap-3 px-8 pb-10 pt-6">
@@ -413,7 +413,7 @@
                             <article
                                 class="overflow-hidden rounded-[24px] bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl transition-shadow duration-200 hover:shadow-[0_20px_54px_rgba(33,35,41,0.08)]">
                                 <div class="relative h-[240px] overflow-hidden rounded-t-[24px] bg-[#d1d1d1]"><img
-                                        src="./Karthik M _ Product Designer _ Scalable Digital Products_files/case-study-1-zoho.png"
+                                        src="{{ asset('assets/case-study-1-zoho.png') }}"
                                         alt="Zoho ServiceDesk Plus dashboard with AI assistant workflow preview"
                                         class="absolute inset-x-0 top-0 w-full h-full object-cover"></div>
                                 <div class="flex flex-1 flex-col gap-3 px-8 pb-10 pt-6">
@@ -463,7 +463,7 @@
                                         <p class="text-base leading-6 text-copy">from 0 base</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="./Karthik M _ Product Designer _ Scalable Digital Products_files/Sixer.png"
+                                            src="{{ asset('assets/Sixer.png') }}"
                                             alt="Sixer" class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
@@ -474,7 +474,7 @@
                                         <p class="text-base leading-6 text-copy">from 15% base</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="./Karthik M _ Product Designer _ Scalable Digital Products_files/Sixer.png"
+                                            src="{{ asset('assets/Sixer.png') }}"
                                             alt="Sixer" class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
@@ -485,7 +485,7 @@
                                         <p class="text-base leading-6 text-copy">for ServiceDesk Plus</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="./Karthik M _ Product Designer _ Scalable Digital Products_files/Zoho.png"
+                                            src="{{ asset('assets/Zoho.png') }}"
                                             alt="Zoho" class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
@@ -496,7 +496,7 @@
                                         <p class="text-base leading-6 text-copy">in Time to First Workflow</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="./Karthik M _ Product Designer _ Scalable Digital Products_files/GTM.png"
+                                            src="{{ asset('assets/GTM.png') }}"
                                             alt="GTM" class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
@@ -507,7 +507,7 @@
                                         <p class="text-base leading-6 text-copy">from 18% base</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="./Karthik M _ Product Designer _ Scalable Digital Products_files/Zoho.png"
+                                            src="{{ asset('assets/Zoho.png') }}"
                                             alt="Zoho" class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
@@ -518,7 +518,7 @@
                                         <p class="text-base leading-6 text-copy">Trading Volume</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="./Karthik M _ Product Designer _ Scalable Digital Products_files/Sixer.png"
+                                            src="{{ asset('assets/Sixer.png') }}"
                                             alt="Sixer" class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
@@ -529,7 +529,7 @@
                                         <p class="text-base leading-6 text-copy">by revamped onboarding</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="./Karthik M _ Product Designer _ Scalable Digital Products_files/GTM.png"
+                                            src="{{ asset('assets/GTM.png') }}"
                                             alt="GTM" class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
@@ -540,7 +540,7 @@
                                         <p class="text-base leading-6 text-copy">from 0 base</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="./Karthik M _ Product Designer _ Scalable Digital Products_files/Sixer.png"
+                                            src="{{ asset('assets/Sixer.png') }}"
                                             alt="Sixer" class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
@@ -551,7 +551,7 @@
                                         <p class="text-base leading-6 text-copy">from 15% base</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="./Karthik M _ Product Designer _ Scalable Digital Products_files/Sixer.png"
+                                            src="{{ asset('assets/Sixer.png') }}"
                                             alt="Sixer" class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
@@ -562,7 +562,7 @@
                                         <p class="text-base leading-6 text-copy">for ServiceDesk Plus</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="./Karthik M _ Product Designer _ Scalable Digital Products_files/Zoho.png"
+                                            src="{{ asset('assets/Zoho.png') }}"
                                             alt="Zoho" class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
@@ -573,7 +573,7 @@
                                         <p class="text-base leading-6 text-copy">in Time to First Workflow</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="./Karthik M _ Product Designer _ Scalable Digital Products_files/GTM.png"
+                                            src="{{ asset('assets/GTM.png') }}"
                                             alt="GTM" class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
@@ -584,7 +584,7 @@
                                         <p class="text-base leading-6 text-copy">from 18% base</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="./Karthik M _ Product Designer _ Scalable Digital Products_files/Zoho.png"
+                                            src="{{ asset('assets/Zoho.png') }}"
                                             alt="Zoho" class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
@@ -595,7 +595,7 @@
                                         <p class="text-base leading-6 text-copy">Trading Volume</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="./Karthik M _ Product Designer _ Scalable Digital Products_files/Sixer.png"
+                                            src="{{ asset('assets/Sixer.png') }}"
                                             alt="Sixer" class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
@@ -606,7 +606,7 @@
                                         <p class="text-base leading-6 text-copy">by revamped onboarding</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="./Karthik M _ Product Designer _ Scalable Digital Products_files/GTM.png"
+                                            src="{{ asset('assets/GTM.png') }}"
                                             alt="GTM" class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                             </div>
@@ -621,7 +621,7 @@
                             <figure
                                 class="overflow-hidden rounded-[22px] border-4 border-white bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                 <div class="h-[258px] overflow-hidden rounded-[18px]"><img
-                                        src="./Karthik M _ Product Designer _ Scalable Digital Products_files/about-me.png"
+                                        src="{{ asset('assets/about-me.png') }}"
                                         alt="Karthik M" class="block h-full w-full object-cover object-center"></div>
                             </figure>
                             <div
@@ -710,197 +710,197 @@
                                 <div class="flex min-w-max items-center gap-6 whitespace-nowrap px-16 text-base leading-none text-ink my-stacks-ticker-rtl"
                                     aria-hidden="true"><span class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/figma.png"
+                                                src="{{ asset('assets/figma.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Figma</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/illustrator.png"
+                                                src="{{ asset('assets/illustrator.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Illustrator</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/lottie-files.png"
+                                                src="{{ asset('assets/lottie-files.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Lottie Files</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/webflow.png"
+                                                src="{{ asset('assets/webflow.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Webflow</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/posthog.png"
+                                                src="{{ asset('assets/posthog.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Posthog</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/mixpanel.png"
+                                                src="{{ asset('assets/mixpanel.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Mixpanel</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/supabase.png"
+                                                src="{{ asset('assets/supabase.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Supabase</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/notion.png"
+                                                src="{{ asset('assets/notion.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Notion</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/github.png"
+                                                src="{{ asset('assets/github.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>GitHub</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/vercel.png"
+                                                src="{{ asset('assets/vercel.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Vercel</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/replit.png"
+                                                src="{{ asset('assets/replit.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Replit</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/lovable.png"
+                                                src="{{ asset('assets/lovable.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Lovable</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/codex.png"
+                                                src="{{ asset('assets/codex.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Codex</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/figma.png"
+                                                src="{{ asset('assets/figma.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Figma</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/illustrator.png"
+                                                src="{{ asset('assets/illustrator.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Illustrator</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/lottie-files.png"
+                                                src="{{ asset('assets/lottie-files.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Lottie Files</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/webflow.png"
+                                                src="{{ asset('assets/webflow.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Webflow</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/posthog.png"
+                                                src="{{ asset('assets/posthog.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Posthog</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/mixpanel.png"
+                                                src="{{ asset('assets/mixpanel.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Mixpanel</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/supabase.png"
+                                                src="{{ asset('assets/supabase.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Supabase</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/notion.png"
+                                                src="{{ asset('assets/notion.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Notion</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/github.png"
+                                                src="{{ asset('assets/github.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>GitHub</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/vercel.png"
+                                                src="{{ asset('assets/vercel.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Vercel</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/replit.png"
+                                                src="{{ asset('assets/replit.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Replit</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/lovable.png"
+                                                src="{{ asset('assets/lovable.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Lovable</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/codex.png"
+                                                src="{{ asset('assets/codex.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Codex</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/figma.png"
+                                                src="{{ asset('assets/figma.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Figma</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/illustrator.png"
+                                                src="{{ asset('assets/illustrator.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Illustrator</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/lottie-files.png"
+                                                src="{{ asset('assets/lottie-files.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Lottie Files</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/webflow.png"
+                                                src="{{ asset('assets/webflow.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Webflow</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/posthog.png"
+                                                src="{{ asset('assets/posthog.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Posthog</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/mixpanel.png"
+                                                src="{{ asset('assets/mixpanel.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Mixpanel</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/supabase.png"
+                                                src="{{ asset('assets/supabase.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Supabase</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/notion.png"
+                                                src="{{ asset('assets/notion.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Notion</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/github.png"
+                                                src="{{ asset('assets/github.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>GitHub</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/vercel.png"
+                                                src="{{ asset('assets/vercel.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Vercel</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/replit.png"
+                                                src="{{ asset('assets/replit.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Replit</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/lovable.png"
+                                                src="{{ asset('assets/lovable.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Lovable</span></span><span
                                         class="inline-flex items-center gap-1"><span
                                             class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/codex.png"
+                                                src="{{ asset('assets/codex.png') }}"
                                                 alt="" class="max-h-8 max-w-8 object-contain"
                                                 aria-hidden="true"></span><span>Codex</span></span></div>
                             </div>
@@ -957,7 +957,7 @@
                     <div
                         class="grid gap-10 rounded-[20px] border border-white/45 bg-card/65 px-12 py-9 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl sm:px-[60px] sm:py-12 lg:grid-cols-[1fr_34.5rem] lg:items-center lg:justify-between">
                         <div class="flex flex-col items-start gap-7"><img
-                                src="./Karthik M _ Product Designer _ Scalable Digital Products_files/connect.svg"
+                                src="{{ asset('assets/connect.svg') }}"
                                 alt="" class="h-16 w-16 object-contain" aria-hidden="true">
                             <h2 class="font-serif text-[2.5rem] font-normal leading-[1.25] text-ink">Let's build
                                 something meaningful together.</h2><a href="https://calendly.com/karthiklm92/30min"
@@ -994,7 +994,7 @@
                                         rel="noopener noreferrer"
                                         class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 border-2 border-ink bg-transparent text-ink shadow-outlineButton hover:translate-x-1 hover:translate-y-1 hover:bg-ink hover:text-white hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none h-12 px-5 gap-1">Send
                                         Hi<img
-                                            src="./Karthik M _ Product Designer _ Scalable Digital Products_files/whatsapp.svg"
+                                            src="{{ asset('assets/whatsapp.svg') }}"
                                             alt="" class="h-5 w-5 object-contain" aria-hidden="true"></a>
                                 </div>
                             </div>
@@ -1055,10 +1055,10 @@
                             class="flex flex-col gap-10 px-0 sm:px-6 lg:grid lg:grid-cols-[max-content_minmax(0,1fr)] lg:items-end lg:gap-[100px]">
                             <div class="max-w-[32rem]">
                                 <div class="flex gap-4"><img
-                                        src="./Karthik M _ Product Designer _ Scalable Digital Products_files/figma-stamp.png"
+                                        src="{{ asset('assets/figma-stamp.png') }}"
                                         alt="" class="h-[108px] w-[90px] object-contain"
                                         aria-hidden="true"><img
-                                        src="./Karthik M _ Product Designer _ Scalable Digital Products_files/codex-stamp.png"
+                                        src="{{ asset('assets/codex-stamp.png') }}"
                                         alt="" class="h-[108px] w-[90px] object-contain" aria-hidden="true">
                                 </div>
                                 <p
@@ -1069,7 +1069,7 @@
                                     Figma and Codex in ~16h</p>
                             </div>
                             <div class="flex overflow-visible lg:min-w-0 lg:items-end lg:justify-end"><img
-                                    src="./Karthik M _ Product Designer _ Scalable Digital Products_files/design-for-love.svg"
+                                    src="{{ asset('assets/design-for-love.svg') }}"
                                     alt="Karthik"
                                     class="-translate-y-[3px] h-auto w-full sm:ml-auto sm:max-w-[18rem] lg:h-[125px] lg:w-auto lg:max-w-none lg:translate-x-3">
                             </div>
@@ -1087,19 +1087,19 @@
             </footer>
         </div>
     </main><!--$--><!--/$-->
-    <script src="./Karthik M _ Product Designer _ Scalable Digital Products_files/webpack-74c939c87fa0092a.js.download"
+    <script src="{{ asset('assets/webpack-74c939c87fa0092a.js.download') }}"
         id="_R_" async=""></script>
     <script>
         (self.__next_f = self.__next_f || []).push([0])
     </script>
     <script>
         self.__next_f.push([1,
-            "1:\"$Sreact.fragment\"\n2:I[1402,[\"177\",\"static/chunks/app/layout-d44c66b8bd666529.js\"],\"\"]\n3:I[792,[\"177\",\"static/chunks/app/layout-d44c66b8bd666529.js\"],\"UTMTracker\"]\n4:I[9766,[],\"\"]\n5:I[8924,[],\"\"]\n6:I[5722,[\"619\",\"static/chunks/619-ba102abea3e3d0e4.js\",\"57\",\"static/chunks/57-e4c7b01e333aa1c6.js\",\"974\",\"static/chunks/app/page-ac3001c9993794df.js\"],\"InteractiveBackground\"]\n7:I[3180,[\"619\",\"static/chunks/619-ba102abea3e3d0e4.js\",\"57\",\"static/chunks/57-e4c7b01e333aa1c6.js\",\"974\",\"static/chunks/app/page-ac3001c9993794df.js\"],\"Navbar\"]\n8:I[1683,[\"619\",\"static/chunks/619-ba102abea3e3d0e4.js\",\"57\",\"static/chunks/57-e4c7b01e333aa1c6.js\",\"974\",\"static/chunks/app/page-ac3001c9993794df.js\"],\"HeroSection\"]\n9:I[7015,[\"619\",\"static/chunks/619-ba102abea3e3d0e4.js\",\"57\",\"static/chunks/57-e4c7b01e333aa1c6.js\",\"974\",\"static/chunks/app/page-ac3001c9993794df.js\"],\"CaseStudiesSection\"]\n1c:I[7150,[],\"\"]\n:HL[\"/_next/static/css/dd28ea87f02b7f14.css\",\"style\"]\n"
+            "1:\"$Sreact.fragment\"\n2:I[1402,[\"177\",\"static/chunks/app/layout-d44c66b8bd666529.js\"],\"\"]\n3:I[792,[\"177\",\"static/chunks/app/layout-d44c66b8bd666529.js\"],\"UTMTracker\"]\n4:I[9766,[],\"\"]\n5:I[8924,[],\"\"]\n6:I[5722,[\"619\",\"static/chunks/619-ba102abea3e3d0e4.js\",\"57\",\"static/chunks/57-e4c7b01e333aa1c6.js\",\"974\",\"static/chunks/app/page-ac3001c9993794df.js\"],\"InteractiveBackground\"]\n7:I[3180,[\"619\",\"static/chunks/619-ba102abea3e3d0e4.js\",\"57\",\"static/chunks/57-e4c7b01e333aa1c6.js\",\"974\",\"static/chunks/app/page-ac3001c9993794df.js\"],\"Navbar\"]\n8:I[1683,[\"619\",\"static/chunks/619-ba102abea3e3d0e4.js\",\"57\",\"static/chunks/57-e4c7b01e333aa1c6.js\",\"974\",\"static/chunks/app/page-ac3001c9993794df.js\"],\"HeroSection\"]\n9:I[7015,[\"619\",\"static/chunks/619-ba102abea3e3d0e4.js\",\"57\",\"static/chunks/57-e4c7b01e333aa1c6.js\",\"974\",\"static/chunks/app/page-ac3001c9993794df.js\"],\"CaseStudiesSection\"]\n1c:I[7150,[],\"\"]\n:HL[\"/assets/dd28ea87f02b7f14.css\",\"style\"]\n"
         ])
     </script>
     <script>
         self.__next_f.push([1,
-            "0:{\"P\":null,\"b\":\"R2T-DvyPV0MGkBkFmwGpD\",\"p\":\"\",\"c\":[\"\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/dd28ea87f02b7f14.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"min-h-screen bg-canvas font-sans text-ink antialiased\",\"children\":[[\"$\",\"$L2\",null,{\"id\":\"microsoft-clarity\",\"strategy\":\"afterInteractive\",\"children\":\"(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src=\\\"https://www.clarity.ms/tag/\\\"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, \\\"clarity\\\", \\\"script\\\", \\\"w9ci2bigro\\\");\"}],[\"$\",\"$L3\",null,{}],[\"$\",\"$L4\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L5\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}]}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"main\",null,{\"className\":\"relative min-h-screen overflow-x-hidden bg-canvas\",\"children\":[[\"$\",\"$L6\",null,{}],[\"$\",\"div\",null,{\"className\":\"relative z-10\",\"children\":[[\"$\",\"$L7\",null,{}],[\"$\",\"$L8\",null,{}],[\"$\",\"$L9\",null,{}],[\"$\",\"section\",null,{\"className\":\"pb-[52px] pt-2 sm:pb-[72px] sm:pt-3\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto w-full max-w-content px-6 sm:px-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-7\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"font-serif text-[40px] font-normal leading-[52px] text-ink\",\"children\":\"Impact in Numbers\"}],[\"$\",\"div\",null,{\"className\":\"my-stacks-fade -mx-8 -my-8 overflow-hidden px-8 py-8 sm:-mx-10 sm:px-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"impact-numbers-ticker flex min-w-max items-center gap-5\",\"aria-hidden\":\"true\",\"children\":[[[\"$\",\"article\",\"Scaled to 5M+ Users-from 0 base\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"Scaled to 5M+ Users\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"from 0 base\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}],[\"$\",\"article\",\"40% SU-D Funnel-from 15% base\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"40% SU-D Funnel\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"from 15% base\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":\"$La\"}]]}],\"$Lb\",\"$Lc\",\"$Ld\",\"$Le\",\"$Lf\"],[\"$L10\",\"$L11\",\"$L12\",\"$L13\",\"$L14\",\"$L15\",\"$L16\"]]}]}]]}]}]}],\"$L17\",\"$L18\",\"$L19\"]}]]}],null,\"$L1a\"]}],{},null,false]},null,false],\"$L1b\",false]],\"m\":\"$undefined\",\"G\":[\"$1c\",[]],\"s\":false,\"S\":true}\n"
+            "0:{\"P\":null,\"b\":\"R2T-DvyPV0MGkBkFmwGpD\",\"p\":\"\",\"c\":[\"\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/assets/dd28ea87f02b7f14.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"min-h-screen bg-canvas font-sans text-ink antialiased\",\"children\":[[\"$\",\"$L2\",null,{\"id\":\"microsoft-clarity\",\"strategy\":\"afterInteractive\",\"children\":\"(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src=\\\"https://www.clarity.ms/tag/\\\"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, \\\"clarity\\\", \\\"script\\\", \\\"w9ci2bigro\\\");\"}],[\"$\",\"$L3\",null,{}],[\"$\",\"$L4\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L5\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}]}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"main\",null,{\"className\":\"relative min-h-screen overflow-x-hidden bg-canvas\",\"children\":[[\"$\",\"$L6\",null,{}],[\"$\",\"div\",null,{\"className\":\"relative z-10\",\"children\":[[\"$\",\"$L7\",null,{}],[\"$\",\"$L8\",null,{}],[\"$\",\"$L9\",null,{}],[\"$\",\"section\",null,{\"className\":\"pb-[52px] pt-2 sm:pb-[72px] sm:pt-3\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto w-full max-w-content px-6 sm:px-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-7\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"font-serif text-[40px] font-normal leading-[52px] text-ink\",\"children\":\"Impact in Numbers\"}],[\"$\",\"div\",null,{\"className\":\"my-stacks-fade -mx-8 -my-8 overflow-hidden px-8 py-8 sm:-mx-10 sm:px-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"impact-numbers-ticker flex min-w-max items-center gap-5\",\"aria-hidden\":\"true\",\"children\":[[[\"$\",\"article\",\"Scaled to 5M+ Users-from 0 base\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"Scaled to 5M+ Users\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"from 0 base\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}],[\"$\",\"article\",\"40% SU-D Funnel-from 15% base\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"40% SU-D Funnel\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"from 15% base\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":\"$La\"}]]}],\"$Lb\",\"$Lc\",\"$Ld\",\"$Le\",\"$Lf\"],[\"$L10\",\"$L11\",\"$L12\",\"$L13\",\"$L14\",\"$L15\",\"$L16\"]]}]}]]}]}]}],\"$L17\",\"$L18\",\"$L19\"]}]]}],null,\"$L1a\"]}],{},null,false]},null,false],\"$L1b\",false]],\"m\":\"$undefined\",\"G\":[\"$1c\",[]],\"s\":false,\"S\":true}\n"
         ])
     </script>
     <script>
@@ -1194,12 +1194,12 @@
     </script>
     <script>
         self.__next_f.push([1,
-            "2b:[\"$\",\"div\",null,{\"className\":\"my-stacks-fade flex h-12 w-full overflow-hidden border-y border-moss/20 bg-[linear-gradient(90deg,rgba(239,241,193,0)_0%,rgb(239,241,193)_10%,rgb(239,241,193)_90%,rgba(239,241,193,0)_100%)]\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex min-w-max items-center gap-6 whitespace-nowrap px-16 text-base leading-none text-ink my-stacks-ticker-rtl\",\"aria-hidden\":\"true\",\"children\":[[[\"$\",\"span\",\"Figma\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/tool-logos/figma.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Figma\"}]]}],[\"$\",\"span\",\"Illustrator\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/tool-logos/illustrator.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Illustrator\"}]]}],[\"$\",\"span\",\"Lottie Files\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/tool-logos/lottie-files.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Lottie Files\"}]]}],[\"$\",\"span\",\"Webflow\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/tool-logos/webflow.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Webflow\"}]]}],[\"$\",\"span\",\"Posthog\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/tool-logos/posthog.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Posthog\"}]]}],[\"$\",\"span\",\"Mixpanel\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/tool-logos/mixpanel.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Mixpanel\"}]]}],[\"$\",\"span\",\"Supabase\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/tool-logos/supabase.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Supabase\"}]]}],[\"$\",\"span\",\"Notion\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/tool-logos/notion.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Notion\"}]]}],[\"$\",\"span\",\"GitHub\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/tool-logos/github.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"GitHub\"}]]}],[\"$\",\"span\",\"Vercel\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/tool-logos/vercel.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Vercel\"}]]}],[\"$\",\"span\",\"Replit\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":\"$L36\"}],\"$L37\"]}],\"$L38\",\"$L39\"],\"$2b:props:children:props:children:0\",\"$2b:props:children:props:children:0\"]}]}]\n"
+            "2b:[\"$\",\"div\",null,{\"className\":\"my-stacks-fade flex h-12 w-full overflow-hidden border-y border-moss/20 bg-[linear-gradient(90deg,rgba(239,241,193,0)_0%,rgb(239,241,193)_10%,rgb(239,241,193)_90%,rgba(239,241,193,0)_100%)]\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex min-w-max items-center gap-6 whitespace-nowrap px-16 text-base leading-none text-ink my-stacks-ticker-rtl\",\"aria-hidden\":\"true\",\"children\":[[[\"$\",\"span\",\"Figma\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/figma.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Figma\"}]]}],[\"$\",\"span\",\"Illustrator\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/illustrator.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Illustrator\"}]]}],[\"$\",\"span\",\"Lottie Files\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/lottie-files.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Lottie Files\"}]]}],[\"$\",\"span\",\"Webflow\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/webflow.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Webflow\"}]]}],[\"$\",\"span\",\"Posthog\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/posthog.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Posthog\"}]]}],[\"$\",\"span\",\"Mixpanel\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/mixpanel.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Mixpanel\"}]]}],[\"$\",\"span\",\"Supabase\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/supabase.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Supabase\"}]]}],[\"$\",\"span\",\"Notion\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/notion.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Notion\"}]]}],[\"$\",\"span\",\"GitHub\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/github.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"GitHub\"}]]}],[\"$\",\"span\",\"Vercel\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/vercel.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Vercel\"}]]}],[\"$\",\"span\",\"Replit\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":\"$L36\"}],\"$L37\"]}],\"$L38\",\"$L39\"],\"$2b:props:children:props:children:0\",\"$2b:props:children:props:children:0\"]}]}]\n"
         ])
     </script>
     <script>
         self.__next_f.push([1,
-            "36:[\"$\",\"img\",null,{\"src\":\"/assets/tool-logos/replit.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]\n37:[\"$\",\"span\",null,{\"children\":\"Replit\"}]\n38:[\"$\",\"span\",\"Lovable\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/tool-logos/lovable.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Lovable\"}]]}]\n39:[\"$\",\"span\",\"Codex\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/tool-logos/codex.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Codex\"}]]}]\n"
+            "36:[\"$\",\"img\",null,{\"src\":\"/assets/replit.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]\n37:[\"$\",\"span\",null,{\"children\":\"Replit\"}]\n38:[\"$\",\"span\",\"Lovable\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/lovable.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Lovable\"}]]}]\n39:[\"$\",\"span\",\"Codex\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/codex.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Codex\"}]]}]\n"
         ])
     </script>
     <script>
@@ -1212,7 +1212,7 @@
     </script>
     <script>
         self.__next_f.push([1,
-            "30:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Karthik M | Product Designer | Scalable Digital Products\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"I’m a Product Designer focused on building and scaling digital products. I work on complex systems and collaborate with teams to deliver meaningful outcomes.\"}],[\"$\",\"meta\",\"2\",{\"property\":\"og:title\",\"content\":\"Karthik M | Product Designer | Scalable Digital Products\"}],[\"$\",\"meta\",\"3\",{\"property\":\"og:description\",\"content\":\"I’m a Product Designer focused on building and scaling digital products.\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:url\",\"content\":\"https://www.dizkarthik.com\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:site_name\",\"content\":\"Karthik Portfolio\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:image\",\"content\":\"https://www.dizkarthik.com/og-image.png\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"10\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:title\",\"content\":\"Karthik M | Product Designer\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:description\",\"content\":\"Product Designer building scalable digital products.\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:image\",\"content\":\"https://www.dizkarthik.com/og-image.png\"}],[\"$\",\"link\",\"14\",{\"rel\":\"icon\",\"href\":\"/favicon.png\"}],[\"$\",\"$L3a\",\"15\",{}]],\"error\":null,\"digest\":\"$undefined\"}\n"
+            "30:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Karthik M | Product Designer | Scalable Digital Products\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"I’m a Product Designer focused on building and scaling digital products. I work on complex systems and collaborate with teams to deliver meaningful outcomes.\"}],[\"$\",\"meta\",\"2\",{\"property\":\"og:title\",\"content\":\"Karthik M | Product Designer | Scalable Digital Products\"}],[\"$\",\"meta\",\"3\",{\"property\":\"og:description\",\"content\":\"I’m a Product Designer focused on building and scaling digital products.\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:url\",\"content\":\"https://www.dizkarthik.com\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:site_name\",\"content\":\"Karthik Portfolio\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:image\",\"content\":\"{{ asset('assets/hero-image.png') }}\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"10\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:title\",\"content\":\"Karthik M | Product Designer\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:description\",\"content\":\"Product Designer building scalable digital products.\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:image\",\"content\":\"{{ asset('assets/hero-image.png') }}\"}],[\"$\",\"link\",\"14\",{\"rel\":\"icon\",\"href\":\"/favicon.png\"}],[\"$\",\"$L3a\",\"15\",{}]],\"error\":null,\"digest\":\"$undefined\"}\n"
         ])
     </script>
     <script>
