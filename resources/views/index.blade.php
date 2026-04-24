@@ -95,6 +95,27 @@
     <meta name="twitter:description" content="Software engineer from Kenya. I build and ship systems that last.">
     <meta name="twitter:image" content="{{ asset('assets/hero-image.png') }}">
     <link rel="icon" href="{{ asset('assets/logo.svg') }}">
+    <style>
+        @keyframes hero-typewriter-caret-blink {
+            0%,
+            50% {
+                opacity: 1;
+            }
+            51%,
+            100% {
+                opacity: 0;
+            }
+        }
+        .hero-typewriter-caret {
+            animation: hero-typewriter-caret-blink 0.9s step-end infinite;
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .hero-typewriter-caret {
+                animation: none;
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
 
 <body class="min-h-screen bg-canvas font-sans text-ink antialiased">
@@ -188,12 +209,15 @@
                                     class="max-w-[606px] font-sans text-[2.875rem] font-semibold leading-[60px] text-ink">
                                     <span class="block">I build and scale</span><span
                                         class="block">software that delivers</span><span class="block"><span
-                                            class="hero-typewriter relative inline-flex items-center font-serif text-[50px] font-medium text-[#5f9a20] leading-[60px]"
-                                            aria-label="real-world impact"><span class="invisible">real-world
-                                                impact</span><span
-                                                class="absolute left-0 top-0 inline-flex items-center whitespace-nowrap"><span>real-world
-                                                    impact</span><span
-                                                    class="hero-typewriter-caret ml-1 inline-block h-[0.9em] w-px bg-current"></span></span></span></span>
+                                            class="hero-typewriter relative inline-flex min-h-[60px] items-center font-serif text-[50px] font-medium text-[#5f9a20] leading-[60px]"
+                                            aria-label="Headline: cycling phrases for what your software delivers"><span
+                                                class="invisible block select-none"
+                                                id="hero-typewriter-sizer"
+                                                aria-hidden="true">end-to-end ownership from database to user</span><span
+                                                class="absolute left-0 top-0 inline-flex items-center whitespace-nowrap"><span
+                                                id="hero-typewriter-line"></span><span
+                                                class="hero-typewriter-caret ml-1 inline-block h-[0.9em] w-px bg-current"
+                                                aria-hidden="true"></span></span></span></span>
                                 </h1>
                             </div>
                             <div class="flex flex-col gap-7">
@@ -1075,6 +1099,75 @@
             </footer>
         </div>
     </main>
+    <script>
+        (function () {
+            var PHRASES = [
+                'real-world impact',
+                'reliable systems at scale',
+                'KSh-trusted payment flows',
+                'secure APIs and integrations',
+                'observable, maintainable code',
+                'measurable product outcomes',
+                'uptime and performance that matter',
+                'end-to-end ownership from database to user',
+            ];
+            var root = document.querySelector('.hero-typewriter');
+            var sizer = document.getElementById('hero-typewriter-sizer');
+            var line = document.getElementById('hero-typewriter-line');
+            if (!root || !sizer || !line) return;
+            var longest = PHRASES.slice().sort(function (a, b) {
+                return b.length - a.length;
+            })[0];
+            sizer.textContent = longest;
+            if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                line.textContent = PHRASES[0];
+                root.setAttribute('aria-label', 'software that delivers ' + PHRASES[0]);
+                return;
+            }
+            var pi = 0;
+            var shown = 0;
+            var state = 'type';
+            var typeMs = 48;
+            var deleteMs = 32;
+            var endPause = 2400;
+            var betweenPause = 400;
+            function setAria() {
+                var t = line.textContent;
+                root.setAttribute('aria-label', t ? 'software that delivers ' + t : 'typing next phrase');
+            }
+            function run() {
+                var phrase = PHRASES[pi];
+                if (state === 'type') {
+                    if (shown < phrase.length) {
+                        shown++;
+                        line.textContent = phrase.slice(0, shown);
+                        setAria();
+                        setTimeout(run, typeMs);
+                    } else {
+                        setTimeout(function () {
+                            state = 'delete';
+                            run();
+                        }, endPause);
+                    }
+                } else {
+                    if (shown > 0) {
+                        shown--;
+                        line.textContent = phrase.slice(0, shown);
+                        setAria();
+                        setTimeout(run, deleteMs);
+                    } else {
+                        state = 'type';
+                        pi = (pi + 1) % PHRASES.length;
+                        setTimeout(function () {
+                            run();
+                        }, betweenPause);
+                    }
+                }
+            }
+            setAria();
+            run();
+        })();
+    </script>
     <script id="microsoft-clarity" data-nscript="afterInteractive">
         (function(c, l, a, r, i, t, y) {
             c[a] = c[a] || function() {
