@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!-- Portfolio: Brian Opiyo -->
 <html lang="en">
 
@@ -26,24 +26,9 @@
         href="{{ asset('assets/big-lean.svg') }}">
     <link rel="stylesheet" href="{{ asset('assets/dd28ea87f02b7f14.css') }}"
         data-precedence="next">
-    <link rel="preload" as="script" fetchpriority="low"
-        href="{{ asset('assets/webpack-74c939c87fa0092a.js.download') }}">
     <script async="" src="{{ asset('assets/clarity.js.download') }}"></script>
     <script async="" src="{{ asset('assets/w9ci2bigro') }}"></script>
-    <script src="{{ asset('assets/4bd1b696-c023c6e3521b1417.js.download') }}"
-        async=""></script>
-    <script src="{{ asset('assets/255-cb395327542b56ef.js.download') }}"
-        async=""></script>
-    <script src="{{ asset('assets/main-app-f9b5d20365cb8be2.js.download') }}"
-        async=""></script>
-    <script src="{{ asset('assets/layout-d44c66b8bd666529.js.download') }}"
-        async=""></script>
-    <script src="{{ asset('assets/619-ba102abea3e3d0e4.js.download') }}"
-        async=""></script>
-    <script src="{{ asset('assets/57-e4c7b01e333aa1c6.js.download') }}" async="">
-    </script>
-    <script src="{{ asset('assets/page-ac3001c9993794df.js.download') }}"
-        async=""></script>
+    {{-- Next.js chunks removed: they re-hydrate the DOM and replace Blade copy with the old export. Page is static HTML + CSS. --}}
     <link rel="preload" as="image"
         href="{{ asset('assets/case-study-1-carousel-1.png') }}">
     <link rel="preload" as="image"
@@ -110,8 +95,6 @@
     <meta name="twitter:description" content="Software engineer from Kenya. I build and ship systems that last.">
     <meta name="twitter:image" content="{{ asset('assets/hero-image.png') }}">
     <link rel="icon" href="{{ asset('assets/logo.svg') }}">
-    <script src="{{ asset('assets/polyfills-42372ed130431b0a.js.download') }}"
-        nomodule=""></script>
 </head>
 
 <body class="min-h-screen bg-canvas font-sans text-ink antialiased">
@@ -296,37 +279,39 @@
                         <article
                             class="group/case flex flex-col overflow-hidden rounded-[24px] bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl transition-shadow duration-200 hover:shadow-[0_20px_54px_rgba(33,35,41,0.08)] xl:flex-row xl:items-center">
                             <a class="group flex min-h-[600px] w-full flex-col bg-transparent px-6 py-8 transition-[background-color] duration-200 hover:bg-white/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-moss/40 sm:px-10 xl:w-[400px]"
-                                aria-label="View case study: Week-one return rate up 27 percent with KSh 1.1B plus weekly notional through a hardened trade path"
+                                aria-label="View case study: Laravel APIs and KSh 1.1B weekly notional, week one retention up 27 percent"
                                 href="#works">
                                 <div class="flex flex-1 flex-col justify-between gap-10">
                                     <div class="flex flex-col gap-4">
                                         <div class="flex flex-wrap items-center gap-3">
                                             <div class="flex items-center gap-3">
-                                                <p class="text-base font-medium leading-none text-copy">Fintech</p>
+                                                <p class="text-base font-medium leading-none text-copy">Laravel</p>
                                             </div>
                                             <div class="flex items-center gap-3"><span
                                                     class="block h-1 w-1 rounded-full bg-[#a8aba0]"></span>
-                                                <p class="text-base font-medium leading-none text-copy">TypeScript</p>
+                                                <p class="text-base font-medium leading-none text-copy">MySQL</p>
                                             </div>
                                             <div class="flex items-center gap-3"><span
                                                     class="block h-1 w-1 rounded-full bg-[#a8aba0]"></span>
-                                                <p class="text-base font-medium leading-none text-copy">SRE</p>
+                                                <p class="text-base font-medium leading-none text-copy">Redis</p>
                                             </div>
                                         </div>
                                         <div class="flex flex-col gap-3">
                                             <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">Hardening
-                                                the first-week journey: D7 +27% and KSh 1.1B+ in weekly notional
-                                                (Kenya fintech client)</h3>
-                                            <p class="text-base leading-7 text-copy">I owned idempotent order APIs, the
-                                                wallet and ledger pipeline, and retry-safe jobs so users finish trades
-                                                without double posts—instrumented for p95 latency and end-to-end
-                                                settlement traces.</p>
+                                                settlement with Laravel: D7 +27% and KSh 1.1B+ in weekly notional
+                                                (Kenya-facing rails)</h3>
+                                            <p class="text-base leading-7 text-copy">I shipped idempotent
+                                                <span class="font-mono text-[0.95em]">POST /trades</span> endpoints,
+                                                queued wallet writes with Redis-backed Horizon jobs, and DB transactions
+                                                so a trade either commits once or fails cleanly—observability for p95
+                                                API time and M-Pesa / bank callbacks in <span
+                                                    class="font-mono text-[0.95em]">KSh</span>.</p>
                                         </div>
                                         <div class="flex flex-wrap gap-3"><span
-                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">Node</span><span
-                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">Postgres</span><span
-                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">Idempotency</span><span
-                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">SLOs</span></div>
+                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">Laravel</span><span
+                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">Queues</span><span
+                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">REST APIs</span><span
+                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">MySQL</span></div>
                                     </div>
                                     <div
                                         class="inline-flex w-fit items-center gap-1 text-base font-semibold leading-none text-moss transition-colors duration-200 group-hover/case:text-[#6aa931]">
@@ -1089,138 +1074,7 @@
                 </div>
             </footer>
         </div>
-    </main><!--$--><!--/$-->
-    <script src="{{ asset('assets/webpack-74c939c87fa0092a.js.download') }}"
-        id="_R_" async=""></script>
-    <script>
-        (self.__next_f = self.__next_f || []).push([0])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "1:\"$Sreact.fragment\"\n2:I[1402,[\"177\",\"static/chunks/app/layout-d44c66b8bd666529.js\"],\"\"]\n3:I[792,[\"177\",\"static/chunks/app/layout-d44c66b8bd666529.js\"],\"UTMTracker\"]\n4:I[9766,[],\"\"]\n5:I[8924,[],\"\"]\n6:I[5722,[\"619\",\"static/chunks/619-ba102abea3e3d0e4.js\",\"57\",\"static/chunks/57-e4c7b01e333aa1c6.js\",\"974\",\"static/chunks/app/page-ac3001c9993794df.js\"],\"InteractiveBackground\"]\n7:I[3180,[\"619\",\"static/chunks/619-ba102abea3e3d0e4.js\",\"57\",\"static/chunks/57-e4c7b01e333aa1c6.js\",\"974\",\"static/chunks/app/page-ac3001c9993794df.js\"],\"Navbar\"]\n8:I[1683,[\"619\",\"static/chunks/619-ba102abea3e3d0e4.js\",\"57\",\"static/chunks/57-e4c7b01e333aa1c6.js\",\"974\",\"static/chunks/app/page-ac3001c9993794df.js\"],\"HeroSection\"]\n9:I[7015,[\"619\",\"static/chunks/619-ba102abea3e3d0e4.js\",\"57\",\"static/chunks/57-e4c7b01e333aa1c6.js\",\"974\",\"static/chunks/app/page-ac3001c9993794df.js\"],\"CaseStudiesSection\"]\n1c:I[7150,[],\"\"]\n:HL[\"/assets/dd28ea87f02b7f14.css\",\"style\"]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "0:{\"P\":null,\"b\":\"R2T-DvyPV0MGkBkFmwGpD\",\"p\":\"\",\"c\":[\"\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/assets/dd28ea87f02b7f14.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"min-h-screen bg-canvas font-sans text-ink antialiased\",\"children\":[[\"$\",\"$L2\",null,{\"id\":\"microsoft-clarity\",\"strategy\":\"afterInteractive\",\"children\":\"(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src=\\\"https://www.clarity.ms/tag/\\\"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, \\\"clarity\\\", \\\"script\\\", \\\"w9ci2bigro\\\");\"}],[\"$\",\"$L3\",null,{}],[\"$\",\"$L4\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L5\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}]}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"main\",null,{\"className\":\"relative min-h-screen overflow-x-hidden bg-canvas\",\"children\":[[\"$\",\"$L6\",null,{}],[\"$\",\"div\",null,{\"className\":\"relative z-10\",\"children\":[[\"$\",\"$L7\",null,{}],[\"$\",\"$L8\",null,{}],[\"$\",\"$L9\",null,{}],[\"$\",\"section\",null,{\"className\":\"pb-[52px] pt-2 sm:pb-[72px] sm:pt-3\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto w-full max-w-content px-6 sm:px-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-7\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"font-serif text-[40px] font-normal leading-[52px] text-ink\",\"children\":\"Impact in Numbers\"}],[\"$\",\"div\",null,{\"className\":\"my-stacks-fade -mx-8 -my-8 overflow-hidden px-8 py-8 sm:-mx-10 sm:px-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"impact-numbers-ticker flex min-w-max items-center gap-5\",\"aria-hidden\":\"true\",\"children\":[[[\"$\",\"article\",\"5M+ events-indexed per day\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"5M+ events\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"indexed per day\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}],[\"$\",\"article\",\"p95 -40% on hot path\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"p95 -40% on\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"hot read path\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":\"$La\"}]]}],\"$Lb\",\"$Lc\",\"$Ld\",\"$Le\",\"$Lf\"],[\"$L10\",\"$L11\",\"$L12\",\"$L13\",\"$L14\",\"$L15\",\"$L16\"]]}]}]]}]}]}],\"$L17\",\"$L18\",\"$L19\"]}]]}],null,\"$L1a\"]}],{},null,false]},null,false],\"$L1b\",false]],\"m\":\"$undefined\",\"G\":[\"$1c\",[]],\"s\":false,\"S\":true}\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "1d:I[7003,[\"619\",\"static/chunks/619-ba102abea3e3d0e4.js\",\"57\",\"static/chunks/57-e4c7b01e333aa1c6.js\",\"974\",\"static/chunks/app/page-ac3001c9993794df.js\"],\"Button\"]\n2c:I[2491,[\"619\",\"static/chunks/619-ba102abea3e3d0e4.js\",\"57\",\"static/chunks/57-e4c7b01e333aa1c6.js\",\"974\",\"static/chunks/app/page-ac3001c9993794df.js\"],\"FooterCtaSection\"]\n2d:I[4431,[],\"OutletBoundary\"]\n2f:I[5278,[],\"AsyncMetadataOutlet\"]\n31:I[4431,[],\"ViewportBoundary\"]\n33:I[4431,[],\"MetadataBoundary\"]\n34:\"$Sreact.suspense\"\na:[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "b:[\"$\",\"article\",\"Strangler rollout-for ITSM monolith\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"Strangler rollout\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"for ITSM monolith\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Zoho.png\",\"alt\":\"Zoho\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "c:[\"$\",\"article\",\"40% faster-CI build and deploy\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"40% faster\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"CI build \u0026 deploy\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/GTM.png\",\"alt\":\"GTM\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "d:[\"$\",\"article\",\"-28% MTTR-on P1 queue\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"-28% MTTR\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"on P1 ticket queue\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Zoho.png\",\"alt\":\"Zoho\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "e:[\"$\",\"article\",\"KSh 1.1B weekly-notional through stack\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"KSh 1.1B+ weekly\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"notional through stack\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "f:[\"$\",\"article\",\"Auth p95 down-after edge cache\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"Auth p95 down\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"after edge cache + OTP\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/GTM.png\",\"alt\":\"GTM\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "10:[\"$\",\"article\",\"5M+ events-indexed per day-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"5M+ events\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"indexed per day\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "11:[\"$\",\"article\",\"p95 -40% on hot path-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"p95 -40% on\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"hot read path\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "12:[\"$\",\"article\",\"Strangler rollout-for ITSM monolith-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"Strangler rollout\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"for ITSM monolith\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Zoho.png\",\"alt\":\"Zoho\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "13:[\"$\",\"article\",\"40% faster-CI build and deploy-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"40% faster\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"CI build \u0026 deploy\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/GTM.png\",\"alt\":\"GTM\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "14:[\"$\",\"article\",\"-28% MTTR-on P1 queue-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"-28% MTTR\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"on P1 ticket queue\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Zoho.png\",\"alt\":\"Zoho\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "15:[\"$\",\"article\",\"KSh 1.1B weekly-notional through stack-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"KSh 1.1B+ weekly\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"notional through stack\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/Sixer.png\",\"alt\":\"Sixer\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "16:[\"$\",\"article\",\"Auth p95 down-after edge cache-duplicate\",{\"className\":\"flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-[30px] text-ink\",\"children\":\"Auth p95 down\"}],[\"$\",\"p\",null,{\"className\":\"text-base leading-6 text-copy\",\"children\":\"after edge cache + OTP\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex h-6 w-20 items-center justify-start overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/GTM.png\",\"alt\":\"GTM\",\"className\":\"h-6 w-20 object-contain object-left\"}]}]]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "17:[\"$\",\"section\",null,{\"id\":\"about\",\"className\":\"pb-16 pt-2 sm:pb-20 sm:pt-6\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto w-full max-w-content px-6 sm:px-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-6\",\"children\":[[\"$\",\"div\",null,{\"className\":\"grid gap-5 lg:grid-cols-[215px_minmax(0,1fr)]\",\"children\":[[\"$\",\"figure\",null,{\"className\":\"overflow-hidden rounded-[22px] border-4 border-white bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[\"$\",\"div\",null,{\"className\":\"h-[258px] overflow-hidden rounded-[18px]\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/about-me.png\",\"alt\":\"Brian Opiyo\",\"className\":\"block h-full w-full object-cover object-center\"}]}]}],[\"$\",\"div\",null,{\"className\":\"flex min-h-[258px] flex-col justify-center rounded-[16px] border border-white/45 bg-card/65 px-8 py-8 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl md:px-10\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"h2\",null,{\"className\":\"font-serif text-[26px] font-normal leading-none text-ink\",\"children\":\"About Brian Opiyo\"}],[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-[49rem] text-base leading-7 text-copy\",\"children\":\"I'm Brian Opiyo, a software engineer from Kenya, drawn to complex systems that need to stay simple, reliable, and fast. I care about shipping maintainable code, collaborating with product and engineering, and building software that moves users and the business forward.\"}]]}],[\"$\",\"$L1d\",null,{\"href\":\"mailto:hello@brianopiyo.com?subject=Resume%20request\",\"target\":\"_blank\",\"variant\":\"secondary\",\"className\":\"mt-6 w-fit\",\"children\":\"Download Resume\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"grid gap-5 sm:grid-cols-2 lg:grid-cols-4\",\"children\":[[\"$\",\"article\",\"0\",{\"className\":\"min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-serif text-[24px] font-normal leading-7 text-ink\",\"children\":[[\"$\",\"span\",null,{\"className\":\"whitespace-nowrap font-sans text-[20px] font-normal leading-8\",\"children\":\"From Kenya to\"}],[\"$\",\"br\",null,{}],\"global teams\"]}],[\"$\",\"p\",null,{\"className\":\"mt-4 text-base leading-[24px] text-copy\",\"children\":\"Shipping software with distributed teams across time zones\"}]]}],[\"$\",\"article\",\"1\",{\"className\":\"min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-serif text-[24px] font-normal leading-7 text-ink\",\"children\":\"Reliable at scale\"}],[\"$\",\"p\",null,{\"className\":\"mt-4 text-base leading-[24px] text-copy\",\"children\":\"Building systems that stay performant under real traffic\"}]]}],[\"$\",\"article\",\"2\",{\"className\":\"min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-serif text-[24px] font-normal leading-7 text-ink\",\"children\":\"APIs, data \u0026 product\"}],[\"$\",\"p\",null,{\"className\":\"mt-4 text-base leading-[24px] text-copy\",\"children\":\"Owned features from database to interface\"}]]}],[\"$\",\"article\",\"3\",{\"className\":\"min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-serif text-[24px] font-normal leading-7 text-ink\",\"children\":\"Code quality \u0026 systems\"}],[\"$\",\"p\",null,{\"className\":\"mt-4 text-base leading-[24px] text-copy\",\"children\":\"Pragmatic trade-offs and maintainable software\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-6\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-wrap items-start gap-3\",\"children\":[[\"$\",\"div\",null,{\"className\":\"px-2 pt-[6px]\",\"children\":[\"$\",\"h3\",null,{\"className\":\"font-serif text-[24px] font-normal leading-none text-ink\",\"children\":\"Core Expertise\"}]}],[[\"$\",\"span\",\"System Design\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"System Design\"}],\"$L1e\",\"$L1f\",\"$L20\",\"$L21\",\"$L22\",\"$L23\",\"$L24\",\"$L25\",\"$L26\",\"$L27\",\"$L28\",\"$L29\",\"$L2a\"]]}],\"$L2b\"]}]]}]}]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "18:[\"$\",\"section\",null,{\"id\":\"process\",\"className\":\"pb-20 pt-8 sm:pb-24 sm:pt-14\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto w-full max-w-content px-6 sm:px-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"grid gap-12 px-0 sm:px-6 lg:grid-cols-[26.25rem_1fr] lg:gap-[4.5rem]\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"h2\",null,{\"className\":\"max-w-[18rem] font-serif text-[2.5rem] font-normal leading-[1.3] text-ink\",\"children\":[\"How I Build\",[\"$\",\"br\",null,{}],\"Software\"]}],[\"$\",\"p\",null,{\"className\":\"mt-6 max-w-[26rem] text-base leading-7 text-copy\",\"children\":\"From early ideas to production systems, I focus on clarity, maintainability, and measurable impact.\"}]]}],[\"$\",\"div\",null,{\"className\":\"relative lg:pl-12\",\"children\":[[\"$\",\"div\",null,{\"className\":\"build-line-gradient absolute left-0 top-0 hidden h-[30rem] w-2 rounded-full lg:block\"}],[\"$\",\"div\",null,{\"className\":\"space-y-9\",\"children\":[[\"$\",\"article\",\"Diagnose Gaps\",{\"className\":\"max-w-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-none text-ink\",\"children\":\"Diagnose Gaps\"}],[\"$\",\"p\",null,{\"className\":\"mt-3 max-w-[29rem] text-base leading-7 text-copy\",\"children\":\"Identify friction across user behavior, product logic, and business metrics.\"}]]}],[\"$\",\"article\",\"Define Outcomes\",{\"className\":\"max-w-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-none text-ink\",\"children\":\"Define Outcomes\"}],[\"$\",\"p\",null,{\"className\":\"mt-3 max-w-[29rem] text-base leading-7 text-copy\",\"children\":\"Tie technical decisions to measurable product and business impact.\"}]]}],[\"$\",\"article\",\"Partner Deeply\",{\"className\":\"max-w-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-none text-ink\",\"children\":\"Partner Deeply\"}],[\"$\",\"p\",null,{\"className\":\"mt-3 max-w-[29rem] text-base leading-7 text-copy\",\"children\":\"Collaborate deeply with product and engineering to balance speed, feasibility, and experience.\"}]]}],[\"$\",\"article\",\"Build Systems\",{\"className\":\"max-w-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-none text-ink\",\"children\":\"Build Systems\"}],[\"$\",\"p\",null,{\"className\":\"mt-3 max-w-[29rem] text-base leading-7 text-copy\",\"children\":\"Create scalable architecture, not isolated screens.\"}]]}],[\"$\",\"article\",\"Validate fast\",{\"className\":\"max-w-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-none text-ink\",\"children\":\"Validate fast\"}],[\"$\",\"p\",null,{\"className\":\"mt-3 max-w-[29rem] text-base leading-7 text-copy\",\"children\":\"Iterate through real usage, data, and feedback loops.\"}]]}]]}]]}]]}]}]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "19:[\"$\",\"$L2c\",null,{}]\n1a:[\"$\",\"$L2d\",null,{\"children\":[\"$L2e\",[\"$\",\"$L2f\",null,{\"promise\":\"$@30\"}]]}]\n1b:[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$L31\",null,{\"children\":\"$L32\"}],null],[\"$\",\"$L33\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$34\",null,{\"fallback\":null,\"children\":\"$L35\"}]}]}]]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "1e:[\"$\",\"span\",\"System Thinking\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"System Thinking\"}]\n1f:[\"$\",\"span\",\"APIs & Integrations\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"APIs & Integrations\"}]\n20:[\"$\",\"span\",\"Databases \u0026 data\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Databases \u0026 data\"}]\n21:[\"$\",\"span\",\"Data-Driven Decisions\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Data-Driven Decisions\"}]\n22:[\"$\",\"span\",\"Scalable architecture\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Scalable architecture\"}]\n23:[\"$\",\"span\",\"Backend services\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Backend services\"}]\n24:[\"$\",\"span\",\"Frontend & UI\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Frontend & UI\"}]\n25:[\"$\",\"span\",\"Technical writing\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Technical writing\"}]\n26:[\"$\",\"span\",\"AI & automation\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"AI & automation\"}]\n27:[\"$\",\"span\",\"A/B Testing\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8e"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "c] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"A/B Testing\"}]\n28:[\"$\",\"span\",\"Design to Code\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Design to Code\"}]\n29:[\"$\",\"span\",\"Developer tooling\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Developer tooling\"}]\n2a:[\"$\",\"span\",\"And more\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"And more\"}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "2b:[\"$\",\"div\",null,{\"className\":\"my-stacks-fade flex h-12 w-full overflow-hidden border-y border-moss/20 bg-[linear-gradient(90deg,rgba(239,241,193,0)_0%,rgb(239,241,193)_10%,rgb(239,241,193)_90%,rgba(239,241,193,0)_100%)]\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex min-w-max items-center gap-6 whitespace-nowrap px-16 text-base leading-none text-ink my-stacks-ticker-rtl\",\"aria-hidden\":\"true\",\"children\":[[[\"$\",\"span\",\"Figma\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/figma.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Figma\"}]]}],[\"$\",\"span\",\"Illustrator\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/illustrator.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Illustrator\"}]]}],[\"$\",\"span\",\"Lottie Files\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/lottie-files.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Lottie Files\"}]]}],[\"$\",\"span\",\"Webflow\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/webflow.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Webflow\"}]]}],[\"$\",\"span\",\"Posthog\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/posthog.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Posthog\"}]]}],[\"$\",\"span\",\"Mixpanel\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/mixpanel.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Mixpanel\"}]]}],[\"$\",\"span\",\"Supabase\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/supabase.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Supabase\"}]]}],[\"$\",\"span\",\"Notion\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/notion.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Notion\"}]]}],[\"$\",\"span\",\"GitHub\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/github.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"GitHub\"}]]}],[\"$\",\"span\",\"Vercel\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/vercel.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Vercel\"}]]}],[\"$\",\"span\",\"Replit\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":\"$L36\"}],\"$L37\"]}],\"$L38\",\"$L39\"],\"$2b:props:children:props:children:0\",\"$2b:props:children:props:children:0\"]}]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "36:[\"$\",\"img\",null,{\"src\":\"/assets/replit.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]\n37:[\"$\",\"span\",null,{\"children\":\"Replit\"}]\n38:[\"$\",\"span\",\"Lovable\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/lovable.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Lovable\"}]]}]\n39:[\"$\",\"span\",\"Codex\",{\"className\":\"inline-flex items-center gap-1\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/codex.png\",\"alt\":\"\",\"className\":\"max-h-8 max-w-8 object-contain\",\"aria-hidden\":\"true\"}]}],[\"$\",\"span\",null,{\"children\":\"Codex\"}]]}]\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "32:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n2e:null\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1, "3a:I[622,[],\"IconMark\"]\n"])
-    </script>
-    <script>
-        self.__next_f.push([1,
-            "30:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Brian Opiyo | Software Engineer | Kenya\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"I'm Brian Opiyo, a software engineer from Kenya. I build reliable systems and ship quality code with teams to deliver real-world impact.\"}],[\"$\",\"meta\",\"2\",{\"property\":\"og:title\",\"content\":\"Brian Opiyo | Software Engineer | Kenya\"}],[\"$\",\"meta\",\"3\",{\"property\":\"og:description\",\"content\":\"Software engineer from Kenya building and scaling products with clean, maintainable code.\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:url\",\"content\":\"{{ url('/') }}\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:site_name\",\"content\":\"Brian Opiyo — Portfolio\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:image\",\"content\":\"{{ asset('assets/hero-image.png') }}\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"10\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:title\",\"content\":\"Brian Opiyo | Software Engineer | Kenya\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:description\",\"content\":\"Software engineer from Kenya. I build and ship systems that last.\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:image\",\"content\":\"{{ asset('assets/hero-image.png') }}\"}],[\"$\",\"link\",\"14\",{\"rel\":\"icon\",\"href\":\"{{ asset('assets/logo.svg') }}\"}],[\"$\",\"$L3a\",\"15\",{}]],\"error\":null,\"digest\":\"$undefined\"}\n"
-        ])
-    </script>
-    <script>
-        self.__next_f.push([1, "35:\"$30:metadata\"\n"])
-    </script>
+    </main>
     <script id="microsoft-clarity" data-nscript="afterInteractive">
         (function(c, l, a, r, i, t, y) {
             c[a] = c[a] || function() {
@@ -1232,11 +1086,7 @@
             y = l.getElementsByTagName(r)[0];
             y.parentNode.insertBefore(t, y);
         })(window, document, "clarity", "script", "w9ci2bigro");
-    </script><next-route-announcer style="position: absolute;"><template shadowrootmode="open">
-            <div aria-live="assertive" id="__next-route-announcer__" role="alert"
-                style="position: absolute; border: 0px; height: 1px; margin: -1px; padding: 0px; width: 1px; clip: rect(0px, 0px, 0px, 0px); overflow: hidden; white-space: nowrap; overflow-wrap: normal;">
-            </div>
-        </template></next-route-announcer>
+    </script>
 </body>
 
 </html>
