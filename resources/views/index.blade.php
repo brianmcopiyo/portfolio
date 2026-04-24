@@ -38,6 +38,22 @@
                 </nav>
 
                 <div class="site-header__actions">
+                    <button class="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false"
+                        data-theme-toggle>
+                        <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none">
+                                <circle cx="12" cy="12" r="4.25" stroke="currentColor" stroke-width="1.75" />
+                                <path d="M12 2.75v2.5M12 18.75v2.5M21.25 12h-2.5M5.25 12h-2.5M18.54 5.46l-1.77 1.77M7.23 16.77l-1.77 1.77M18.54 18.54l-1.77-1.77M7.23 7.23 5.46 5.46"
+                                    stroke="currentColor" stroke-width="1.75" stroke-linecap="round" />
+                            </svg>
+                        </span>
+                        <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none">
+                                <path d="M20 14.3A8.5 8.5 0 0 1 9.7 4a8.5 8.5 0 1 0 10.3 10.3Z" stroke="currentColor"
+                                    stroke-width="1.75" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </button>
                     <a href="{{ url('/') }}#contact" class="site-header__cta">
                         <span>Let's talk</span>
                         <svg class="site-header__cta-icon" width="16" height="16" viewBox="0 0 16 16"
@@ -61,6 +77,32 @@
     <footer>
         <div class="footer-content"></div>
     </footer>
+    <script>
+        (() => {
+            const root = document.documentElement;
+            const toggle = document.querySelector('[data-theme-toggle]');
+            if (!toggle) return;
+
+            const storageKey = 'portfolio-theme';
+            const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+            const savedTheme = localStorage.getItem(storageKey);
+            const initialTheme = savedTheme || (prefersLight ? 'light' : 'dark');
+
+            const applyTheme = (theme) => {
+                root.setAttribute('data-theme', theme);
+                toggle.setAttribute('aria-pressed', String(theme === 'light'));
+                toggle.setAttribute('aria-label', theme === 'light' ? 'Switch to dark theme' : 'Switch to light theme');
+            };
+
+            applyTheme(initialTheme);
+
+            toggle.addEventListener('click', () => {
+                const nextTheme = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+                applyTheme(nextTheme);
+                localStorage.setItem(storageKey, nextTheme);
+            });
+        })();
+    </script>
 </body>
 
 </html>
