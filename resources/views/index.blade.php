@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0027)https://www.dizkarthik.com/ -->
+<!-- Portfolio: Brian Opiyo -->
 <html lang="en">
 
 <head>
@@ -93,21 +93,21 @@
         href="{{ asset('assets/lovable.png') }}">
     <link rel="preload" as="image"
         href="{{ asset('assets/codex.png') }}">
-    <title>Karthik M | Product Designer | Scalable Digital Products</title>
+    <title>Brian Opiyo | Software Engineer | Kenya</title>
     <meta name="description"
-        content="I’m a Product Designer focused on building and scaling digital products. I work on complex systems and collaborate with teams to deliver meaningful outcomes.">
-    <meta property="og:title" content="Karthik M | Product Designer | Scalable Digital Products">
+        content="I'm Brian Opiyo, a software engineer from Kenya. I build reliable systems and ship quality code with teams to deliver real-world impact.">
+    <meta property="og:title" content="Brian Opiyo | Software Engineer | Kenya">
     <meta property="og:description"
-        content="I’m a Product Designer focused on building and scaling digital products.">
+        content="Software engineer from Kenya building and scaling products with clean, maintainable code.">
     <meta property="og:url" content="{{ url('/') }}">
-    <meta property="og:site_name" content="Karthik Portfolio">
+    <meta property="og:site_name" content="Brian Opiyo — Portfolio">
     <meta property="og:image" content="{{ asset('assets/hero-image.png') }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Karthik M | Product Designer">
-    <meta name="twitter:description" content="Product Designer building scalable digital products.">
+    <meta name="twitter:title" content="Brian Opiyo | Software Engineer | Kenya">
+    <meta name="twitter:description" content="Software engineer from Kenya. I build and ship systems that last.">
     <meta name="twitter:image" content="{{ asset('assets/hero-image.png') }}">
     <link rel="icon" href="{{ asset('assets/logo.svg') }}">
     <script src="{{ asset('assets/polyfills-42372ed130431b0a.js.download') }}"
@@ -140,7 +140,7 @@
                                 <div class="flex h-[30px] w-[30px] items-center justify-center"><img
                                         src="{{ asset('assets/logo.svg') }}"
                                         alt="" class="h-[30px] w-[30px] object-contain"><span
-                                        class="sr-only">Karthik home</span></div>
+                                        class="sr-only">Brian Opiyo home</span></div>
                             </a>
                             <nav aria-label="Primary navigation" class="hidden overflow-x-auto md:block">
                                 <ul class="flex min-w-max items-center gap-10 text-base text-ink">
@@ -155,10 +155,9 @@
                                 </ul>
                             </nav>
                             <div class="flex items-center gap-2 md:hidden"><a
-                                    href="https://drive.google.com/file/d/1snwjB-4Bh393C9JX--dR9_9SPuRbV7hm/view?usp=sharing"
-                                    target="_blank" rel="noopener noreferrer"
+                                    href="mailto:hello@brianopiyo.com?subject=Resume%20request"
                                     class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 border-2 border-ink bg-transparent text-ink shadow-outlineButton hover:translate-x-1 hover:translate-y-1 hover:bg-ink hover:text-white hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none px-4 py-2 text-xs">Resume</a><a
-                                    href="https://calendly.com/karthiklm92/30min" target="_blank"
+                                    href="#contact"
                                     rel="noopener noreferrer"
                                     class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 bg-olive text-white shadow-button hover:translate-x-1 hover:translate-y-1 hover:bg-[#6aa931] hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none px-4 py-2 text-xs">Book</a>
                             </div>
@@ -176,11 +175,9 @@
                             </ul>
                         </nav>
                         <div class="hidden items-center gap-3 md:flex"><a
-                                href="https://drive.google.com/file/d/1snwjB-4Bh393C9JX--dR9_9SPuRbV7hm/view?usp=sharing"
-                                target="_blank" rel="noopener noreferrer"
+                                href="mailto:hello@brianopiyo.com?subject=Resume%20request"
                                 class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 border-2 border-ink bg-transparent text-ink shadow-outlineButton hover:translate-x-1 hover:translate-y-1 hover:bg-ink hover:text-white hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none px-4 py-3 text-base">Download
-                                Resume</a><a href="https://calendly.com/karthiklm92/30min" target="_blank"
-                                rel="noopener noreferrer"
+                                Resume</a><a href="#contact" rel="noopener noreferrer"
                                 class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 bg-olive text-white shadow-button hover:translate-x-1 hover:translate-y-1 hover:bg-[#6aa931] hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none px-5 py-3 text-base">Book
                                 a Call</a></div>
                     </div>
@@ -195,26 +192,27 @@
                             <div class="flex flex-col gap-11">
                                 <div
                                     class="hero-status-pill inline-flex items-center gap-2 self-start rounded-full px-4 pb-2 pt-[10px]">
+                                    <p class="text-[14px] font-medium uppercase leading-none text-moss">BASED IN
+                                        KENYA</p><span class="h-3 w-px bg-moss/25" aria-hidden="true"></span>
                                     <p class="text-[14px] font-medium uppercase leading-none text-moss">OPEN TO REMOTE
-                                        WORK</p><span class="h-3 w-px bg-moss/25" aria-hidden="true"></span>
-                                    <p class="text-[14px] font-medium uppercase leading-none text-moss">IMMEDIATE JOIN
                                     </p>
                                 </div>
                                 <h1
                                     class="max-w-[606px] font-sans text-[2.875rem] font-semibold leading-[60px] text-ink">
-                                    <span class="block">I design and scale product</span><span
-                                        class="block">experiences that deliver</span><span class="block"><span
+                                    <span class="block">I build and scale</span><span
+                                        class="block">software that delivers</span><span class="block"><span
                                             class="hero-typewriter relative inline-flex items-center font-serif text-[50px] font-medium text-[#5f9a20] leading-[60px]"
-                                            aria-label="business impact"><span class="invisible">measurable
-                                                outcomes</span><span
-                                                class="absolute left-0 top-0 inline-flex items-center whitespace-nowrap"><span>business
+                                            aria-label="real-world impact"><span class="invisible">real-world
+                                                impact</span><span
+                                                class="absolute left-0 top-0 inline-flex items-center whitespace-nowrap"><span>real-world
                                                     impact</span><span
                                                     class="hero-typewriter-caret ml-1 inline-block h-[0.9em] w-px bg-current"></span></span></span></span>
                                 </h1>
                             </div>
                             <div class="flex flex-col gap-7">
-                                <p class="max-w-[503px] text-[1.125rem] leading-[30px] text-copy">I design end-to-end
-                                    AI, B2B, and B2C products, built and scaled in high-growth environments.</p>
+                                <p class="max-w-[503px] text-[1.125rem] leading-[30px] text-copy">I'm a software
+                                    engineer from Kenya. I build end-to-end for AI, B2B, and B2C products, shipped in
+                                    high-growth remote and on-site teams.</p>
                                 <div class="flex flex-wrap items-center gap-x-20 gap-y-6"><img
                                         src="{{ asset('assets/dream11-logo.svg') }}"
                                         alt="Dream11 logo" width="175.78" height="48"
@@ -227,11 +225,11 @@
                         <div class="relative mx-auto h-[393px] w-full max-w-[320px] shrink-0 lg:mx-0">
                             <div class="absolute right-0 top-0 h-[310px] w-[260px]"><img
                                     src="{{ asset('assets/hero-image.png') }}"
-                                    alt="Portrait stamp illustration of Karthik" width="260" height="310"
+                                    alt="Portrait illustration of Brian Opiyo" width="260" height="310"
                                     class="h-full w-full object-contain"></div>
                             <div class="absolute -bottom-3 -left-2.5 h-40 w-40 -rotate-[7deg] sm:-bottom-5">
                                 <div class="relative h-full w-full"
-                                    aria-label="14 plus years building and scaling products"><img
+                                    aria-label="14 plus years building and shipping software"><img
                                         src="{{ asset('assets/badge-base-rotate.svg') }}"
                                         alt="" width="160" height="160"
                                         class="badge-spin-clockwise absolute inset-0 h-full w-full object-contain"
@@ -255,8 +253,8 @@
                                     class="mb-3 h-12 w-12 object-contain" aria-hidden="true">
                                 <h2 class="font-serif text-[24px] font-normal leading-none text-ink">Own, Build &amp;
                                     Ship</h2>
-                                <p class="mt-4 text-base leading-[30px] text-copy">Taking ideas from zero to production
-                                    with end-to-end ownership</p>
+                                <p class="mt-4 text-base leading-[30px] text-copy">Taking features from spec to
+                                    production with end-to-end ownership</p>
                             </article>
                             <article class="w-[272px] shrink-0"><img
                                     src="{{ asset('assets/b2b-b2cc.svg') }}"
@@ -264,8 +262,8 @@
                                     class="mb-3 h-12 w-12 object-contain" aria-hidden="true">
                                 <h2 class="font-serif text-[24px] font-normal leading-none text-ink">Systems That Scale
                                 </h2>
-                                <p class="mt-4 text-base leading-[30px] text-copy">Designing scalable experiences with
-                                    clarity and usability.</p>
+                                <p class="mt-4 text-base leading-[30px] text-copy">Engineering systems that stay fast,
+                                    clear, and maintainable as they grow.</p>
                             </article>
                             <article class="w-[272px] shrink-0"><img
                                     src="{{ asset('assets/big-lean.svg') }}"
@@ -286,7 +284,7 @@
                         <div>
                             <h2 class="font-serif text-[2.5rem] font-normal leading-[52px] text-ink">Case Studies</h2>
                             <p class="text-base leading-7 text-copy">A curated set of work showcasing how I approach
-                                complex problems, design systems, and business impact.</p>
+                                complex problems, system design, and business impact as an engineer.</p>
                         </div>
                     </div>
                     <div class="flex flex-col gap-10">
@@ -294,7 +292,7 @@
                             class="group/case flex flex-col overflow-hidden rounded-[24px] bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl transition-shadow duration-200 hover:shadow-[0_20px_54px_rgba(33,35,41,0.08)] xl:flex-row xl:items-center">
                             <a class="group flex min-h-[600px] w-full flex-col bg-transparent px-6 py-8 transition-[background-color] duration-200 hover:bg-white/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-moss/40 sm:px-10 xl:w-[400px]"
                                 aria-label="View case study: Fixing early drop-offs to improve week one retention by 27% and drive ₹55 Cr in trading volume"
-                                href="https://www.dizkarthik.com/case-studies/fixing-early-drop-offs-retention-trading-volume">
+                                href="#works">
                                 <div class="flex flex-1 flex-col justify-between gap-10">
                                     <div class="flex flex-col gap-4">
                                         <div class="flex flex-wrap items-center gap-3">
@@ -314,7 +312,7 @@
                                             <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">Fixing
                                                 early drop-offs to improve week one retention by 27% and drive ₹55 Cr in
                                                 trading volume</h3>
-                                            <p class="text-base leading-7 text-copy">Improved early retention for
+                                            <p class="text-base leading-7 text-copy">Improved early retention in
                                                 Sixer's 1G trading experience by simplifying first-week friction,
                                                 clarifying wallet and trade outcomes, and strengthening the path from
                                                 acquisition to repeat trading.</p>
@@ -372,7 +370,7 @@
                         <div class="grid gap-10 lg:grid-cols-2"><a
                                 class="group block overflow-hidden rounded-[24px] bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl transition-shadow duration-200 hover:shadow-[0_20px_54px_rgba(33,35,41,0.08)] focus:outline-none focus-visible:ring-2 focus-visible:ring-moss/40"
                                 aria-label="View case study: Improving activation through system intelligence and faster time to value"
-                                href="https://www.dizkarthik.com/case-studies/ai-onboarding-activation">
+                                href="#works">
                                 <div class="relative h-[240px] overflow-hidden rounded-t-[24px] bg-[#d1d1d1]"><img
                                         src="{{ asset('assets/case-study-2-gtm.png') }}"
                                         alt="Preview for the nRev AI onboarding activation case study"
@@ -393,7 +391,7 @@
                                     </div>
                                     <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">Improving
                                         activation through system intelligence and faster time to value</h3>
-                                    <p class="text-base leading-7 text-copy">Redesigned onboarding for a GTM AI product
+                                    <p class="text-base leading-7 text-copy">Shipped onboarding for a GTM AI product
                                         to leverage system intelligence, reduce ambiguity, and help users reach value
                                         faster.</p>
                                     <div class="mt-auto pt-3">
@@ -432,7 +430,7 @@
                                     </div>
                                     <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">How we reduced
                                         ticket resolution time using AI assistance</h3>
-                                    <p class="text-base leading-7 text-copy">Designed an AI-assisted workflow that
+                                    <p class="text-base leading-7 text-copy">Built an AI-assisted workflow that
                                         helped technicians resolve tickets faster through contextual suggestions and
                                         automated field updates.</p>
                                     <div class="pt-1"><span
@@ -622,19 +620,18 @@
                                 class="overflow-hidden rounded-[22px] border-4 border-white bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                 <div class="h-[258px] overflow-hidden rounded-[18px]"><img
                                         src="{{ asset('assets/about-me.png') }}"
-                                        alt="Karthik M" class="block h-full w-full object-cover object-center"></div>
+                                        alt="Brian Opiyo" class="block h-full w-full object-cover object-center"></div>
                             </figure>
                             <div
                                 class="flex min-h-[258px] flex-col justify-center rounded-[16px] border border-white/45 bg-card/65 px-8 py-8 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl md:px-10">
                                 <div>
                                     <h2 class="font-serif text-[26px] font-normal leading-none text-ink">About Me</h2>
-                                    <p class="mt-4 max-w-[49rem] text-base leading-7 text-copy">I'm drawn to complex
-                                        product problems that need to feel simple, intuitive, and scalable. I care about
-                                        bringing clarity to ambiguity, working closely with teams, and building
-                                        experiences that move both users and the business forward.</p>
+                                    <p class="mt-4 max-w-[49rem] text-base leading-7 text-copy">I'm a software engineer
+                                        from Kenya, drawn to complex systems that need to stay simple, reliable, and
+                                        fast. I care about shipping maintainable code, collaborating with product and
+                                        engineering, and building software that moves users and the business forward.</p>
                                 </div><a
-                                    href="https://drive.google.com/file/d/1snwjB-4Bh393C9JX--dR9_9SPuRbV7hm/view?usp=sharing"
-                                    target="_blank" rel="noopener noreferrer"
+                                    href="mailto:hello@brianopiyo.com?subject=Resume%20request"
                                     class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 border-2 border-ink bg-transparent text-ink shadow-outlineButton hover:translate-x-1 hover:translate-y-1 hover:bg-ink hover:text-white hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none mt-6 w-fit">Download
                                     Resume</a>
                             </div>
@@ -643,31 +640,31 @@
                             <article
                                 class="min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                 <h3 class="font-serif text-[24px] font-normal leading-7 text-ink"><span
-                                        class="whitespace-nowrap font-sans text-[20px] font-normal leading-8">Founding
-                                        Designer to</span><br>Head Of Design</h3>
-                                <p class="mt-4 text-base leading-[24px] text-copy">Built and scaled the design function
-                                    at Dream11</p>
+                                        class="whitespace-nowrap font-sans text-[20px] font-normal leading-8">From
+                                        Kenya to</span><br>global teams</h3>
+                                <p class="mt-4 text-base leading-[24px] text-copy">Shipping software with distributed
+                                    teams across time zones</p>
                             </article>
                             <article
                                 class="min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
-                                <h3 class="font-serif text-[24px] font-normal leading-7 text-ink">Scaled to 5M+ Users
+                                <h3 class="font-serif text-[24px] font-normal leading-7 text-ink">Reliable at scale
                                 </h3>
-                                <p class="mt-4 text-base leading-[24px] text-copy">Helped grow Sixer to millions of
-                                    users</p>
+                                <p class="mt-4 text-base leading-[24px] text-copy">Building systems that stay performant
+                                    under real traffic</p>
                             </article>
                             <article
                                 class="min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
-                                <h3 class="font-serif text-[24px] font-normal leading-7 text-ink">Product, Design &amp;
-                                    Growth</h3>
-                                <p class="mt-4 text-base leading-[24px] text-copy">Owned key user and business
-                                    touchpoints</p>
+                                <h3 class="font-serif text-[24px] font-normal leading-7 text-ink">APIs, data &amp;
+                                    product</h3>
+                                <p class="mt-4 text-base leading-[24px] text-copy">Owned features from database to
+                                    interface</p>
                             </article>
                             <article
                                 class="min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
-                                <h3 class="font-serif text-[24px] font-normal leading-7 text-ink">Craft &amp; Product
-                                    Thinking</h3>
-                                <p class="mt-4 text-base leading-[24px] text-copy">Balancing visual quality with
-                                    product impact</p>
+                                <h3 class="font-serif text-[24px] font-normal leading-7 text-ink">Code quality &amp;
+                                    systems</h3>
+                                <p class="mt-4 text-base leading-[24px] text-copy">Pragmatic trade-offs and
+                                    maintainable software</p>
                             </article>
                         </div>
                         <div class="flex flex-col gap-6">
@@ -676,32 +673,32 @@
                                     <h3 class="font-serif text-[24px] font-normal leading-none text-ink">Core Expertise
                                     </h3>
                                 </div><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Product
-                                    Strategy</span><span
+                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">System
+                                    Design</span><span
                                     class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">System
                                     Thinking</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">User
-                                    Behavior Analysis</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Retention
-                                    &amp; Activation</span><span
+                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">APIs
+                                    &amp; Integrations</span><span
+                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Databases
+                                    &amp; data</span><span
                                     class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Data-Driven
                                     Decisions</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Design
-                                    Systems</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Interaction
-                                    Design</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Visual
-                                    Design</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">UX
-                                    Writing</span><span
+                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Scalable
+                                    architecture</span><span
+                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Backend
+                                    services</span><span
+                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Frontend
+                                    &amp; UI</span><span
+                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Technical
+                                    writing</span><span
                                     class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">AI
-                                    Product Design</span><span
+                                    &amp; automation</span><span
                                     class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">A/B
                                     Testing</span><span
                                     class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Design
                                     to Code</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Figma
-                                    MCP</span><span
+                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Developer
+                                    tooling</span><span
                                     class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">And
                                     more</span>
                             </div>
@@ -913,9 +910,9 @@
                     <div class="grid gap-12 px-0 sm:px-6 lg:grid-cols-[26.25rem_1fr] lg:gap-[4.5rem]">
                         <div>
                             <h2 class="max-w-[18rem] font-serif text-[2.5rem] font-normal leading-[1.3] text-ink">How I
-                                Build<br>Products</h2>
-                            <p class="mt-6 max-w-[26rem] text-base leading-7 text-copy">From early ambiguity to
-                                scale-stage complexity, I focus on clarity, systems, and measurable impact.</p>
+                                Build<br>Software</h2>
+                            <p class="mt-6 max-w-[26rem] text-base leading-7 text-copy">From early ideas to
+                                production systems, I focus on clarity, maintainability, and measurable impact.</p>
                         </div>
                         <div class="relative lg:pl-12">
                             <div
@@ -929,7 +926,7 @@
                                 </article>
                                 <article class="max-w-xl">
                                     <h3 class="text-[20px] font-semibold leading-none text-ink">Define Outcomes</h3>
-                                    <p class="mt-3 max-w-[29rem] text-base leading-7 text-copy">Tie design decisions to
+                                    <p class="mt-3 max-w-[29rem] text-base leading-7 text-copy">Tie technical decisions to
                                         measurable product and business impact.</p>
                                 </article>
                                 <article class="max-w-xl">
@@ -960,8 +957,7 @@
                                 src="{{ asset('assets/connect.svg') }}"
                                 alt="" class="h-16 w-16 object-contain" aria-hidden="true">
                             <h2 class="font-serif text-[2.5rem] font-normal leading-[1.25] text-ink">Let's build
-                                something meaningful together.</h2><a href="https://calendly.com/karthiklm92/30min"
-                                target="_blank" rel="noopener noreferrer"
+                                something meaningful together.</h2><a href="#contact" rel="noopener noreferrer"
                                 class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 bg-olive text-white shadow-button hover:translate-x-1 hover:translate-y-1 hover:bg-[#6aa931] hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none">Book
                                 a call</a>
                         </div>
@@ -978,7 +974,7 @@
                                         <path d="M12 15.7h.01" stroke-width="2.2" stroke-linecap="round"></path>
                                     </svg><button type="button"
                                         class="group inline-flex items-center gap-2 text-left transition-colors duration-200 hover:text-moss focus:outline-none focus-visible:ring-2 focus-visible:ring-moss/40"
-                                        aria-label="Copy 8760798283"><span>8760798283</span><span
+                                        aria-label="Copy 254712345678"><span>+254 712 345 678</span><span
                                             class="relative inline-flex h-[1em] w-[1em] items-center justify-center text-[1em] text-[#747772] transition-colors duration-200 group-hover:text-moss"
                                             aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"
                                                 stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
@@ -988,9 +984,9 @@
                                                 <path d="M5 15V7a2 2 0 0 1 2-2h8"></path>
                                             </svg></span><span class="sr-only">Copy</span></button></div>
                                 <div class="relative z-10 grid w-full grid-cols-2 gap-4 sm:w-auto"><a
-                                        href="tel:+918760798283"
+                                        href="tel:+254712345678"
                                         class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 border-2 border-ink bg-transparent text-ink shadow-outlineButton hover:translate-x-1 hover:translate-y-1 hover:bg-ink hover:text-white hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none h-12 px-5">Call
-                                        Me</a><a href="https://wa.me/918760798283" target="_blank"
+                                        Me</a><a href="https://wa.me/254712345678" target="_blank"
                                         rel="noopener noreferrer"
                                         class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 border-2 border-ink bg-transparent text-ink shadow-outlineButton hover:translate-x-1 hover:translate-y-1 hover:bg-ink hover:text-white hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none h-12 px-5 gap-1">Send
                                         Hi<img
@@ -1009,7 +1005,7 @@
                                             stroke-linejoin="round"></path>
                                     </svg><button type="button"
                                         class="group inline-flex items-center gap-2 text-left transition-colors duration-200 hover:text-moss focus:outline-none focus-visible:ring-2 focus-visible:ring-moss/40"
-                                        aria-label="Copy hello@dizkarthik.com"><span>hello@dizkarthik.com</span><span
+                                        aria-label="Copy hello@brianopiyo.com"><span>hello@brianopiyo.com</span><span
                                             class="relative inline-flex h-[1em] w-[1em] items-center justify-center text-[1em] text-[#747772] transition-colors duration-200 group-hover:text-moss"
                                             aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"
                                                 stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
@@ -1018,7 +1014,7 @@
                                                 </rect>
                                                 <path d="M5 15V7a2 2 0 0 1 2-2h8"></path>
                                             </svg></span><span class="sr-only">Copy</span></button></div><a
-                                    href="mailto:hello@dizkarthik.com"
+                                    href="mailto:hello@brianopiyo.com"
                                     class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 border-2 border-ink bg-transparent text-ink shadow-outlineButton hover:translate-x-1 hover:translate-y-1 hover:bg-ink hover:text-white hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none relative z-10 h-12 px-5">Send
                                     a mail</a>
                             </div>
@@ -1041,7 +1037,7 @@
                                                 </rect>
                                                 <path d="M5 15V7a2 2 0 0 1 2-2h8"></path>
                                             </svg></span><span class="sr-only">Copy</span></button></div><a
-                                    href="https://www.linkedin.com/in/dizkarthik/" target="_blank"
+                                    href="https://www.linkedin.com/in/brianopiyo/" target="_blank"
                                     rel="noopener noreferrer"
                                     class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 border-2 border-ink bg-transparent text-ink shadow-outlineButton hover:translate-x-1 hover:translate-y-1 hover:bg-ink hover:text-white hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none relative z-10 h-12 px-5">Let's
                                     Connect</a>
@@ -1063,14 +1059,14 @@
                                 </div>
                                 <p
                                     class="mt-8 whitespace-nowrap text-[0.875rem] leading-[1.3] text-ink sm:text-[1rem]">
-                                    I designed and built this website with two close collaborators</p>
+                                    I built this portfolio and shipped it with a focused toolchain</p>
                                 <p
                                     class="mt-2 whitespace-nowrap font-serif text-[1.6rem] leading-none text-ink sm:text-[2.5rem]">
-                                    Figma and Codex in ~16h</p>
+                                    Figma and modern AI tooling in ~16h</p>
                             </div>
                             <div class="flex overflow-visible lg:min-w-0 lg:items-end lg:justify-end"><img
                                     src="{{ asset('assets/design-for-love.svg') }}"
-                                    alt="Karthik"
+                                    alt="Brian Opiyo"
                                     class="-translate-y-[3px] h-auto w-full sm:ml-auto sm:max-w-[18rem] lg:h-[125px] lg:w-auto lg:max-w-none lg:translate-x-3">
                             </div>
                         </div>
@@ -1169,12 +1165,12 @@
     </script>
     <script>
         self.__next_f.push([1,
-            "17:[\"$\",\"section\",null,{\"id\":\"about\",\"className\":\"pb-16 pt-2 sm:pb-20 sm:pt-6\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto w-full max-w-content px-6 sm:px-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-6\",\"children\":[[\"$\",\"div\",null,{\"className\":\"grid gap-5 lg:grid-cols-[215px_minmax(0,1fr)]\",\"children\":[[\"$\",\"figure\",null,{\"className\":\"overflow-hidden rounded-[22px] border-4 border-white bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[\"$\",\"div\",null,{\"className\":\"h-[258px] overflow-hidden rounded-[18px]\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/about-me.png\",\"alt\":\"Karthik M\",\"className\":\"block h-full w-full object-cover object-center\"}]}]}],[\"$\",\"div\",null,{\"className\":\"flex min-h-[258px] flex-col justify-center rounded-[16px] border border-white/45 bg-card/65 px-8 py-8 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl md:px-10\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"h2\",null,{\"className\":\"font-serif text-[26px] font-normal leading-none text-ink\",\"children\":\"About Me\"}],[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-[49rem] text-base leading-7 text-copy\",\"children\":\"I'm drawn to complex product problems that need to feel simple, intuitive, and scalable. I care about bringing clarity to ambiguity, working closely with teams, and building experiences that move both users and the business forward.\"}]]}],[\"$\",\"$L1d\",null,{\"href\":\"https://drive.google.com/file/d/1snwjB-4Bh393C9JX--dR9_9SPuRbV7hm/view?usp=sharing\",\"target\":\"_blank\",\"variant\":\"secondary\",\"className\":\"mt-6 w-fit\",\"children\":\"Download Resume\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"grid gap-5 sm:grid-cols-2 lg:grid-cols-4\",\"children\":[[\"$\",\"article\",\"0\",{\"className\":\"min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-serif text-[24px] font-normal leading-7 text-ink\",\"children\":[[\"$\",\"span\",null,{\"className\":\"whitespace-nowrap font-sans text-[20px] font-normal leading-8\",\"children\":\"Founding Designer to\"}],[\"$\",\"br\",null,{}],\"Head Of Design\"]}],[\"$\",\"p\",null,{\"className\":\"mt-4 text-base leading-[24px] text-copy\",\"children\":\"Built and scaled the design function at Dream11\"}]]}],[\"$\",\"article\",\"1\",{\"className\":\"min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-serif text-[24px] font-normal leading-7 text-ink\",\"children\":\"Scaled to 5M+ Users\"}],[\"$\",\"p\",null,{\"className\":\"mt-4 text-base leading-[24px] text-copy\",\"children\":\"Helped grow Sixer to millions of users\"}]]}],[\"$\",\"article\",\"2\",{\"className\":\"min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-serif text-[24px] font-normal leading-7 text-ink\",\"children\":\"Product, Design \u0026 Growth\"}],[\"$\",\"p\",null,{\"className\":\"mt-4 text-base leading-[24px] text-copy\",\"children\":\"Owned key user and business touchpoints\"}]]}],[\"$\",\"article\",\"3\",{\"className\":\"min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-serif text-[24px] font-normal leading-7 text-ink\",\"children\":\"Craft \u0026 Product Thinking\"}],[\"$\",\"p\",null,{\"className\":\"mt-4 text-base leading-[24px] text-copy\",\"children\":\"Balancing visual quality with product impact\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-6\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-wrap items-start gap-3\",\"children\":[[\"$\",\"div\",null,{\"className\":\"px-2 pt-[6px]\",\"children\":[\"$\",\"h3\",null,{\"className\":\"font-serif text-[24px] font-normal leading-none text-ink\",\"children\":\"Core Expertise\"}]}],[[\"$\",\"span\",\"Product Strategy\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Product Strategy\"}],\"$L1e\",\"$L1f\",\"$L20\",\"$L21\",\"$L22\",\"$L23\",\"$L24\",\"$L25\",\"$L26\",\"$L27\",\"$L28\",\"$L29\",\"$L2a\"]]}],\"$L2b\"]}]]}]}]}]\n"
+            "17:[\"$\",\"section\",null,{\"id\":\"about\",\"className\":\"pb-16 pt-2 sm:pb-20 sm:pt-6\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto w-full max-w-content px-6 sm:px-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-6\",\"children\":[[\"$\",\"div\",null,{\"className\":\"grid gap-5 lg:grid-cols-[215px_minmax(0,1fr)]\",\"children\":[[\"$\",\"figure\",null,{\"className\":\"overflow-hidden rounded-[22px] border-4 border-white bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[\"$\",\"div\",null,{\"className\":\"h-[258px] overflow-hidden rounded-[18px]\",\"children\":[\"$\",\"img\",null,{\"src\":\"/assets/about-me.png\",\"alt\":\"Brian Opiyo\",\"className\":\"block h-full w-full object-cover object-center\"}]}]}],[\"$\",\"div\",null,{\"className\":\"flex min-h-[258px] flex-col justify-center rounded-[16px] border border-white/45 bg-card/65 px-8 py-8 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl md:px-10\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"h2\",null,{\"className\":\"font-serif text-[26px] font-normal leading-none text-ink\",\"children\":\"About Me\"}],[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-[49rem] text-base leading-7 text-copy\",\"children\":\"I'm a software engineer from Kenya, drawn to complex systems that need to stay simple, reliable, and fast. I care about shipping maintainable code, collaborating with product and engineering, and building software that moves users and the business forward.\"}]]}],[\"$\",\"$L1d\",null,{\"href\":\"mailto:hello@brianopiyo.com?subject=Resume%20request\",\"target\":\"_blank\",\"variant\":\"secondary\",\"className\":\"mt-6 w-fit\",\"children\":\"Download Resume\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"grid gap-5 sm:grid-cols-2 lg:grid-cols-4\",\"children\":[[\"$\",\"article\",\"0\",{\"className\":\"min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-serif text-[24px] font-normal leading-7 text-ink\",\"children\":[[\"$\",\"span\",null,{\"className\":\"whitespace-nowrap font-sans text-[20px] font-normal leading-8\",\"children\":\"From Kenya to\"}],[\"$\",\"br\",null,{}],\"global teams\"]}],[\"$\",\"p\",null,{\"className\":\"mt-4 text-base leading-[24px] text-copy\",\"children\":\"Shipping software with distributed teams across time zones\"}]]}],[\"$\",\"article\",\"1\",{\"className\":\"min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-serif text-[24px] font-normal leading-7 text-ink\",\"children\":\"Reliable at scale\"}],[\"$\",\"p\",null,{\"className\":\"mt-4 text-base leading-[24px] text-copy\",\"children\":\"Building systems that stay performant under real traffic\"}]]}],[\"$\",\"article\",\"2\",{\"className\":\"min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-serif text-[24px] font-normal leading-7 text-ink\",\"children\":\"APIs, data \u0026 product\"}],[\"$\",\"p\",null,{\"className\":\"mt-4 text-base leading-[24px] text-copy\",\"children\":\"Owned features from database to interface\"}]]}],[\"$\",\"article\",\"3\",{\"className\":\"min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-serif text-[24px] font-normal leading-7 text-ink\",\"children\":\"Code quality \u0026 systems\"}],[\"$\",\"p\",null,{\"className\":\"mt-4 text-base leading-[24px] text-copy\",\"children\":\"Pragmatic trade-offs and maintainable software\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-6\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-wrap items-start gap-3\",\"children\":[[\"$\",\"div\",null,{\"className\":\"px-2 pt-[6px]\",\"children\":[\"$\",\"h3\",null,{\"className\":\"font-serif text-[24px] font-normal leading-none text-ink\",\"children\":\"Core Expertise\"}]}],[[\"$\",\"span\",\"System Design\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"System Design\"}],\"$L1e\",\"$L1f\",\"$L20\",\"$L21\",\"$L22\",\"$L23\",\"$L24\",\"$L25\",\"$L26\",\"$L27\",\"$L28\",\"$L29\",\"$L2a\"]]}],\"$L2b\"]}]]}]}]}]\n"
         ])
     </script>
     <script>
         self.__next_f.push([1,
-            "18:[\"$\",\"section\",null,{\"id\":\"process\",\"className\":\"pb-20 pt-8 sm:pb-24 sm:pt-14\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto w-full max-w-content px-6 sm:px-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"grid gap-12 px-0 sm:px-6 lg:grid-cols-[26.25rem_1fr] lg:gap-[4.5rem]\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"h2\",null,{\"className\":\"max-w-[18rem] font-serif text-[2.5rem] font-normal leading-[1.3] text-ink\",\"children\":[\"How I Build\",[\"$\",\"br\",null,{}],\"Products\"]}],[\"$\",\"p\",null,{\"className\":\"mt-6 max-w-[26rem] text-base leading-7 text-copy\",\"children\":\"From early ambiguity to scale-stage complexity, I focus on clarity, systems, and measurable impact.\"}]]}],[\"$\",\"div\",null,{\"className\":\"relative lg:pl-12\",\"children\":[[\"$\",\"div\",null,{\"className\":\"build-line-gradient absolute left-0 top-0 hidden h-[30rem] w-2 rounded-full lg:block\"}],[\"$\",\"div\",null,{\"className\":\"space-y-9\",\"children\":[[\"$\",\"article\",\"Diagnose Gaps\",{\"className\":\"max-w-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-none text-ink\",\"children\":\"Diagnose Gaps\"}],[\"$\",\"p\",null,{\"className\":\"mt-3 max-w-[29rem] text-base leading-7 text-copy\",\"children\":\"Identify friction across user behavior, product logic, and business metrics.\"}]]}],[\"$\",\"article\",\"Define Outcomes\",{\"className\":\"max-w-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-none text-ink\",\"children\":\"Define Outcomes\"}],[\"$\",\"p\",null,{\"className\":\"mt-3 max-w-[29rem] text-base leading-7 text-copy\",\"children\":\"Tie design decisions to measurable product and business impact.\"}]]}],[\"$\",\"article\",\"Partner Deeply\",{\"className\":\"max-w-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-none text-ink\",\"children\":\"Partner Deeply\"}],[\"$\",\"p\",null,{\"className\":\"mt-3 max-w-[29rem] text-base leading-7 text-copy\",\"children\":\"Collaborate deeply with product and engineering to balance speed, feasibility, and experience.\"}]]}],[\"$\",\"article\",\"Build Systems\",{\"className\":\"max-w-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-none text-ink\",\"children\":\"Build Systems\"}],[\"$\",\"p\",null,{\"className\":\"mt-3 max-w-[29rem] text-base leading-7 text-copy\",\"children\":\"Create scalable architecture, not isolated screens.\"}]]}],[\"$\",\"article\",\"Validate fast\",{\"className\":\"max-w-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-none text-ink\",\"children\":\"Validate fast\"}],[\"$\",\"p\",null,{\"className\":\"mt-3 max-w-[29rem] text-base leading-7 text-copy\",\"children\":\"Iterate through real usage, data, and feedback loops.\"}]]}]]}]]}]]}]}]}]\n"
+            "18:[\"$\",\"section\",null,{\"id\":\"process\",\"className\":\"pb-20 pt-8 sm:pb-24 sm:pt-14\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto w-full max-w-content px-6 sm:px-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"grid gap-12 px-0 sm:px-6 lg:grid-cols-[26.25rem_1fr] lg:gap-[4.5rem]\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"h2\",null,{\"className\":\"max-w-[18rem] font-serif text-[2.5rem] font-normal leading-[1.3] text-ink\",\"children\":[\"How I Build\",[\"$\",\"br\",null,{}],\"Software\"]}],[\"$\",\"p\",null,{\"className\":\"mt-6 max-w-[26rem] text-base leading-7 text-copy\",\"children\":\"From early ideas to production systems, I focus on clarity, maintainability, and measurable impact.\"}]]}],[\"$\",\"div\",null,{\"className\":\"relative lg:pl-12\",\"children\":[[\"$\",\"div\",null,{\"className\":\"build-line-gradient absolute left-0 top-0 hidden h-[30rem] w-2 rounded-full lg:block\"}],[\"$\",\"div\",null,{\"className\":\"space-y-9\",\"children\":[[\"$\",\"article\",\"Diagnose Gaps\",{\"className\":\"max-w-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-none text-ink\",\"children\":\"Diagnose Gaps\"}],[\"$\",\"p\",null,{\"className\":\"mt-3 max-w-[29rem] text-base leading-7 text-copy\",\"children\":\"Identify friction across user behavior, product logic, and business metrics.\"}]]}],[\"$\",\"article\",\"Define Outcomes\",{\"className\":\"max-w-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-none text-ink\",\"children\":\"Define Outcomes\"}],[\"$\",\"p\",null,{\"className\":\"mt-3 max-w-[29rem] text-base leading-7 text-copy\",\"children\":\"Tie technical decisions to measurable product and business impact.\"}]]}],[\"$\",\"article\",\"Partner Deeply\",{\"className\":\"max-w-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-none text-ink\",\"children\":\"Partner Deeply\"}],[\"$\",\"p\",null,{\"className\":\"mt-3 max-w-[29rem] text-base leading-7 text-copy\",\"children\":\"Collaborate deeply with product and engineering to balance speed, feasibility, and experience.\"}]]}],[\"$\",\"article\",\"Build Systems\",{\"className\":\"max-w-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-none text-ink\",\"children\":\"Build Systems\"}],[\"$\",\"p\",null,{\"className\":\"mt-3 max-w-[29rem] text-base leading-7 text-copy\",\"children\":\"Create scalable architecture, not isolated screens.\"}]]}],[\"$\",\"article\",\"Validate fast\",{\"className\":\"max-w-xl\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-[20px] font-semibold leading-none text-ink\",\"children\":\"Validate fast\"}],[\"$\",\"p\",null,{\"className\":\"mt-3 max-w-[29rem] text-base leading-7 text-copy\",\"children\":\"Iterate through real usage, data, and feedback loops.\"}]]}]]}]]}]]}]}]}]\n"
         ])
     </script>
     <script>
@@ -1184,12 +1180,12 @@
     </script>
     <script>
         self.__next_f.push([1,
-            "1e:[\"$\",\"span\",\"System Thinking\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"System Thinking\"}]\n1f:[\"$\",\"span\",\"User Behavior Analysis\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"User Behavior Analysis\"}]\n20:[\"$\",\"span\",\"Retention \u0026 Activation\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Retention \u0026 Activation\"}]\n21:[\"$\",\"span\",\"Data-Driven Decisions\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Data-Driven Decisions\"}]\n22:[\"$\",\"span\",\"Design Systems\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Design Systems\"}]\n23:[\"$\",\"span\",\"Interaction Design\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Interaction Design\"}]\n24:[\"$\",\"span\",\"Visual Design\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Visual Design\"}]\n25:[\"$\",\"span\",\"UX Writing\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"UX Writing\"}]\n26:[\"$\",\"span\",\"AI Product Design\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"AI Product Design\"}]\n27:[\"$\",\"span\",\"A/B Testing\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8e"
+            "1e:[\"$\",\"span\",\"System Thinking\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"System Thinking\"}]\n1f:[\"$\",\"span\",\"APIs & Integrations\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"APIs & Integrations\"}]\n20:[\"$\",\"span\",\"Databases \u0026 data\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Databases \u0026 data\"}]\n21:[\"$\",\"span\",\"Data-Driven Decisions\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Data-Driven Decisions\"}]\n22:[\"$\",\"span\",\"Scalable architecture\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Scalable architecture\"}]\n23:[\"$\",\"span\",\"Backend services\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Backend services\"}]\n24:[\"$\",\"span\",\"Frontend & UI\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Frontend & UI\"}]\n25:[\"$\",\"span\",\"Technical writing\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Technical writing\"}]\n26:[\"$\",\"span\",\"AI & automation\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"AI & automation\"}]\n27:[\"$\",\"span\",\"A/B Testing\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8e"
         ])
     </script>
     <script>
         self.__next_f.push([1,
-            "c] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"A/B Testing\"}]\n28:[\"$\",\"span\",\"Design to Code\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Design to Code\"}]\n29:[\"$\",\"span\",\"Figma MCP\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Figma MCP\"}]\n2a:[\"$\",\"span\",\"And more\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"And more\"}]\n"
+            "c] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"A/B Testing\"}]\n28:[\"$\",\"span\",\"Design to Code\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Design to Code\"}]\n29:[\"$\",\"span\",\"Developer tooling\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"Developer tooling\"}]\n2a:[\"$\",\"span\",\"And more\",{\"className\":\"inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink\",\"children\":\"And more\"}]\n"
         ])
     </script>
     <script>
@@ -1212,7 +1208,7 @@
     </script>
     <script>
         self.__next_f.push([1,
-            "30:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Karthik M | Product Designer | Scalable Digital Products\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"I’m a Product Designer focused on building and scaling digital products. I work on complex systems and collaborate with teams to deliver meaningful outcomes.\"}],[\"$\",\"meta\",\"2\",{\"property\":\"og:title\",\"content\":\"Karthik M | Product Designer | Scalable Digital Products\"}],[\"$\",\"meta\",\"3\",{\"property\":\"og:description\",\"content\":\"I’m a Product Designer focused on building and scaling digital products.\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:url\",\"content\":\"https://www.dizkarthik.com\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:site_name\",\"content\":\"Karthik Portfolio\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:image\",\"content\":\"{{ asset('assets/hero-image.png') }}\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"10\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:title\",\"content\":\"Karthik M | Product Designer\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:description\",\"content\":\"Product Designer building scalable digital products.\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:image\",\"content\":\"{{ asset('assets/hero-image.png') }}\"}],[\"$\",\"link\",\"14\",{\"rel\":\"icon\",\"href\":\"/favicon.png\"}],[\"$\",\"$L3a\",\"15\",{}]],\"error\":null,\"digest\":\"$undefined\"}\n"
+            "30:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Brian Opiyo | Software Engineer | Kenya\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"I'm Brian Opiyo, a software engineer from Kenya. I build reliable systems and ship quality code with teams to deliver real-world impact.\"}],[\"$\",\"meta\",\"2\",{\"property\":\"og:title\",\"content\":\"Brian Opiyo | Software Engineer | Kenya\"}],[\"$\",\"meta\",\"3\",{\"property\":\"og:description\",\"content\":\"Software engineer from Kenya building and scaling products with clean, maintainable code.\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:url\",\"content\":\"{{ url('/') }}\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:site_name\",\"content\":\"Brian Opiyo — Portfolio\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:image\",\"content\":\"{{ asset('assets/hero-image.png') }}\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"10\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:title\",\"content\":\"Brian Opiyo | Software Engineer | Kenya\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:description\",\"content\":\"Software engineer from Kenya. I build and ship systems that last.\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:image\",\"content\":\"{{ asset('assets/hero-image.png') }}\"}],[\"$\",\"link\",\"14\",{\"rel\":\"icon\",\"href\":\"{{ asset('assets/logo.svg') }}\"}],[\"$\",\"$L3a\",\"15\",{}]],\"error\":null,\"digest\":\"$undefined\"}\n"
         ])
     </script>
     <script>
