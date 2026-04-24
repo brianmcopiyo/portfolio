@@ -90,7 +90,11 @@ body {
 }
 
 [data-theme="light"] body {
-    background-color: #f6f8ff;
+    background:
+        radial-gradient(100% 90% at 50% -10%, rgba(124, 58, 237, 0.14) 0%, transparent 55%),
+        radial-gradient(80% 60% at 100% 0%, rgba(244, 114, 182, 0.08) 0%, transparent 45%),
+        linear-gradient(180deg, #f7f8ff 0%, #eef1ff 100%);
+    background-attachment: fixed;
 }
 
 .navbar {
@@ -104,10 +108,7 @@ body {
 }
 
 [data-theme="light"] .navbar {
-    background:
-        radial-gradient(100% 90% at 50% -10%, rgba(59, 130, 246, 0.22) 0%, transparent 55%),
-        radial-gradient(80% 60% at 100% 0%, rgba(236, 72, 153, 0.1) 0%, transparent 45%),
-        linear-gradient(180deg, #f5f7ff 0%, #edf1ff 100%);
+    background: transparent;
 }
 
 [data-theme="light"] .site-logo__mark {
