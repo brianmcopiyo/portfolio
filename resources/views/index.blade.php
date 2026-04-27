@@ -648,33 +648,59 @@
                                     Resume</a>
                             </div>
                         </div>
-                        <div class="overflow-hidden rounded-[20px] border border-white/45 bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
-                            <div class="grid border-b border-white/45 bg-white/60 px-6 py-5 text-sm font-semibold uppercase tracking-[0.12em] text-copy sm:grid-cols-3 sm:px-8">
-                                <p>Category</p>
-                                <p>Deep Expertise</p>
-                                <p>Familiar With</p>
-                            </div>
-                            <div class="divide-y divide-white/45">
-                                <div class="grid gap-3 px-6 py-5 text-base leading-7 text-ink sm:grid-cols-3 sm:px-8">
-                                    <p class="font-semibold">Front-end</p>
-                                    <p>React, TypeScript, Tailwind</p>
-                                    <p class="text-copy">Vue, Webpack</p>
-                                </div>
-                                <div class="grid gap-3 px-6 py-5 text-base leading-7 text-ink sm:grid-cols-3 sm:px-8">
-                                    <p class="font-semibold">Backend</p>
-                                    <p>Python (FastAPI), Node.js, Postgres</p>
-                                    <p class="text-copy">Go, Redis</p>
-                                </div>
-                                <div class="grid gap-3 px-6 py-5 text-base leading-7 text-ink sm:grid-cols-3 sm:px-8">
-                                    <p class="font-semibold">Data Science</p>
-                                    <p>Pandas, Scikit-learn, SQL</p>
-                                    <p class="text-copy">TensorFlow, PyTorch</p>
-                                </div>
-                                <div class="grid gap-3 px-6 py-5 text-base leading-7 text-ink sm:grid-cols-3 sm:px-8">
-                                    <p class="font-semibold">DevOps</p>
-                                    <p>Docker, AWS (EC2/S3), CI/CD</p>
-                                    <p class="text-copy">Kubernetes, Terraform</p>
-                                </div>
+                        <div
+                            class="overflow-hidden rounded-[20px] border border-white/45 bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
+                            <div class="overflow-x-auto">
+                                <table class="w-full min-w-[760px] table-fixed border-collapse text-left">
+                                    <colgroup>
+                                        <col class="w-[220px]">
+                                        <col class="w-[320px]">
+                                        <col class="w-auto">
+                                    </colgroup>
+                                    <thead class="border-b border-white/45 bg-white/60">
+                                        <tr class="text-sm font-semibold uppercase tracking-[0.12em] text-copy">
+                                            <th scope="col" class="px-5 py-4 sm:px-6">Category</th>
+                                            <th scope="col" class="px-5 py-4 sm:px-6">Deep Expertise</th>
+                                            <th scope="col" class="px-5 py-4 sm:px-6">Familiar With</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="divide-y divide-white/45 text-base leading-6 text-ink align-middle">
+                                        <tr>
+                                            <th scope="row" class="px-5 font-semibold sm:px-6"
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Front-end</th>
+                                            <td class="px-5 sm:px-6" style="padding-top:0.55rem;padding-bottom:0.55rem;">
+                                                React, TypeScript, Tailwind</td>
+                                            <td class="px-5 text-copy sm:px-6"
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Vue, Webpack</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="px-5 font-semibold sm:px-6"
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Backend</th>
+                                            <td class="px-5 sm:px-6" style="padding-top:0.55rem;padding-bottom:0.55rem;">
+                                                Python (FastAPI), Node.js, Postgres</td>
+                                            <td class="px-5 text-copy sm:px-6"
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Go, Redis</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="px-5 font-semibold sm:px-6"
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Data Science</th>
+                                            <td class="px-5 sm:px-6" style="padding-top:0.55rem;padding-bottom:0.55rem;">
+                                                Pandas, Scikit-learn, SQL</td>
+                                            <td class="px-5 text-copy sm:px-6"
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">TensorFlow, PyTorch
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="px-5 font-semibold sm:px-6"
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">DevOps</th>
+                                            <td class="px-5 sm:px-6" style="padding-top:0.55rem;padding-bottom:0.55rem;">
+                                                Docker, AWS (EC2/S3), CI/CD</td>
+                                            <td class="px-5 text-copy sm:px-6"
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Kubernetes,
+                                                Terraform</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
