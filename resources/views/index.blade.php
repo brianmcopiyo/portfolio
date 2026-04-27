@@ -78,12 +78,12 @@
         href="{{ asset('assets/lovable.png') }}">
     <link rel="preload" as="image"
         href="{{ asset('assets/codex.png') }}">
-    <title>Brian Opiyo | Software Engineer | Kenya</title>
+    <title>Brian Opiyo | Software Engineer</title>
     <meta name="description"
-        content="I'm Brian Opiyo, a software engineer from Kenya. I build reliable systems and ship quality code with teams to deliver real-world impact.">
-    <meta property="og:title" content="Brian Opiyo | Software Engineer | Kenya">
+        content="I'm Brian Opiyo, a software engineer. I build reliable systems and ship quality code with teams to deliver real-world impact.">
+    <meta property="og:title" content="Brian Opiyo | Software Engineer">
     <meta property="og:description"
-        content="Software engineer from Kenya building and scaling products with clean, maintainable code.">
+        content="Software engineer building and scaling products with clean, maintainable code.">
     <meta property="og:url" content="{{ url('/') }}">
     <meta property="og:site_name" content="Brian Opiyo — Portfolio">
     <meta property="og:image" content="{{ asset('assets/hero-image.png') }}">
@@ -91,8 +91,8 @@
     <meta property="og:image:height" content="630">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Brian Opiyo | Software Engineer | Kenya">
-    <meta name="twitter:description" content="Software engineer from Kenya. I build and ship systems that last.">
+    <meta name="twitter:title" content="Brian Opiyo | Software Engineer">
+    <meta name="twitter:description" content="Software engineer. I build and ship systems that last.">
     <meta name="twitter:image" content="{{ asset('assets/hero-image.png') }}">
     <link rel="icon" href="{{ asset('assets/logo.svg') }}">
     <style>
@@ -197,8 +197,8 @@
                             <div class="flex flex-col gap-11">
                                 <div
                                     class="hero-status-pill inline-flex items-center gap-2 self-start rounded-full px-4 pb-2 pt-[10px]">
-                                    <p class="text-[14px] font-medium uppercase leading-none text-moss">BASED IN
-                                        KENYA</p><span class="h-3 w-px bg-moss/25" aria-hidden="true"></span>
+                                    <p class="text-[14px] font-medium uppercase leading-none text-moss">WORKING
+                                        GLOBALLY</p><span class="h-3 w-px bg-moss/25" aria-hidden="true"></span>
                                     <p class="text-[14px] font-medium uppercase leading-none text-moss">OPEN TO REMOTE
                                     </p>
                                 </div>
@@ -222,8 +222,7 @@
                             </div>
                             <div class="flex flex-col gap-7">
                                 <p class="max-w-[503px] text-[1.125rem] leading-[30px] text-copy">I'm Brian Opiyo — a
-                                    software
-                                    engineer from Kenya. I build end-to-end for AI, B2B, and B2C products, shipped in
+                                    software engineer. I build end-to-end for AI, B2B, and B2C products, shipped in
                                     high-growth remote and on-site teams.</p>
                                 <div class="flex flex-wrap items-center gap-x-20 gap-y-6"><img
                                         src="{{ asset('assets/dream11-logo.svg') }}"
@@ -303,7 +302,7 @@
                         <article
                             class="group/case flex flex-col overflow-hidden rounded-[24px] bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl transition-shadow duration-200 hover:shadow-[0_20px_54px_rgba(33,35,41,0.08)] xl:flex-row xl:items-center">
                             <a class="group flex min-h-[600px] w-full flex-col bg-transparent px-6 py-8 transition-[background-color] duration-200 hover:bg-white/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-moss/40 sm:px-10 xl:w-[400px]"
-                                aria-label="View case study: Laravel APIs and KSh 1.1B weekly notional, week one retention up 27 percent"
+                                aria-label="View case study: Laravel APIs and 1.1B plus weekly notional, week one retention up 27 percent"
                                 href="#works">
                                 <div class="flex flex-1 flex-col justify-between gap-10">
                                     <div class="flex flex-col gap-4">
@@ -322,14 +321,13 @@
                                         </div>
                                         <div class="flex flex-col gap-3">
                                             <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">Hardening
-                                                settlement with Laravel: D7 +27% and KSh 1.1B+ in weekly notional
-                                                (Kenya-facing rails)</h3>
+                                                settlement with Laravel: D7 +27% and 1.1B+ in weekly notional
+                                                (high-volume trading rails)</h3>
                                             <p class="text-base leading-7 text-copy">I shipped idempotent
                                                 <span class="font-mono text-[0.95em]">POST /trades</span> endpoints,
                                                 queued wallet writes with Redis-backed Horizon jobs, and DB transactions
                                                 so a trade either commits once or fails cleanly—observability for p95
-                                                API time and M-Pesa / bank callbacks in <span
-                                                    class="font-mono text-[0.95em]">KSh</span>.</p>
+                                                API time and mobile-money / bank settlement callbacks.</p>
                                         </div>
                                         <div class="flex flex-wrap gap-3"><span
                                                 class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">Laravel</span><span
@@ -523,7 +521,7 @@
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                     <div class="flex flex-col gap-1">
-                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">KSh 1.1B+ weekly
+                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">1.1B+ weekly
                                         </h3>
                                         <p class="text-base leading-6 text-copy">notional through stack</p>
                                     </div>
@@ -600,7 +598,7 @@
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                     <div class="flex flex-col gap-1">
-                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">KSh 1.1B+ weekly
+                                        <h3 class="text-[20px] font-semibold leading-[30px] text-ink">1.1B+ weekly
                                         </h3>
                                         <p class="text-base leading-6 text-copy">notional through stack</p>
                                     </div>
@@ -641,7 +639,7 @@
                                         Opiyo</h2>
                                     <p class="mt-4 max-w-[49rem] text-base leading-7 text-copy">I'm Brian Opiyo, a
                                         software engineer
-                                        from Kenya, drawn to complex systems that need to stay simple, reliable, and
+                                        drawn to complex systems that need to stay simple, reliable, and
                                         fast. I care about shipping maintainable code, collaborating with product and
                                         engineering, and building software that moves users and the business forward.</p>
                                 </div><a
@@ -654,8 +652,8 @@
                             <article
                                 class="min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                 <h3 class="font-serif text-[24px] font-normal leading-7 text-ink"><span
-                                        class="whitespace-nowrap font-sans text-[20px] font-normal leading-8">From
-                                        Kenya to</span><br>global teams</h3>
+                                        class="whitespace-nowrap font-sans text-[20px] font-normal leading-8">Hands-on
+                                        with</span><br>global teams</h3>
                                 <p class="mt-4 text-base leading-[24px] text-copy">Shipping software with distributed
                                     teams across time zones</p>
                             </article>
@@ -972,7 +970,7 @@
                                 alt="" class="h-16 w-16 object-contain" aria-hidden="true">
                             <h2 class="font-serif text-[2.5rem] font-normal leading-[1.25] text-ink">Let's build
                                 something meaningful together.</h2>
-                            <p class="text-base leading-7 text-copy">— Brian Opiyo, software engineer, Kenya</p><a
+                            <p class="text-base leading-7 text-copy">— Brian Opiyo, software engineer</p><a
                                 href="#contact" rel="noopener noreferrer"
                                 class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 bg-olive text-white shadow-button hover:translate-x-1 hover:translate-y-1 hover:bg-[#6aa931] hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none">Book
                                 a call</a>
@@ -1107,7 +1105,7 @@
                 'system design that scales',
                 'database design you can trust',
                 'UI/UX that feels intentional',
-                'KSh-trusted payment flows',
+                'trusted payment infrastructure',
                 'secure APIs and integrations',
                 'observable, maintainable code',
                 'end-to-end ownership from database to user',
