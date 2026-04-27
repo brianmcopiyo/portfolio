@@ -669,35 +669,36 @@
                                             <th scope="row" class="px-5 font-semibold sm:px-6"
                                                 style="padding-top:0.55rem;padding-bottom:0.55rem;">Front-end</th>
                                             <td class="px-5 sm:px-6" style="padding-top:0.55rem;padding-bottom:0.55rem;">
-                                                React, TypeScript, Tailwind</td>
+                                                React, Tailwind, TypeScript</td>
                                             <td class="px-5 text-copy sm:px-6"
-                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Vue, Webpack</td>
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Kotlin, C#, Node.js
+                                            </td>
                                         </tr>
                                         <tr>
                                             <th scope="row" class="px-5 font-semibold sm:px-6"
                                                 style="padding-top:0.55rem;padding-bottom:0.55rem;">Backend</th>
                                             <td class="px-5 sm:px-6" style="padding-top:0.55rem;padding-bottom:0.55rem;">
-                                                Python (FastAPI), Node.js, Postgres</td>
+                                                Laravel, PHP, SQL</td>
                                             <td class="px-5 text-copy sm:px-6"
-                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Go, Redis</td>
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Python, AWS,
+                                                DigitalOcean</td>
                                         </tr>
                                         <tr>
                                             <th scope="row" class="px-5 font-semibold sm:px-6"
                                                 style="padding-top:0.55rem;padding-bottom:0.55rem;">Data Science</th>
                                             <td class="px-5 sm:px-6" style="padding-top:0.55rem;padding-bottom:0.55rem;">
-                                                Pandas, Scikit-learn, SQL</td>
+                                                TensorFlow, PyTorch</td>
                                             <td class="px-5 text-copy sm:px-6"
-                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">TensorFlow, PyTorch
-                                            </td>
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Python, SQL</td>
                                         </tr>
                                         <tr>
                                             <th scope="row" class="px-5 font-semibold sm:px-6"
                                                 style="padding-top:0.55rem;padding-bottom:0.55rem;">DevOps</th>
                                             <td class="px-5 sm:px-6" style="padding-top:0.55rem;padding-bottom:0.55rem;">
-                                                Docker, AWS (EC2/S3), CI/CD</td>
+                                                Docker, Kubernetes, AWS, DigitalOcean</td>
                                             <td class="px-5 text-copy sm:px-6"
-                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Kubernetes,
-                                                Terraform</td>
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Node.js, Python
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
