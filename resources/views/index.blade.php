@@ -263,17 +263,17 @@
                                     class="mb-3 h-12 w-12 object-contain" aria-hidden="true">
                                 <h2 class="font-serif text-[24px] font-normal leading-none text-ink">Own, Build &amp;
                                     Ship</h2>
-                                <p class="mt-4 text-base leading-[30px] text-copy">Taking features from spec to
-                                    production with end-to-end ownership</p>
+                                <p class="mt-4 text-base leading-[30px] text-copy">Driving features from planning to
+                                    production with clear ownership.</p>
                             </article>
                             <article class="w-[272px] shrink-0"><img
                                     src="{{ asset('assets/b2b-b2cc.svg') }}"
                                     alt="" width="48" height="48"
                                     class="mb-3 h-12 w-12 object-contain" aria-hidden="true">
-                                <h2 class="font-serif text-[24px] font-normal leading-none text-ink">Systems That Scale
+                                <h2 class="font-serif text-[24px] font-normal leading-none text-ink">Scalable Systems
                                 </h2>
-                                <p class="mt-4 text-base leading-[30px] text-copy">Engineering systems that stay fast,
-                                    clear, and maintainable as they grow.</p>
+                                <p class="mt-4 text-base leading-[30px] text-copy">Building systems that stay fast,
+                                    reliable, and easy to maintain.</p>
                             </article>
                             <article class="w-[272px] shrink-0"><img
                                     src="{{ asset('assets/big-lean.svg') }}"
@@ -281,8 +281,8 @@
                                     class="mb-3 h-12 w-12 object-contain" aria-hidden="true">
                                 <h2 class="font-serif text-[24px] font-normal leading-none text-ink">Big Teams to Lean
                                     Setups</h2>
-                                <p class="mt-4 text-base leading-[30px] text-copy">Thriving in both structured orgs and
-                                    fast-moving environments</p>
+                                <p class="mt-4 text-base leading-[30px] text-copy">Thriving in both enterprise teams
+                                    and startup environments.</p>
                             </article>
                         </div>
                     </div>
