@@ -207,13 +207,13 @@
                                     Brian Opiyo</p>
                                 <h1
                                     class="max-w-[606px] font-sans text-[2.875rem] font-semibold leading-[60px] text-ink">
-                                    <span class="block">I build and scale</span><span
-                                        class="block">software that delivers</span><span class="block"><span
+                                    <span class="block">Building</span><span
+                                        class="block">digital products</span><span class="block"><span
                                             class="hero-typewriter relative inline-flex min-h-[60px] items-center font-serif text-[50px] font-medium text-[#5f9a20] leading-[60px]"
                                             aria-label="Headline: cycling phrases for what your software delivers"><span
                                                 class="invisible block select-none"
                                                 id="hero-typewriter-sizer"
-                                                aria-hidden="true">end-to-end ownership from database to user</span><span
+                                                aria-hidden="true">end-to-end</span><span
                                                 class="absolute left-0 top-0 inline-flex items-center whitespace-nowrap"><span
                                                 id="hero-typewriter-line"></span><span
                                                 class="hero-typewriter-caret ml-1 inline-block h-[0.9em] w-px bg-current"
@@ -221,9 +221,8 @@
                                 </h1>
                             </div>
                             <div class="flex flex-col gap-7">
-                                <p class="max-w-[503px] text-[1.125rem] leading-[30px] text-copy">I'm Brian Opiyo — a
-                                    software engineer. I build end-to-end for AI, B2B, and B2C products, shipped in
-                                    high-growth remote and on-site teams.</p>
+                                <p class="max-w-[503px] text-[1.125rem] leading-[30px] text-copy">I design, build, and
+                                    ship reliable products across frontend, backend, and data.</p>
                                 <div class="flex flex-wrap items-center gap-x-20 gap-y-6"><img
                                         src="{{ asset('assets/dream11-logo.svg') }}"
                                         alt="Dream11 logo" width="175.78" height="48"
@@ -293,47 +292,50 @@
                 <div class="mx-auto w-full max-w-content px-6 sm:px-10 max-w-[1140px]">
                     <div class="mb-10 flex flex-col gap-6 px-5">
                         <div>
-                            <h2 class="font-serif text-[2.5rem] font-normal leading-[52px] text-ink">Selected work</h2>
-                            <p class="text-base leading-7 text-copy">Deep dives into shipping reliable backends,
-                                data paths, and client apps—measured in latency, cost, and revenue, not just mockups.</p>
+                            <h2 class="font-serif text-[2.5rem] font-normal leading-[52px] text-ink">Project buckets</h2>
+                            <p class="text-base leading-7 text-copy">Three focused tracks that show depth across
+                                full-stack delivery, data science decisions, and backend infrastructure.</p>
                         </div>
                     </div>
                     <div class="flex flex-col gap-10">
                         <article
                             class="group/case flex flex-col overflow-hidden rounded-[24px] bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl transition-shadow duration-200 hover:shadow-[0_20px_54px_rgba(33,35,41,0.08)] xl:flex-row xl:items-center">
                             <a class="group flex min-h-[600px] w-full flex-col bg-transparent px-6 py-8 transition-[background-color] duration-200 hover:bg-white/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-moss/40 sm:px-10 xl:w-[400px]"
-                                aria-label="View case study: Laravel APIs and 1.1B plus weekly notional, week one retention up 27 percent"
+                                aria-label="View full-stack powerhouse case study: architecture, state, API design, and auth"
                                 href="#works">
                                 <div class="flex flex-1 flex-col justify-between gap-10">
                                     <div class="flex flex-col gap-4">
                                         <div class="flex flex-wrap items-center gap-3">
                                             <div class="flex items-center gap-3">
-                                                <p class="text-base font-medium leading-none text-copy">Laravel</p>
+                                                <p class="text-base font-medium leading-none text-copy">Full-Stack</p>
                                             </div>
                                             <div class="flex items-center gap-3"><span
                                                     class="block h-1 w-1 rounded-full bg-[#a8aba0]"></span>
-                                                <p class="text-base font-medium leading-none text-copy">MySQL</p>
+                                                <p class="text-base font-medium leading-none text-copy">React + API</p>
                                             </div>
                                             <div class="flex items-center gap-3"><span
                                                     class="block h-1 w-1 rounded-full bg-[#a8aba0]"></span>
-                                                <p class="text-base font-medium leading-none text-copy">Redis</p>
+                                                <p class="text-base font-medium leading-none text-copy">Auth</p>
                                             </div>
                                         </div>
                                         <div class="flex flex-col gap-3">
-                                            <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">Hardening
-                                                settlement with Laravel: D7 +27% and 1.1B+ in weekly notional
-                                                (high-volume trading rails)</h3>
-                                            <p class="text-base leading-7 text-copy">I shipped idempotent
-                                                <span class="font-mono text-[0.95em]">POST /trades</span> endpoints,
-                                                queued wallet writes with Redis-backed Horizon jobs, and DB transactions
-                                                so a trade either commits once or fails cleanly—observability for p95
-                                                API time and mobile-money / bank settlement callbacks.</p>
+                                            <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">A.
+                                                Full-Stack Powerhouse: SaaS operations dashboard with role-based access
+                                            </h3>
+                                            <p class="text-base leading-7 text-copy">Owned React state boundaries, API
+                                                contracts, and auth flows end-to-end. Must-have artifact: a system
+                                                architecture diagram showing frontend, API, and database schema choices.
+                                            </p>
                                         </div>
                                         <div class="flex flex-wrap gap-3"><span
-                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">Laravel</span><span
+                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">State
+                                                management</span><span
                                                 class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">Queues</span><span
-                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">REST APIs</span><span
-                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">MySQL</span></div>
+                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">API
+                                                design</span><span
+                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">Authentication</span><span
+                                                class="rounded-full border border-[#d9dccf] bg-[#f8f8f3] px-4 py-2.5 text-base leading-none text-[#747772]">Postgres
+                                                schema</span></div>
                                     </div>
                                     <div
                                         class="inline-flex w-fit items-center gap-1 text-base font-semibold leading-none text-moss transition-colors duration-200 group-hover/case:text-[#6aa931]">
@@ -379,7 +381,7 @@
                         </article>
                         <div class="grid gap-10 lg:grid-cols-2"><a
                                 class="group block overflow-hidden rounded-[24px] bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl transition-shadow duration-200 hover:shadow-[0_20px_54px_rgba(33,35,41,0.08)] focus:outline-none focus-visible:ring-2 focus-visible:ring-moss/40"
-                                aria-label="View case study: BFF and streaming inference for faster time to value"
+                                aria-label="View data science and insights case study"
                                 href="#works">
                                 <div class="relative h-[240px] overflow-hidden rounded-t-[24px] bg-[#d1d1d1]"><img
                                         src="{{ asset('assets/case-study-2-gtm.png') }}"
@@ -388,7 +390,7 @@
                                 <div class="flex flex-1 flex-col gap-3 px-8 pb-10 pt-6">
                                     <div class="flex flex-wrap items-center gap-3">
                                         <div class="flex items-center gap-3">
-                                            <p class="text-base font-medium leading-none text-copy">B2B SaaS</p>
+                                            <p class="text-base font-medium leading-none text-copy">Data Science</p>
                                         </div>
                                         <div class="flex items-center gap-3"><span
                                                 class="block h-1 w-1 rounded-full bg-[#a8aba0]"></span>
@@ -396,14 +398,14 @@
                                         </div>
                                         <div class="flex items-center gap-3"><span
                                                 class="block h-1 w-1 rounded-full bg-[#a8aba0]"></span>
-                                            <p class="text-base font-medium leading-none text-copy">SSE</p>
+                                            <p class="text-base font-medium leading-none text-copy">Plotly</p>
                                         </div>
                                     </div>
-                                    <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">Faster
-                                        time-to-value with a BFF, streaming tokens, and guard-railed prompts</h3>
-                                    <p class="text-base leading-7 text-copy">I shipped a Next.js BFF, SSE for model
-                                        output, and versioned prompt templates behind feature flags so sales teams get
-                                        answers without burning the token budget.</p>
+                                    <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">B. Data Science
+                                        &amp; Insights Engine: predictive analytics with explainable outputs</h3>
+                                    <p class="text-base leading-7 text-copy">Built the data-cleaning pipeline, model
+                                        comparison, and insight UI for stakeholders. Must-have artifact: notebook-style
+                                        write-up explaining feature engineering and model choice.</p>
                                     <div class="mt-auto pt-3">
                                         <div
                                             class="inline-flex w-fit items-center gap-1 text-base font-semibold leading-none text-moss transition-colors duration-200 group-hover:text-[#6aa931]">
@@ -427,22 +429,22 @@
                                 <div class="flex flex-1 flex-col gap-3 px-8 pb-10 pt-6">
                                     <div class="flex flex-wrap items-center gap-3">
                                         <div class="flex items-center gap-3">
-                                            <p class="text-base font-medium leading-none text-copy">Zoho</p>
+                                            <p class="text-base font-medium leading-none text-copy">Backend / Infra</p>
                                         </div>
                                         <div class="flex items-center gap-3"><span
                                                 class="block h-1 w-1 rounded-full bg-[#a8aba0]"></span>
-                                            <p class="text-base font-medium leading-none text-copy">ITSM</p>
+                                            <p class="text-base font-medium leading-none text-copy">Docker</p>
                                         </div>
                                         <div class="flex items-center gap-3"><span
                                                 class="block h-1 w-1 rounded-full bg-[#a8aba0]"></span>
-                                            <p class="text-base font-medium leading-none text-copy">Productivity</p>
+                                            <p class="text-base font-medium leading-none text-copy">Security</p>
                                         </div>
                                     </div>
-                                    <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">Cutting MTTR
-                                        with an AI sidecar and field automations in the ticket API</h3>
-                                    <p class="text-base leading-7 text-copy">Extended the ITSM API with suggest
-                                        endpoints, idempotent updates, and a queue for long-running enrichments so
-                                        agents get ranked next steps without blocking the write path.</p>
+                                    <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">C.
+                                        Backend/Infrastructure Core: scalable API + service reliability layer</h3>
+                                    <p class="text-base leading-7 text-copy">Designed a hardened service path with API
+                                        versioning, queue isolation, and performance tuning. Must-have artifact:
+                                        OpenAPI/Swagger docs with auth, rate limits, and error contracts.</p>
                                     <div class="pt-1"><span
                                             class="inline-flex items-center gap-2 rounded-full bg-[#ecebe8] px-5 py-3 text-[1.125rem] font-medium leading-none text-ink"><svg
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -635,283 +637,44 @@
                             <div
                                 class="flex min-h-[258px] flex-col justify-center rounded-[16px] border border-white/45 bg-card/65 px-8 py-8 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl md:px-10">
                                 <div>
-                                    <h2 class="font-serif text-[26px] font-normal leading-none text-ink">About Brian
-                                        Opiyo</h2>
-                                    <p class="mt-4 max-w-[49rem] text-base leading-7 text-copy">I'm Brian Opiyo, a
-                                        software engineer
-                                        drawn to complex systems that need to stay simple, reliable, and
-                                        fast. I care about shipping maintainable code, collaborating with product and
-                                        engineering, and building software that moves users and the business forward.</p>
+                                    <h2 class="font-serif text-[26px] font-normal leading-none text-ink">T-shaped
+                                        engineering profile</h2>
+                                    <p class="mt-4 max-w-[49rem] text-base leading-7 text-copy">I work broad across
+                                        product delivery, but go deep where system quality and business outcomes depend
+                                        on architecture, backend reliability, and data-driven decisions.</p>
                                 </div><a
                                     href="mailto:hello@brianopiyo.com?subject=Resume%20request"
                                     class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 border-2 border-ink bg-transparent text-ink shadow-outlineButton hover:translate-x-1 hover:translate-y-1 hover:bg-ink hover:text-white hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none mt-6 w-fit">Download
                                     Resume</a>
                             </div>
                         </div>
-                        <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-                            <article
-                                class="min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
-                                <h3 class="font-serif text-[24px] font-normal leading-7 text-ink"><span
-                                        class="whitespace-nowrap font-sans text-[20px] font-normal leading-8">Hands-on
-                                        with</span><br>global teams</h3>
-                                <p class="mt-4 text-base leading-[24px] text-copy">Shipping software with distributed
-                                    teams across time zones</p>
-                            </article>
-                            <article
-                                class="min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
-                                <h3 class="font-serif text-[24px] font-normal leading-7 text-ink">Reliable at scale
-                                </h3>
-                                <p class="mt-4 text-base leading-[24px] text-copy">Building systems that stay performant
-                                    under real traffic</p>
-                            </article>
-                            <article
-                                class="min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
-                                <h3 class="font-serif text-[24px] font-normal leading-7 text-ink">APIs, data &amp;
-                                    product</h3>
-                                <p class="mt-4 text-base leading-[24px] text-copy">Owned features from database to
-                                    interface</p>
-                            </article>
-                            <article
-                                class="min-h-[204px] rounded-[16px] border border-white/45 bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
-                                <h3 class="font-serif text-[24px] font-normal leading-7 text-ink">Code quality &amp;
-                                    systems</h3>
-                                <p class="mt-4 text-base leading-[24px] text-copy">Pragmatic trade-offs and
-                                    maintainable software</p>
-                            </article>
-                        </div>
-                        <div class="flex flex-col gap-6">
-                            <div class="flex flex-wrap items-start gap-3">
-                                <div class="px-2 pt-[6px]">
-                                    <h3 class="font-serif text-[24px] font-normal leading-none text-ink">Core Expertise
-                                    </h3>
-                                </div><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">System
-                                    Design</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">System
-                                    Thinking</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">APIs
-                                    &amp; Integrations</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Databases
-                                    &amp; data</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Data-Driven
-                                    Decisions</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Scalable
-                                    architecture</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Backend
-                                    services</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Frontend
-                                    &amp; UI</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Technical
-                                    writing</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">AI
-                                    &amp; automation</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">A/B
-                                    Testing</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Design
-                                    to Code</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">Developer
-                                    tooling</span><span
-                                    class="inline-flex items-center rounded-full border border-[#e0d2b8] bg-[#fff8ec] px-4 pb-[10px] pt-[12px] text-base leading-none text-ink">And
-                                    more</span>
+                        <div class="overflow-hidden rounded-[20px] border border-white/45 bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
+                            <div class="grid border-b border-white/45 bg-white/60 px-6 py-5 text-sm font-semibold uppercase tracking-[0.12em] text-copy sm:grid-cols-3 sm:px-8">
+                                <p>Category</p>
+                                <p>Deep Expertise</p>
+                                <p>Familiar With</p>
                             </div>
-                            <div
-                                class="my-stacks-fade flex h-12 w-full overflow-hidden border-y border-moss/20 bg-[linear-gradient(90deg,rgba(239,241,193,0)_0%,rgb(239,241,193)_10%,rgb(239,241,193)_90%,rgba(239,241,193,0)_100%)]">
-                                <div class="flex min-w-max items-center gap-6 whitespace-nowrap px-16 text-base leading-none text-ink my-stacks-ticker-rtl"
-                                    aria-hidden="true"><span class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/figma.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Figma</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/illustrator.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Illustrator</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/lottie-files.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Lottie Files</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/webflow.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Webflow</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/posthog.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Posthog</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/mixpanel.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Mixpanel</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/supabase.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Supabase</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/notion.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Notion</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/github.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>GitHub</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/vercel.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Vercel</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/replit.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Replit</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/lovable.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Lovable</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/codex.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Codex</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/figma.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Figma</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/illustrator.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Illustrator</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/lottie-files.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Lottie Files</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/webflow.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Webflow</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/posthog.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Posthog</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/mixpanel.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Mixpanel</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/supabase.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Supabase</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/notion.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Notion</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/github.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>GitHub</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/vercel.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Vercel</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/replit.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Replit</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/lovable.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Lovable</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/codex.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Codex</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/figma.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Figma</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/illustrator.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Illustrator</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/lottie-files.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Lottie Files</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/webflow.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Webflow</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/posthog.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Posthog</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/mixpanel.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Mixpanel</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/supabase.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Supabase</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/notion.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Notion</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/github.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>GitHub</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/vercel.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Vercel</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/replit.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Replit</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/lovable.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Lovable</span></span><span
-                                        class="inline-flex items-center gap-1"><span
-                                            class="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden"><img
-                                                src="{{ asset('assets/codex.png') }}"
-                                                alt="" class="max-h-8 max-w-8 object-contain"
-                                                aria-hidden="true"></span><span>Codex</span></span></div>
+                            <div class="divide-y divide-white/45">
+                                <div class="grid gap-3 px-6 py-5 text-base leading-7 text-ink sm:grid-cols-3 sm:px-8">
+                                    <p class="font-semibold">Front-end</p>
+                                    <p>React, TypeScript, Tailwind</p>
+                                    <p class="text-copy">Vue, Webpack</p>
+                                </div>
+                                <div class="grid gap-3 px-6 py-5 text-base leading-7 text-ink sm:grid-cols-3 sm:px-8">
+                                    <p class="font-semibold">Backend</p>
+                                    <p>Python (FastAPI), Node.js, Postgres</p>
+                                    <p class="text-copy">Go, Redis</p>
+                                </div>
+                                <div class="grid gap-3 px-6 py-5 text-base leading-7 text-ink sm:grid-cols-3 sm:px-8">
+                                    <p class="font-semibold">Data Science</p>
+                                    <p>Pandas, Scikit-learn, SQL</p>
+                                    <p class="text-copy">TensorFlow, PyTorch</p>
+                                </div>
+                                <div class="grid gap-3 px-6 py-5 text-base leading-7 text-ink sm:grid-cols-3 sm:px-8">
+                                    <p class="font-semibold">DevOps</p>
+                                    <p>Docker, AWS (EC2/S3), CI/CD</p>
+                                    <p class="text-copy">Kubernetes, Terraform</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -921,10 +684,11 @@
                 <div class="mx-auto w-full max-w-content px-6 sm:px-10">
                     <div class="grid gap-12 px-0 sm:px-6 lg:grid-cols-[26.25rem_1fr] lg:gap-[4.5rem]">
                         <div>
-                            <h2 class="max-w-[18rem] font-serif text-[2.5rem] font-normal leading-[1.3] text-ink">How I
-                                Build<br>Software</h2>
-                            <p class="mt-6 max-w-[26rem] text-base leading-7 text-copy">From early ideas to
-                                production systems, I focus on clarity, maintainability, and measurable impact.</p>
+                            <h2 class="max-w-[18rem] font-serif text-[2.5rem] font-normal leading-[1.3] text-ink">Case
+                                Study<br>Execution Flow</h2>
+                            <p class="mt-6 max-w-[26rem] text-base leading-7 text-copy">How I deliver end-to-end,
+                                from problem framing to production UX, while keeping architecture and data decisions
+                                explicit.</p>
                         </div>
                         <div class="relative lg:pl-12">
                             <div
@@ -932,31 +696,66 @@
                             </div>
                             <div class="space-y-9">
                                 <article class="max-w-xl">
-                                    <h3 class="text-[20px] font-semibold leading-none text-ink">Diagnose Gaps</h3>
-                                    <p class="mt-3 max-w-[29rem] text-base leading-7 text-copy">Identify bottlenecks
-                                        across traces, queues, error budgets, and product metrics.</p>
+                                    <h3 class="text-[20px] font-semibold leading-none text-ink">1) The Challenge</h3>
+                                    <p class="mt-3 max-w-[29rem] text-base leading-7 text-copy">Example: process
+                                        1M+ rows and present live, understandable metrics to operations and leadership.
+                                    </p>
                                 </article>
                                 <article class="max-w-xl">
-                                    <h3 class="text-[20px] font-semibold leading-none text-ink">Define Outcomes</h3>
-                                    <p class="mt-3 max-w-[29rem] text-base leading-7 text-copy">Tie technical decisions to
-                                        measurable product and business impact.</p>
+                                    <h3 class="text-[20px] font-semibold leading-none text-ink">2) Backend Choice</h3>
+                                    <p class="mt-3 max-w-[29rem] text-base leading-7 text-copy">Use Python for data
+                                        workloads and FastAPI for API performance, with typed contracts and async
+                                        processing boundaries.</p>
                                 </article>
                                 <article class="max-w-xl">
-                                    <h3 class="text-[20px] font-semibold leading-none text-ink">Partner Deeply</h3>
-                                    <p class="mt-3 max-w-[29rem] text-base leading-7 text-copy">Collaborate deeply with
-                                        product and engineering to balance speed, feasibility, and experience.</p>
+                                    <h3 class="text-[20px] font-semibold leading-none text-ink">3) Data Strategy</h3>
+                                    <p class="mt-3 max-w-[29rem] text-base leading-7 text-copy">Apply data cleaning,
+                                        feature shaping, and cache layers to reduce query pressure and preserve
+                                        statistical validity.</p>
                                 </article>
                                 <article class="max-w-xl">
-                                    <h3 class="text-[20px] font-semibold leading-none text-ink">Build Systems</h3>
-                                    <p class="mt-3 max-w-[29rem] text-base leading-7 text-copy">Create scalable
-                                        architecture, not isolated screens.</p>
-                                </article>
-                                <article class="max-w-xl">
-                                    <h3 class="text-[20px] font-semibold leading-none text-ink">Validate fast</h3>
-                                    <p class="mt-3 max-w-[29rem] text-base leading-7 text-copy">Iterate through real
-                                        usage, data, and feedback loops.</p>
+                                    <h3 class="text-[20px] font-semibold leading-none text-ink">4) Frontend Result</h3>
+                                    <p class="mt-3 max-w-[29rem] text-base leading-7 text-copy">Stream updates via
+                                        WebSockets/SSE to a React dashboard so users see live changes without manual
+                                        refresh cycles.</p>
                                 </article>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="writing" class="pb-20 pt-0 sm:pb-24">
+                <div class="mx-auto w-full max-w-content px-6 sm:px-10">
+                    <div class="rounded-[20px] border border-white/45 bg-card/65 px-7 py-10 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl sm:px-10">
+                        <div class="max-w-[48rem]">
+                            <h2 class="font-serif text-[2.5rem] font-normal leading-[1.25] text-ink">Technical writing
+                                &amp; documentation</h2>
+                            <p class="mt-4 text-base leading-7 text-copy">Clear writing proves cross-functional depth.
+                                I document decisions, explain trade-offs, and leave teams with maintainable systems.
+                            </p>
+                        </div>
+                        <div class="mt-8 grid gap-5 lg:grid-cols-3">
+                            <article class="rounded-[16px] border border-white/45 bg-white/60 px-6 py-6">
+                                <h3 class="font-semibold text-ink">Blog posts</h3>
+                                <p class="mt-3 text-base leading-7 text-copy">Deep dives on architecture trade-offs,
+                                    API reliability patterns, and shipping data features.</p>
+                                <a href="#contact" class="mt-4 inline-flex text-base font-semibold text-moss">View
+                                    writing</a>
+                            </article>
+                            <article class="rounded-[16px] border border-white/45 bg-white/60 px-6 py-6">
+                                <h3 class="font-semibold text-ink">Open source</h3>
+                                <p class="mt-3 text-base leading-7 text-copy">Contributions focused on tooling,
+                                    quality-of-life improvements, and practical docs.</p>
+                                <a href="#contact" class="mt-4 inline-flex text-base font-semibold text-moss">See
+                                    contributions</a>
+                            </article>
+                            <article class="rounded-[16px] border border-white/45 bg-white/60 px-6 py-6">
+                                <h3 class="font-semibold text-ink">Project docs</h3>
+                                <p class="mt-3 text-base leading-7 text-copy">Architecture notes, runbooks, and API
+                                    docs that help teams onboard and operate faster.</p>
+                                <a href="#contact" class="mt-4 inline-flex text-base font-semibold text-moss">Read
+                                    documentation</a>
+                            </article>
                         </div>
                     </div>
                 </div>
@@ -1100,15 +899,11 @@
     <script>
         (function () {
             var PHRASES = [
-                'real-world impact',
-                'rigorous software engineering',
-                'system design that scales',
-                'database design you can trust',
-                'UI/UX that feels intentional',
-                'trusted payment infrastructure',
-                'secure APIs and integrations',
-                'observable, maintainable code',
-                'end-to-end ownership from database to user',
+                'end-to-end',
+                'frontend',
+                'backend',
+                'data',
+                'systems',
             ];
             var root = document.querySelector('.hero-typewriter');
             var sizer = document.getElementById('hero-typewriter-sizer');
