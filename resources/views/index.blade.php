@@ -6,78 +6,44 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preload" as="image" href="{{ asset('assets/logo.svg') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/dream11-logo.svg') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/zoho-logo.svg') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/hero-image.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/badge-base-rotate.svg') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/badge-14.svg') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/adobe-award.svg') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/own-build-ship.svg') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/b2b-b2cc.svg') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/big-lean.svg') }}">
-    <link rel="stylesheet" href="{{ asset('assets/dd28ea87f02b7f14.css') }}"
-        data-precedence="next">
+    <link rel="preload" as="image" href="{{ asset('assets/dream11-logo.svg') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/zoho-logo.svg') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/hero-image.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/badge-base-rotate.svg') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/badge-14.svg') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/adobe-award.svg') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/own-build-ship.svg') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/b2b-b2cc.svg') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/big-lean.svg') }}">
+    <link rel="stylesheet" href="{{ asset('assets/dd28ea87f02b7f14.css') }}" data-precedence="next">
     <script async="" src="{{ asset('assets/clarity.js.download') }}"></script>
     <script async="" src="{{ asset('assets/w9ci2bigro') }}"></script>
     {{-- Next.js chunks removed: they re-hydrate the DOM and replace Blade copy with the old export. Page is static HTML + CSS. --}}
-    <link rel="preload" as="image"
-        href="{{ asset('assets/case-study-1-carousel-1.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/case-study-2-gtm.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/case-study-1-zoho.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/Sixer.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/Zoho.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/case-study-1-carousel-1.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/case-study-2-gtm.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/case-study-1-zoho.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/Sixer.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/Zoho.png') }}">
     <link rel="preload" as="image" href="{{ asset('assets/GTM.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/about-me.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/connect.svg') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/whatsapp.svg') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/figma-stamp.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/codex-stamp.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/design-for-love.svg') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/figma.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/illustrator.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/lottie-files.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/webflow.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/posthog.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/mixpanel.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/supabase.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/notion.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/github.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/vercel.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/replit.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/lovable.png') }}">
-    <link rel="preload" as="image"
-        href="{{ asset('assets/codex.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/about-me.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/connect.svg') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/whatsapp.svg') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/figma-stamp.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/codex-stamp.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/design-for-love.svg') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/figma.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/illustrator.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/lottie-files.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/webflow.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/posthog.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/mixpanel.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/supabase.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/notion.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/github.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/vercel.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/replit.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/lovable.png') }}">
+    <link rel="preload" as="image" href="{{ asset('assets/codex.png') }}">
     <title>Brian Opiyo | Software Engineer</title>
     <meta name="description"
         content="I'm Brian Opiyo, a software engineer. I build reliable systems and ship quality code with teams to deliver real-world impact.">
@@ -97,18 +63,22 @@
     <link rel="icon" href="{{ asset('assets/logo.svg') }}">
     <style>
         @keyframes hero-typewriter-caret-blink {
+
             0%,
             50% {
                 opacity: 1;
             }
+
             51%,
             100% {
                 opacity: 0;
             }
         }
+
         .hero-typewriter-caret {
             animation: hero-typewriter-caret-blink 0.9s step-end infinite;
         }
+
         @media (prefers-reduced-motion: reduce) {
             .hero-typewriter-caret {
                 animation: none;
@@ -142,11 +112,10 @@
                         <div class="flex items-center justify-between gap-4 md:justify-start md:gap-8"><a
                                 href="{{ url('/') }}" aria-label="Go to homepage">
                                 <div class="flex h-[30px] w-[30px] items-center justify-center"><img
-                                        src="{{ asset('assets/logo.svg') }}"
-                                        alt="" class="h-[30px] w-[30px] object-contain"><span
-                                        class="sr-only">Brian Opiyo home</span></div>
-                            </a><span
-                                class="text-base font-medium text-ink">Brian Opiyo</span>
+                                        src="{{ asset('assets/logo.svg') }}" alt=""
+                                        class="h-[30px] w-[30px] object-contain"><span class="sr-only">Brian Opiyo
+                                        home</span></div>
+                            </a><span class="text-base font-medium text-ink">Brian Opiyo</span>
                             <nav aria-label="Primary navigation" class="hidden overflow-x-auto md:block">
                                 <ul class="flex min-w-max items-center gap-10 text-base text-ink">
                                     <li><a href="#home"
@@ -162,19 +131,18 @@
                             <div class="flex items-center gap-2 md:hidden"><a
                                     href="mailto:hello@brianopiyo.com?subject=Resume%20request"
                                     class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 border-2 border-ink bg-transparent text-ink shadow-outlineButton hover:translate-x-1 hover:translate-y-1 hover:bg-ink hover:text-white hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none px-4 py-2 text-xs">Resume</a><a
-                                    href="#contact"
-                                    rel="noopener noreferrer"
+                                    href="#contact" rel="noopener noreferrer"
                                     class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 bg-olive text-white shadow-button hover:translate-x-1 hover:translate-y-1 hover:bg-[#6aa931] hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none px-4 py-2 text-xs">Book</a>
                             </div>
                         </div>
                         <nav aria-label="Primary mobile navigation" class="overflow-x-auto md:hidden">
                             <ul class="flex min-w-max items-center gap-6 text-base text-ink sm:gap-10">
-                                <li><a href="#home"
-                                        class="transition-colors duration-200 hover:text-moss">Home</a></li>
-                                <li><a href="#works"
-                                        class="transition-colors duration-200 hover:text-moss">Work</a></li>
-                                <li><a href="#about"
-                                        class="transition-colors duration-200 hover:text-moss">About</a></li>
+                                <li><a href="#home" class="transition-colors duration-200 hover:text-moss">Home</a>
+                                </li>
+                                <li><a href="#works" class="transition-colors duration-200 hover:text-moss">Work</a>
+                                </li>
+                                <li><a href="#about" class="transition-colors duration-200 hover:text-moss">About</a>
+                                </li>
                                 <li><a href="#contact"
                                         class="transition-colors duration-200 hover:text-moss">Contact</a></li>
                             </ul>
@@ -202,32 +170,29 @@
                                     <p class="text-[14px] font-medium uppercase leading-none text-moss">OPEN TO REMOTE
                                     </p>
                                 </div>
-                                <p
-                                    class="max-w-[606px] font-serif text-[26px] font-normal leading-none text-ink">
+                                <p class="max-w-[606px] font-serif text-[26px] font-normal leading-none text-ink">
                                     Brian Opiyo</p>
                                 <h1
                                     class="max-w-[606px] font-sans text-[2.875rem] font-semibold leading-[60px] text-ink">
-                                    <span class="block">Building</span><span
-                                        class="block">digital products</span><span class="block"><span
+                                    <span class="block">Building</span><span class="block">digital
+                                        products</span><span class="block"><span
                                             class="hero-typewriter relative inline-flex min-h-[60px] items-center font-serif text-[50px] font-medium text-[#5f9a20] leading-[60px]"
                                             aria-label="Headline: cycling phrases for what your software delivers"><span
-                                                class="invisible block select-none"
-                                                id="hero-typewriter-sizer"
+                                                class="invisible block select-none" id="hero-typewriter-sizer"
                                                 aria-hidden="true">end-to-end</span><span
                                                 class="absolute left-0 top-0 inline-flex items-center whitespace-nowrap"><span
-                                                id="hero-typewriter-line"></span><span
-                                                class="hero-typewriter-caret ml-1 inline-block h-[0.9em] w-px bg-current"
-                                                aria-hidden="true"></span></span></span></span>
+                                                    id="hero-typewriter-line"></span><span
+                                                    class="hero-typewriter-caret ml-1 inline-block h-[0.9em] w-px bg-current"
+                                                    aria-hidden="true"></span></span></span></span>
                                 </h1>
                             </div>
                             <div class="flex flex-col gap-7">
                                 <p class="max-w-[503px] text-[1.125rem] leading-[30px] text-copy">I design, build, and
                                     ship reliable products across frontend, backend, and data.</p>
                                 <div class="flex flex-wrap items-center gap-x-20 gap-y-6"><img
-                                        src="{{ asset('assets/dream11-logo.svg') }}"
-                                        alt="Dream11 logo" width="175.78" height="48"
-                                        class="h-12 shrink-0 object-contain" style="width:175.78px"><img
-                                        src="{{ asset('assets/zoho-logo.svg') }}"
+                                        src="{{ asset('assets/dream11-logo.svg') }}" alt="Dream11 logo"
+                                        width="175.78" height="48" class="h-12 shrink-0 object-contain"
+                                        style="width:175.78px"><img src="{{ asset('assets/zoho-logo.svg') }}"
                                         alt="Zoho logo" width="112.73" height="48"
                                         class="h-12 shrink-0 object-contain" style="width:112.73px"></div>
                             </div>
@@ -240,25 +205,22 @@
                             <div class="absolute -bottom-3 -left-2.5 h-40 w-40 -rotate-[7deg] sm:-bottom-5">
                                 <div class="relative h-full w-full"
                                     aria-label="14 plus years building and shipping software"><img
-                                        src="{{ asset('assets/badge-base-rotate.svg') }}"
-                                        alt="" width="160" height="160"
+                                        src="{{ asset('assets/badge-base-rotate.svg') }}" alt=""
+                                        width="160" height="160"
                                         class="badge-spin-clockwise absolute inset-0 h-full w-full object-contain"
-                                        aria-hidden="true"><img
-                                        src="{{ asset('assets/badge-14.svg') }}"
+                                        aria-hidden="true"><img src="{{ asset('assets/badge-14.svg') }}"
                                         alt="" width="62" height="31"
                                         class="absolute left-1/2 top-1/2 h-auto w-[62px] -translate-x-1/2 -translate-y-1/2 object-contain"
                                         aria-hidden="true"></div>
-                            </div><img
-                                src="{{ asset('assets/adobe-award.svg') }}"
-                                alt="Adobe Award Winner" width="125" height="36"
+                            </div><img src="{{ asset('assets/adobe-award.svg') }}" alt="Adobe Award Winner"
+                                width="125" height="36"
                                 class="absolute bottom-[26px] right-[13px] h-auto w-[125px] object-contain">
                         </div>
                     </div>
                     <div
                         class="mt-[7.5rem] rounded-[20px] bg-[#fffcf6] px-7 py-10 shadow-[0_18px_50px_rgba(33,35,41,0.04)] sm:px-16 sm:py-12">
                         <div class="flex flex-wrap items-center gap-x-10 gap-y-[6.0625rem]">
-                            <article class="w-[272px] shrink-0"><img
-                                    src="{{ asset('assets/own-build-ship.svg') }}"
+                            <article class="w-[272px] shrink-0"><img src="{{ asset('assets/own-build-ship.svg') }}"
                                     alt="" width="48" height="48"
                                     class="mb-3 h-12 w-12 object-contain" aria-hidden="true">
                                 <h2 class="font-serif text-[24px] font-normal leading-none text-ink">Own, Build &amp;
@@ -266,8 +228,7 @@
                                 <p class="mt-4 text-base leading-[30px] text-copy">Driving features from planning to
                                     production with clear ownership.</p>
                             </article>
-                            <article class="w-[272px] shrink-0"><img
-                                    src="{{ asset('assets/b2b-b2cc.svg') }}"
+                            <article class="w-[272px] shrink-0"><img src="{{ asset('assets/b2b-b2cc.svg') }}"
                                     alt="" width="48" height="48"
                                     class="mb-3 h-12 w-12 object-contain" aria-hidden="true">
                                 <h2 class="font-serif text-[24px] font-normal leading-none text-ink">Scalable Systems
@@ -275,8 +236,7 @@
                                 <p class="mt-4 text-base leading-[30px] text-copy">Building systems that stay fast,
                                     reliable, and easy to maintain.</p>
                             </article>
-                            <article class="w-[272px] shrink-0"><img
-                                    src="{{ asset('assets/big-lean.svg') }}"
+                            <article class="w-[272px] shrink-0"><img src="{{ asset('assets/big-lean.svg') }}"
                                     alt="" width="48" height="48"
                                     class="mb-3 h-12 w-12 object-contain" aria-hidden="true">
                                 <h2 class="font-serif text-[24px] font-normal leading-none text-ink">Big Teams to Lean
@@ -292,9 +252,10 @@
                 <div class="mx-auto w-full max-w-content px-6 sm:px-10 max-w-[1140px]">
                     <div class="mb-10 flex flex-col gap-6 px-5">
                         <div>
-                            <h2 class="font-serif text-[2.5rem] font-normal leading-[52px] text-ink">Project buckets</h2>
-                            <p class="text-base leading-7 text-copy">Three focused tracks that show depth across
-                                full-stack delivery, data science decisions, and backend infrastructure.</p>
+                            <h2 class="font-serif text-[2.5rem] font-normal leading-[52px] text-ink">Selected work
+                            </h2>
+                            <p class="text-base leading-7 text-copy">A snapshot of end-to-end projects across product,
+                                backend systems, and applied data.</p>
                         </div>
                     </div>
                     <div class="flex flex-col gap-10">
@@ -319,8 +280,8 @@
                                             </div>
                                         </div>
                                         <div class="flex flex-col gap-3">
-                                            <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">A.
-                                                Full-Stack Powerhouse: SaaS operations dashboard with role-based access
+                                            <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">SaaS
+                                                operations dashboard with role-based access
                                             </h3>
                                             <p class="text-base leading-7 text-copy">Owned React state boundaries, API
                                                 contracts, and auth flows end-to-end. Must-have artifact: a system
@@ -381,8 +342,7 @@
                         </article>
                         <div class="grid gap-10 lg:grid-cols-2"><a
                                 class="group block overflow-hidden rounded-[24px] bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl transition-shadow duration-200 hover:shadow-[0_20px_54px_rgba(33,35,41,0.08)] focus:outline-none focus-visible:ring-2 focus-visible:ring-moss/40"
-                                aria-label="View data science and insights case study"
-                                href="#works">
+                                aria-label="View data science and insights case study" href="#works">
                                 <div class="relative h-[240px] overflow-hidden rounded-t-[24px] bg-[#d1d1d1]"><img
                                         src="{{ asset('assets/case-study-2-gtm.png') }}"
                                         alt="Case study: GTM AI product backend and UI"
@@ -401,8 +361,8 @@
                                             <p class="text-base font-medium leading-none text-copy">Plotly</p>
                                         </div>
                                     </div>
-                                    <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">B. Data Science
-                                        &amp; Insights Engine: predictive analytics with explainable outputs</h3>
+                                    <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">Predictive
+                                        analytics with explainable outputs</h3>
                                     <p class="text-base leading-7 text-copy">Built the data-cleaning pipeline, model
                                         comparison, and insight UI for stakeholders. Must-have artifact: notebook-style
                                         write-up explaining feature engineering and model choice.</p>
@@ -440,8 +400,8 @@
                                             <p class="text-base font-medium leading-none text-copy">Security</p>
                                         </div>
                                     </div>
-                                    <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">C.
-                                        Backend/Infrastructure Core: scalable API + service reliability layer</h3>
+                                    <h3 class="font-serif text-2xl font-normal leading-[1.25] text-ink">Scalable API +
+                                        service reliability layer</h3>
                                     <p class="text-base leading-7 text-copy">Designed a hardened service path with API
                                         versioning, queue isolation, and performance tuning. Must-have artifact:
                                         OpenAPI/Swagger docs with auth, rate limits, and error contracts.</p>
@@ -462,7 +422,8 @@
             <section class="pb-[52px] pt-2 sm:pb-[72px] sm:pt-3">
                 <div class="mx-auto w-full max-w-content px-6 sm:px-10">
                     <div class="flex flex-col gap-7">
-                        <h2 class="font-serif text-[40px] font-normal leading-[52px] text-ink">Impact (engineering)</h2>
+                        <h2 class="font-serif text-[40px] font-normal leading-[52px] text-ink">Impact (engineering)
+                        </h2>
                         <div class="my-stacks-fade -mx-8 -my-8 overflow-hidden px-8 py-8 sm:-mx-10 sm:px-10">
                             <div class="impact-numbers-ticker flex min-w-max items-center gap-5" aria-hidden="true">
                                 <article
@@ -473,8 +434,8 @@
                                         <p class="text-base leading-6 text-copy">indexed per day</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="{{ asset('assets/Sixer.png') }}"
-                                            alt="Sixer" class="h-6 w-20 object-contain object-left"></div>
+                                            src="{{ asset('assets/Sixer.png') }}" alt="Sixer"
+                                            class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
@@ -484,8 +445,8 @@
                                         <p class="text-base leading-6 text-copy">hot read path</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="{{ asset('assets/Sixer.png') }}"
-                                            alt="Sixer" class="h-6 w-20 object-contain object-left"></div>
+                                            src="{{ asset('assets/Sixer.png') }}" alt="Sixer"
+                                            class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
@@ -495,8 +456,8 @@
                                         <p class="text-base leading-6 text-copy">for ITSM monolith</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="{{ asset('assets/Zoho.png') }}"
-                                            alt="Zoho" class="h-6 w-20 object-contain object-left"></div>
+                                            src="{{ asset('assets/Zoho.png') }}" alt="Zoho"
+                                            class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
@@ -506,8 +467,8 @@
                                         <p class="text-base leading-6 text-copy">CI build &amp; deploy</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="{{ asset('assets/GTM.png') }}"
-                                            alt="GTM" class="h-6 w-20 object-contain object-left"></div>
+                                            src="{{ asset('assets/GTM.png') }}" alt="GTM"
+                                            class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
@@ -517,8 +478,8 @@
                                         <p class="text-base leading-6 text-copy">on P1 ticket queue</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="{{ asset('assets/Zoho.png') }}"
-                                            alt="Zoho" class="h-6 w-20 object-contain object-left"></div>
+                                            src="{{ asset('assets/Zoho.png') }}" alt="Zoho"
+                                            class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
@@ -528,8 +489,8 @@
                                         <p class="text-base leading-6 text-copy">notional through stack</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="{{ asset('assets/Sixer.png') }}"
-                                            alt="Sixer" class="h-6 w-20 object-contain object-left"></div>
+                                            src="{{ asset('assets/Sixer.png') }}" alt="Sixer"
+                                            class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
@@ -539,8 +500,8 @@
                                         <p class="text-base leading-6 text-copy">after edge cache + OTP path</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="{{ asset('assets/GTM.png') }}"
-                                            alt="GTM" class="h-6 w-20 object-contain object-left"></div>
+                                            src="{{ asset('assets/GTM.png') }}" alt="GTM"
+                                            class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
@@ -550,8 +511,8 @@
                                         <p class="text-base leading-6 text-copy">indexed per day</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="{{ asset('assets/Sixer.png') }}"
-                                            alt="Sixer" class="h-6 w-20 object-contain object-left"></div>
+                                            src="{{ asset('assets/Sixer.png') }}" alt="Sixer"
+                                            class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
@@ -561,8 +522,8 @@
                                         <p class="text-base leading-6 text-copy">hot read path</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="{{ asset('assets/Sixer.png') }}"
-                                            alt="Sixer" class="h-6 w-20 object-contain object-left"></div>
+                                            src="{{ asset('assets/Sixer.png') }}" alt="Sixer"
+                                            class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
@@ -572,8 +533,8 @@
                                         <p class="text-base leading-6 text-copy">for ITSM monolith</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="{{ asset('assets/Zoho.png') }}"
-                                            alt="Zoho" class="h-6 w-20 object-contain object-left"></div>
+                                            src="{{ asset('assets/Zoho.png') }}" alt="Zoho"
+                                            class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
@@ -583,8 +544,8 @@
                                         <p class="text-base leading-6 text-copy">CI build &amp; deploy</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="{{ asset('assets/GTM.png') }}"
-                                            alt="GTM" class="h-6 w-20 object-contain object-left"></div>
+                                            src="{{ asset('assets/GTM.png') }}" alt="GTM"
+                                            class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
@@ -594,8 +555,8 @@
                                         <p class="text-base leading-6 text-copy">on P1 ticket queue</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="{{ asset('assets/Zoho.png') }}"
-                                            alt="Zoho" class="h-6 w-20 object-contain object-left"></div>
+                                            src="{{ asset('assets/Zoho.png') }}" alt="Zoho"
+                                            class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
@@ -605,8 +566,8 @@
                                         <p class="text-base leading-6 text-copy">notional through stack</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="{{ asset('assets/Sixer.png') }}"
-                                            alt="Sixer" class="h-6 w-20 object-contain object-left"></div>
+                                            src="{{ asset('assets/Sixer.png') }}" alt="Sixer"
+                                            class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                                 <article
                                     class="flex h-[162px] w-[265px] shrink-0 flex-col justify-between rounded-[24px] border border-[#ece3d2] bg-card/65 px-8 py-7 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
@@ -616,8 +577,8 @@
                                         <p class="text-base leading-6 text-copy">after edge cache + OTP path</p>
                                     </div>
                                     <div class="flex h-6 w-20 items-center justify-start overflow-hidden"><img
-                                            src="{{ asset('assets/GTM.png') }}"
-                                            alt="GTM" class="h-6 w-20 object-contain object-left"></div>
+                                            src="{{ asset('assets/GTM.png') }}" alt="GTM"
+                                            class="h-6 w-20 object-contain object-left"></div>
                                 </article>
                             </div>
                         </div>
@@ -631,8 +592,8 @@
                             <figure
                                 class="overflow-hidden rounded-[22px] border-4 border-white bg-card/65 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl">
                                 <div class="h-[258px] overflow-hidden rounded-[18px]"><img
-                                        src="{{ asset('assets/about-me.png') }}"
-                                        alt="Brian Opiyo" class="block h-full w-full object-cover object-center"></div>
+                                        src="{{ asset('assets/about-me.png') }}" alt="Brian Opiyo"
+                                        class="block h-full w-full object-cover object-center"></div>
                             </figure>
                             <div
                                 class="flex min-h-[258px] flex-col justify-center rounded-[16px] border border-white/45 bg-card/65 px-8 py-8 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl md:px-10">
@@ -642,8 +603,7 @@
                                     <p class="mt-4 max-w-[49rem] text-base leading-7 text-copy">I work broad across
                                         product delivery, but go deep where system quality and business outcomes depend
                                         on architecture, backend reliability, and data-driven decisions.</p>
-                                </div><a
-                                    href="mailto:hello@brianopiyo.com?subject=Resume%20request"
+                                </div><a href="mailto:hello@brianopiyo.com?subject=Resume%20request"
                                     class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 border-2 border-ink bg-transparent text-ink shadow-outlineButton hover:translate-x-1 hover:translate-y-1 hover:bg-ink hover:text-white hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none mt-6 w-fit">Download
                                     Resume</a>
                             </div>
@@ -668,7 +628,8 @@
                                         <tr>
                                             <th scope="row" class="px-5 font-semibold sm:px-6"
                                                 style="padding-top:0.55rem;padding-bottom:0.55rem;">Front-end</th>
-                                            <td class="px-5 sm:px-6" style="padding-top:0.55rem;padding-bottom:0.55rem;">
+                                            <td class="px-5 sm:px-6"
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">
                                                 React, Tailwind, TypeScript</td>
                                             <td class="px-5 text-copy sm:px-6"
                                                 style="padding-top:0.55rem;padding-bottom:0.55rem;">Node.js
@@ -677,7 +638,8 @@
                                         <tr>
                                             <th scope="row" class="px-5 font-semibold sm:px-6"
                                                 style="padding-top:0.55rem;padding-bottom:0.55rem;">Backend</th>
-                                            <td class="px-5 sm:px-6" style="padding-top:0.55rem;padding-bottom:0.55rem;">
+                                            <td class="px-5 sm:px-6"
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">
                                                 Laravel, PHP, Kotlin, C#, SQL</td>
                                             <td class="px-5 text-copy sm:px-6"
                                                 style="padding-top:0.55rem;padding-bottom:0.55rem;">Python, AWS,
@@ -686,7 +648,8 @@
                                         <tr>
                                             <th scope="row" class="px-5 font-semibold sm:px-6"
                                                 style="padding-top:0.55rem;padding-bottom:0.55rem;">Data Science</th>
-                                            <td class="px-5 sm:px-6" style="padding-top:0.55rem;padding-bottom:0.55rem;">
+                                            <td class="px-5 sm:px-6"
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">
                                                 TensorFlow, PyTorch</td>
                                             <td class="px-5 text-copy sm:px-6"
                                                 style="padding-top:0.55rem;padding-bottom:0.55rem;">Python</td>
@@ -694,7 +657,8 @@
                                         <tr>
                                             <th scope="row" class="px-5 font-semibold sm:px-6"
                                                 style="padding-top:0.55rem;padding-bottom:0.55rem;">DevOps</th>
-                                            <td class="px-5 sm:px-6" style="padding-top:0.55rem;padding-bottom:0.55rem;">
+                                            <td class="px-5 sm:px-6"
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">
                                                 Docker, Kubernetes, AWS, DigitalOcean</td>
                                             <td class="px-5 text-copy sm:px-6"
                                                 style="padding-top:0.55rem;padding-bottom:0.55rem;">Node.js, Python
@@ -753,7 +717,8 @@
             </section>
             <section id="writing" class="pb-20 pt-0 sm:pb-24">
                 <div class="mx-auto w-full max-w-content px-6 sm:px-10">
-                    <div class="rounded-[20px] border border-white/45 bg-card/65 px-7 py-10 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl sm:px-10">
+                    <div
+                        class="rounded-[20px] border border-white/45 bg-card/65 px-7 py-10 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl sm:px-10">
                         <div class="max-w-[48rem]">
                             <h2 class="font-serif text-[2.5rem] font-normal leading-[1.25] text-ink">Technical writing
                                 &amp; documentation</h2>
@@ -791,8 +756,7 @@
                 <div class="mx-auto w-full max-w-content px-6 sm:px-10">
                     <div
                         class="grid gap-10 rounded-[20px] border border-white/45 bg-card/65 px-12 py-9 shadow-[0_18px_50px_rgba(33,35,41,0.06)] backdrop-blur-xl sm:px-[60px] sm:py-12 lg:grid-cols-[1fr_34.5rem] lg:items-center lg:justify-between">
-                        <div class="flex flex-col items-start gap-7"><img
-                                src="{{ asset('assets/connect.svg') }}"
+                        <div class="flex flex-col items-start gap-7"><img src="{{ asset('assets/connect.svg') }}"
                                 alt="" class="h-16 w-16 object-contain" aria-hidden="true">
                             <h2 class="font-serif text-[2.5rem] font-normal leading-[1.25] text-ink">Let's build
                                 something meaningful together.</h2>
@@ -829,9 +793,8 @@
                                         Me</a><a href="https://wa.me/254712345678" target="_blank"
                                         rel="noopener noreferrer"
                                         class="inline-flex items-center justify-center whitespace-nowrap rounded-xl px-5 py-3 text-base font-normal leading-none transition-[background-color,box-shadow,color,transform] duration-200 border-2 border-ink bg-transparent text-ink shadow-outlineButton hover:translate-x-1 hover:translate-y-1 hover:bg-ink hover:text-white hover:shadow-none active:translate-x-1 active:translate-y-1 active:shadow-none h-12 px-5 gap-1">Send
-                                        Hi<img
-                                            src="{{ asset('assets/whatsapp.svg') }}"
-                                            alt="" class="h-5 w-5 object-contain" aria-hidden="true"></a>
+                                        Hi<img src="{{ asset('assets/whatsapp.svg') }}" alt=""
+                                            class="h-5 w-5 object-contain" aria-hidden="true"></a>
                                 </div>
                             </div>
                             <div
@@ -890,11 +853,9 @@
                         <div
                             class="flex flex-col gap-10 px-0 sm:px-6 lg:grid lg:grid-cols-[max-content_minmax(0,1fr)] lg:items-end lg:gap-[100px]">
                             <div class="max-w-[32rem]">
-                                <div class="flex gap-4"><img
-                                        src="{{ asset('assets/figma-stamp.png') }}"
+                                <div class="flex gap-4"><img src="{{ asset('assets/figma-stamp.png') }}"
                                         alt="" class="h-[108px] w-[90px] object-contain"
-                                        aria-hidden="true"><img
-                                        src="{{ asset('assets/codex-stamp.png') }}"
+                                        aria-hidden="true"><img src="{{ asset('assets/codex-stamp.png') }}"
                                         alt="" class="h-[108px] w-[90px] object-contain" aria-hidden="true">
                                 </div>
                                 <p
@@ -905,8 +866,7 @@
                                     Figma and modern AI tooling in ~16h</p>
                             </div>
                             <div class="flex overflow-visible lg:min-w-0 lg:items-end lg:justify-end"><img
-                                    src="{{ asset('assets/design-for-love.svg') }}"
-                                    alt="Brian Opiyo"
+                                    src="{{ asset('assets/design-for-love.svg') }}" alt="Brian Opiyo"
                                     class="-translate-y-[3px] h-auto w-full sm:ml-auto sm:max-w-[18rem] lg:h-[125px] lg:w-auto lg:max-w-none lg:translate-x-3">
                             </div>
                         </div>
@@ -924,7 +884,7 @@
         </div>
     </main>
     <script>
-        (function () {
+        (function() {
             var PHRASES = [
                 'end-to-end',
                 'frontend',
@@ -936,7 +896,7 @@
             var sizer = document.getElementById('hero-typewriter-sizer');
             var line = document.getElementById('hero-typewriter-line');
             if (!root || !sizer || !line) return;
-            var longest = PHRASES.slice().sort(function (a, b) {
+            var longest = PHRASES.slice().sort(function(a, b) {
                 return b.length - a.length;
             })[0];
             sizer.textContent = longest;
@@ -952,10 +912,12 @@
             var deleteMs = 32;
             var endPause = 2400;
             var betweenPause = 400;
+
             function setAria() {
                 var t = line.textContent;
                 root.setAttribute('aria-label', t ? 'software that delivers ' + t : 'typing next phrase');
             }
+
             function run() {
                 var phrase = PHRASES[pi];
                 if (state === 'type') {
@@ -965,7 +927,7 @@
                         setAria();
                         setTimeout(run, typeMs);
                     } else {
-                        setTimeout(function () {
+                        setTimeout(function() {
                             state = 'delete';
                             run();
                         }, endPause);
@@ -979,7 +941,7 @@
                     } else {
                         state = 'type';
                         pi = (pi + 1) % PHRASES.length;
-                        setTimeout(function () {
+                        setTimeout(function() {
                             run();
                         }, betweenPause);
                     }
