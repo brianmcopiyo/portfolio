@@ -671,14 +671,14 @@
                                             <td class="px-5 sm:px-6" style="padding-top:0.55rem;padding-bottom:0.55rem;">
                                                 React, Tailwind, TypeScript</td>
                                             <td class="px-5 text-copy sm:px-6"
-                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Kotlin, C#, Node.js
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Node.js
                                             </td>
                                         </tr>
                                         <tr>
                                             <th scope="row" class="px-5 font-semibold sm:px-6"
                                                 style="padding-top:0.55rem;padding-bottom:0.55rem;">Backend</th>
                                             <td class="px-5 sm:px-6" style="padding-top:0.55rem;padding-bottom:0.55rem;">
-                                                Laravel, PHP, SQL</td>
+                                                Laravel, PHP, Kotlin, C#, SQL</td>
                                             <td class="px-5 text-copy sm:px-6"
                                                 style="padding-top:0.55rem;padding-bottom:0.55rem;">Python, AWS,
                                                 DigitalOcean</td>
@@ -689,7 +689,7 @@
                                             <td class="px-5 sm:px-6" style="padding-top:0.55rem;padding-bottom:0.55rem;">
                                                 TensorFlow, PyTorch</td>
                                             <td class="px-5 text-copy sm:px-6"
-                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Python, SQL</td>
+                                                style="padding-top:0.55rem;padding-bottom:0.55rem;">Python</td>
                                         </tr>
                                         <tr>
                                             <th scope="row" class="px-5 font-semibold sm:px-6"
