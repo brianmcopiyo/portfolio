@@ -1103,12 +1103,13 @@
         (function () {
             var PHRASES = [
                 'real-world impact',
-                'reliable systems at scale',
+                'rigorous software engineering',
+                'system design that scales',
+                'database design you can trust',
+                'UI/UX that feels intentional',
                 'KSh-trusted payment flows',
                 'secure APIs and integrations',
                 'observable, maintainable code',
-                'measurable product outcomes',
-                'uptime and performance that matter',
                 'end-to-end ownership from database to user',
             ];
             var root = document.querySelector('.hero-typewriter');
